@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "source": "arXiv API",
+  "category": "quant-ph",
+  "start": "2025-12-01",
+  "end": "2026-11-23",
+  "retrieved_at": "2026-11-23T21:14:45.201577+00:00",
+  "oldest_response_at": "2026-11-23T21:11:08.925839+00:00",
+  "complete": true,
+  "coverage": [
+    {
+      "month": "2025-12",
+      "start": "2025-12-01",
+      "end": "2025-12-31",
+      "api_total": 1606,
+      "boundary_excluded": 0,
+      "retrieved": 1606,
+      "complete": true
+    },
+    {
+      "month": "2026-01",
+      "start": "2026-01-01",
+      "end": "2026-01-31",
+      "api_total": 1313,
+      "boundary_excluded": 0,
+      "retrieved": 1313,
+      "complete": true
+    },
+    {
+      "month": "2026-02",
+      "start": "2026-02-01",
+      "end": "2026-02-28",
+      "api_total": 1276,
+      "boundary_excluded": 0,
+      "retrieved": 1276,
+      "complete": true
+    },
+    {
+      "month": "2026-03",
+      "start": "2026-03-01",
+      "end": "2026-03-31",
+      "api_total": 1703,
+      "boundary_excluded": 0,
+      "retrieved": 1703,
+      "complete": true
+    },
+    {
+      "month": "2026-04",
+      "start": "2026-04-01",
+      "end": "2026-04-30",
+      "api_total": 1716,
+      "boundary_excluded": 0,
+      "retrieved": 1716,
+      "complete": true
+    },
+    {
+      "month": "2026-05",
+      "start": "2026-05-01",
+      "end": "2026-05-31",
+      "api_total": 1744,
+      "boundary_excluded": 0,
+      "retrieved": 1744,
+      "complete": true
+    },
+    {
+      "month": "2026-06",
+      "start": "2026-06-01",
+      "end": "2026-06-30",
+      "api_total": 1666,
+      "boundary_excluded": 0,
+      "retrieved": 1666,
+      "complete": true
+    },
+    {
+      "month": "2026-07",
+      "start": "2026-07-01",
+      "end": "2026-07-31",
+      "api_total": 1964,
+      "boundary_excluded": 0,
+      "retrieved": 1964,
+      "complete": true
+    },
+    {
+      "month": "2026-08",
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "api_total": 1783,
+      "boundary_excluded": 0,
+      "retrieved": 1783,
+      "complete": true
+    },
+    {
+      "month": "2026-09",
+      "start": "2026-09-01",
+      "end": "2026-09-30",
+      "api_total": 2297,
+      "boundary_excluded": 0,
+      "retrieved": 2297,
+      "complete": true
+    },
+    {
+      "month": "2026-10",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "api_total": 2242,
+      "boundary_excluded": 0,
+      "retrieved": 2242,
+      "complete": true
+    },
+    {
+      "month": "2026-11",
+      "start": "2026-11-01",
+      "end": "2026-11-23",
+      "api_total": 1445,
+      "boundary_excluded": 0,
+      "retrieved": 1445,
+      "complete": true
+    }
+  ],
+  "cache_hits": 0,
+  "network_requests": 71,
+  "analyzed_papers": 20755,
+  "lindblad_candidates": 551,
+  "primary_only": false,
+  "min_df": 5,
+  "comparison_months": 3,
+  "previous_window": [
+    "2026-05",
+    "2026-06",
+    "2026-07"
+  ],
+  "recent_window": [
+    "2026-08",
+    "2026-09",
+    "2026-10"
+  ]
+}
