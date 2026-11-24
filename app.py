@@ -13,6 +13,7 @@ import streamlit as st
 
 from quantum_trends.analysis import analyze
 from quantum_trends.arxiv_client import ArxivClient, default_dates, save_json
+from quantum_trends.emergence import DEFAULT_CANONICAL_PATH, EmergenceSettings, emerging, evidence, parse_canonical
 from quantum_trends.report import COLORS, cloud_figure
 
 ROOT = Path(__file__).resolve().parent
@@ -37,6 +38,12 @@ def read_corpus(path: str, modified: int):
 def cached_analysis(corpus: dict, min_df: int, compare_months: int, primary: bool, stopwords: str, today: str):
     return analyze(corpus, min_df=min_df, comparison_months=compare_months, primary_only=primary,
                    extra_stopwords=set(stopwords.splitlines()), as_of=date.fromisoformat(today))
+
+
+@st.cache_data(show_spinner=False)
+def cached_discovery(_analysis, signature: tuple, cohort: str, options: tuple, canonical_text: str):
+    return emerging(_analysis, cohort, settings=EmergenceSettings(*options),
+                    canonical_terms=parse_canonical(canonical_text))
 
 
 with st.sidebar:
@@ -69,15 +76,24 @@ with st.sidebar:
                     lock.release()
     st.divider()
     primary = st.checkbox("Primary quant-ph category only", help="By default, include papers cross-listed into quant-ph.")
-    min_df = st.number_input("Minimum papers per keyword", 1, 1000, 5)
-    compare_months = st.selectbox("Months in each comparison window", [1, 2, 3, 6], index=2)
+    min_df = st.number_input("Minimum papers per keyword", 1, 1000, 5, help="For emerging terms, this many papers must be in the recent window.")
+    compare_months = st.selectbox("Recent window (complete months)", [1, 2, 3, 6], index=2)
     with st.expander("Customize keyword exclusions"):
         stopwords = st.text_area("Additional words or phrases, one per line", height=130)
+    with st.expander("Canonical vocabulary & emergence", expanded=False):
+        st.caption("Exact matches are excluded. A new, longer phrase can contain canonical words.")
+        canonical_text = st.text_area("Canonical terms, one per line", DEFAULT_CANONICAL_PATH.read_text(encoding="utf-8"), height=180)
+        learn_canonical = st.checkbox("Also exclude historically common terms", True)
+        canonical_pct = st.number_input("Historically common share (%)", 0.1, 100.0, 2.0, 0.5)
+        min_growth = st.number_input("Minimum growth ratio", 1.0, 100.0, 1.5, 0.1)
+        min_recent_months = st.number_input("Minimum recent months with matches", 1, 6, 2)
+        phrases_only = st.checkbox("Multiword phrases only", True)
+        min_title_papers = st.number_input("Minimum recent titles mentioning term", 0, 100, 1)
     st.caption("Source: arXiv API · titles & abstracts")
 
 st.caption("ARXIV / RESEARCH OBSERVATORY")
 st.title("Quantum physics, in motion.")
-st.write("Explore what recent papers discuss—and how the language of open quantum dynamics is changing.")
+st.write("Discover growing terms beyond the standard vocabulary, in quantum physics and Lindblad-based open dynamics.")
 if not data_path.is_file():
     st.info("No corpus found. Use the sidebar to download metadata, or run `python -m quantum_trends fetch` first.")
     st.stop()
@@ -97,7 +113,55 @@ st.caption(f"Original submissions: {corpus['start']} → {corpus['end']} · retr
 st.info("Lindblad subset: explicit Lindblad, Lindbladian, GKSL, GKLS, GKS, or Gorini–Kossakowski–Sudarshan mentions in the title/abstract. This is a candidate screen; inspect the matching text in the paper explorer.")
 cohort_label = st.radio("Analyze", ["All quantum physics", "Lindblad-based open dynamics"], horizontal=True)
 cohort = "all" if cohort_label == "All quantum physics" else "lindblad"
-overview, trends, changes, explorer, method = st.tabs(["Overview & word cloud", "Keyword trajectories", "Recent changes", "Paper explorer", "Method & coverage"])
+signature = (str(data_path), data_path.stat().st_mtime_ns, min_df, compare_months, primary, stopwords, last.isoformat())
+options = (learn_canonical, canonical_pct, min_growth, min_recent_months, phrases_only, min_title_papers)
+with st.spinner("Finding growing terms outside the canonical vocabulary…"):
+    discovery = cached_discovery(analysis, signature, cohort, options, canonical_text)
+rank = discovery.ranking
+emergence_tab, trends, overview, changes, explorer, method = st.tabs([
+    "Emerging terms", "Keyword trajectories", "Frequency context", "All share changes", "Paper explorer", "Method & coverage"])
+
+with emergence_tab:
+    st.subheader("What is emerging beyond the canonical vocabulary?")
+    if discovery.baseline:
+        st.caption(f"Recent: {', '.join(discovery.recent)} · Historical baseline: {discovery.baseline[0]} → {discovery.baseline[-1]}")
+    st.write("Ranked by excess recent papers × log₂ growth in paper share. Established vocabulary is excluded using the editable list and, optionally, earlier-month prevalence.")
+    st.caption("Candidates indicate growing language within this snapshot, not inventions or first appearances in the field. A term absent from the baseline may predate the entire dataset.")
+    if rank.empty:
+        st.info("No candidates meet these filters, or there are not enough complete months with cohort papers. Try a lower recent support threshold or edit the canonical vocabulary. No common keywords are substituted.")
+    else:
+        left, right = st.columns([1.3, 1])
+        with left:
+            shown = rank.head(15).iloc[::-1]
+            fig = px.bar(shown, x="score", y="keyword", orientation="h", color_discrete_sequence=[COLORS[0]],
+                         hover_data=["baseline_papers", "recent_papers", "baseline_pct", "recent_pct", "growth_ratio"],
+                         labels={"score": "Emergence score", "keyword": ""})
+            fig.update_layout(height=560)
+            st.plotly_chart(fig, width="stretch")
+        with right:
+            fig = cloud_figure(analysis, cohort, discovery)
+            st.pyplot(fig, width="stretch")
+            plt.close(fig)
+        display_columns = ["keyword", "baseline_papers", "recent_papers", "baseline_pct", "recent_pct", "growth_ratio", "recent_months", "recent_title_papers", "status"]
+        st.dataframe(rank[display_columns].head(50), hide_index=True, width="stretch",
+                     column_config={name: st.column_config.NumberColumn(name.replace("_", " "), format="%.2f")
+                                    for name in ["baseline_pct", "recent_pct", "growth_ratio"]})
+        st.download_button("Download emerging terms", rank.to_csv(index=False), f"{cohort}_emerging.csv", "text/csv")
+        st.subheader("Inspect the supporting papers")
+        candidate = st.selectbox("Emerging keyword", rank.keyword.tolist(), key=f"emerging_keyword_{cohort}")
+        selected_evidence = evidence(analysis, candidate, cohort, discovery.recent)
+        st.caption(f"{len(selected_evidence)} recent papers containing this extracted term. Select a row to inspect its abstract.")
+        event = st.dataframe(selected_evidence[["title", "published", "url"]].reset_index(drop=True),
+                             hide_index=True, width="stretch", on_select="rerun", selection_mode="single-row",
+                             column_config={"url": st.column_config.LinkColumn("arXiv", display_text="Read paper")},
+                             key=f"emergence_evidence_{cohort}_{candidate}")
+        if event.selection.rows and event.selection.rows[0] < len(selected_evidence):
+            st.write(selected_evidence.iloc[event.selection.rows[0]].abstract)
+        st.download_button("Download supporting papers", selected_evidence.to_csv(index=False), f"{cohort}_emerging_evidence.csv", "text/csv")
+    with st.expander(f"Inspect the canonical set ({len(discovery.canonical):,} excluded terms)"):
+        st.caption(f"Learned terms must reach {canonical_pct:g}% of baseline papers overall and in at least three baseline months (or all baseline months if fewer than three). Recent months are never used to learn this set. Exclusion is by exact normalized phrase.")
+        st.dataframe(discovery.canonical, hide_index=True, width="stretch")
+        st.download_button("Download canonical set", discovery.canonical.to_csv(index=False), f"{cohort}_canonical.csv", "text/csv")
 
 with overview:
     left, right = st.columns([1.7, 1])
@@ -129,8 +193,8 @@ with overview:
 with trends:
     st.subheader("Follow keywords over time")
     vocabulary = sorted(k for k, v in analysis.frequencies(cohort).items() if v >= min_df)
-    defaults = analysis.ranked(cohort, 6).keyword.tolist()
-    selected = st.multiselect("Keywords", vocabulary, default=defaults, key=f"keywords_{cohort}")
+    defaults = rank.head(6).keyword.tolist()
+    selected = st.multiselect("Keywords", vocabulary, default=defaults, key=f"emerging_trajectories_{cohort}")
     measure = st.radio("Vertical axis", ["Share of papers (%)", "Number of papers"], horizontal=True)
     monthly = analysis.monthly(selected, cohort)
     if selected:
@@ -201,6 +265,8 @@ with method:
     - **Dates:** first submission, not update date; latest metadata can change historical counts.
     - **Keywords:** English stopwords and generic prose removed; selected synonyms/plurals merged; adjacent one-, two- and three-word terms plus curated physics phrases. No paid API or model download.
     - **Counts:** document frequency, never repeated mentions within one paper. Shares are normalized within each cohort/month; terms overlap.
+    - **Emergence:** the last selected number of complete months versus all earlier complete months. Default candidates need at least five recent papers, matches in two recent months (or one for a one-month window), at least one recent title, and 1.5× growth in smoothed share. Multiword phrases are the default. The canonical list and thresholds are editable; historical exclusions use only baseline months, independently per cohort.
+    - **Score:** excess recent papers above the baseline rate × log₂(smoothed share ratio). Smoothing is `(matches + 0.5)/(papers + 1)`. This is a descriptive discovery ranking, not a significance test. Nested phrases are collapsed only when their supporting paper sets are identical.
     - **Comparison:** the last selected number of complete months versus the preceding equal-length window. Shares pool papers across each window. Partial months and zero-denominator windows are excluded.
     - **Lindblad scope:** an explicit mention screen, not a full-text or semantic classifier. It can miss implicit descriptions and include discussions that compare with, or go beyond, Lindblad dynamics. Review the evidence before treating the subset as a systematic review.
     - **Interpretation:** topic language, not citation impact or research quality. Sparse-keyword changes are unstable. Word sizes are comparable within a cloud only.

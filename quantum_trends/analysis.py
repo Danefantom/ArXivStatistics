@@ -51,6 +51,8 @@ STOP = set(ENGLISH_STOP_WORDS) | BOILERPLATE
 PLURALS = dict(zip(
     "qubits states systems models channels networks circuits gates operators equations trajectories correlations measurements simulations transitions phases modes photons spins atoms algorithms errors reservoirs baths symmetries eigenvalues interactions fluctuations resources bounds ensembles processes effects parameters techniques limits times generators".split(),
     "qubit state system model channel network circuit gate operator equation trajectory correlation measurement simulation transition phase mode photon spin atom algorithm error reservoir bath symmetry eigenvalue interaction fluctuation resource bound ensemble process effect parameter technique limit time generator".split()))
+PLURALS.update({"batteries": "battery", "samplers": "sampler", "queries": "query", "codes": "code",
+                "observables": "observable", "functions": "function"})
 
 # Explicit, editable aliases; no external embedding model or API key is needed.
 ALIASES = [

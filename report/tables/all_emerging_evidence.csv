@@ -1,0 +1,715 @@
+keyword,id,title,published,url
+quantum query,2610.42069,The Quartic Gap Between Quantum and Dequantized Algorithms for Linear Algebra Is Tight,2026-10-30T17:27:21Z,https://arxiv.org/abs/2610.42069
+quantum query,2610.41694,Exponential quantum-classical query separations for cyclic Forrelation,2026-10-30T13:01:24Z,https://arxiv.org/abs/2610.41694
+quantum query,2610.41180,Quantum query complexity of Hurwitz stability testing,2026-10-30T02:59:12Z,https://arxiv.org/abs/2610.41180
+quantum query,2610.39702,Quantum Query Complexity of Tournament Solutions,2026-10-29T09:37:22Z,https://arxiv.org/abs/2610.39702
+quantum query,2610.34079,Two exact quantum queries use at most six variables,2026-10-25T05:38:00Z,https://arxiv.org/abs/2610.34079
+quantum query,2610.32693,"Elementary proofs of quantum lower bounds for element distinctness, k-sum and k-distinctness",2026-10-23T14:20:47Z,https://arxiv.org/abs/2610.32693
+quantum query,2610.24518,"Exact Quantum Query Complexity of the Five-Bit Symmetric Boolean Function $\Exact^5_{3,4}$",2026-10-17T07:28:45Z,https://arxiv.org/abs/2610.24518
+quantum query,2610.22983,Quantum Tsallis Entropy Estimation: Near-Optimal Bounds and High-Precision Improvements,2026-10-16T06:08:51Z,https://arxiv.org/abs/2610.22983
+quantum query,2610.19936,Improved Quantum Algorithms for Rényi Entropies Estimation,2026-10-14T10:21:22Z,https://arxiv.org/abs/2610.19936
+quantum query,2610.16209,Bootstrapping Classical and Quantum Query Lower Bounds for Finding Tarski Fixed Points,2026-10-12T05:39:35Z,https://arxiv.org/abs/2610.16209
+quantum query,2610.13906,Quantum Query Complexity of Maximum Degree and its Generalizations,2026-10-09T17:47:01Z,https://arxiv.org/abs/2610.13906
+quantum query,2610.14062,Grover Search for a Threshold-Fraction Variant of the Travelling Salesman Problem: A Circuit-Level Construction,2026-10-07T07:30:16Z,https://arxiv.org/abs/2610.14062
+quantum query,2610.08498,Quantum algorithms for four problems in density peak clustering,2026-10-06T15:07:46Z,https://arxiv.org/abs/2610.08498
+quantum query,2610.06835,Distributional Quantum Query Complexity,2026-10-05T17:58:18Z,https://arxiv.org/abs/2610.06835
+quantum query,2610.06815,CV-QAOA: Efficient Low-Depth Quantum Optimization of Continuous Variables,2026-10-05T17:55:39Z,https://arxiv.org/abs/2610.06815
+quantum query,2610.06803,Tight bounds for hybrid quantum-classical query algorithms,2026-10-05T17:53:05Z,https://arxiv.org/abs/2610.06803
+quantum query,2610.06721,"Tight Query Lower Bounds for Quantum Sampling, with an Application to Certified Randomness",2026-10-05T17:13:39Z,https://arxiv.org/abs/2610.06721
+quantum query,2610.06702,Optimal compression with quantum retrieval,2026-10-05T17:00:30Z,https://arxiv.org/abs/2610.06702
+quantum query,2610.04987,Improved Upper and Lower Bounds for Quantum Convex-Body Volume Estimation,2026-10-04T06:15:21Z,https://arxiv.org/abs/2610.04987
+quantum query,2610.04674,"Indistinguishability Lifting for Keyed Oracles, Compressed Ideal Cipher, and More Applications",2026-10-03T17:43:49Z,https://arxiv.org/abs/2610.04674
+quantum query,2610.04560,Quantum Submodular Maximization,2026-10-03T14:51:06Z,https://arxiv.org/abs/2610.04560
+quantum query,2610.03914,Quantum Query Complexity and Span Programs from Pre-Geometry,2026-10-02T18:25:04Z,https://arxiv.org/abs/2610.03914
+quantum query,2610.02133,Optimal transducers using symmetries,2026-10-01T17:43:02Z,https://arxiv.org/abs/2610.02133
+quantum query,2610.01752,Near-optimal quantum query lower bounds on bipartiteness and expansion testing in the bounded-degree graph model,2026-10-01T14:18:02Z,https://arxiv.org/abs/2610.01752
+quantum query,2610.01125,Multivariate Quantum Signal Processing,2026-10-01T06:09:01Z,https://arxiv.org/abs/2610.01125
+quantum query,2610.01038,Function-like pseudorandom unitaries generate pseudorandom quantum processes,2026-10-01T04:25:05Z,https://arxiv.org/abs/2610.01038
+quantum query,2610.00517,Blind Unforgeability implies Plus-One Unforgeability,2026-09-30T18:10:21Z,https://arxiv.org/abs/2610.00517
+quantum query,2610.00506,Noisy Quantum Query Complexity via Fractional Block Sensitivity,2026-09-30T18:05:22Z,https://arxiv.org/abs/2610.00506
+quantum query,2609.40350,On The Simplest Quantum-Secure Block Cipher,2026-09-30T17:59:10Z,https://arxiv.org/abs/2609.40350
+quantum query,2609.40334,A Noise Operator Approach to Quantum Query Complexity and Time-Space Tradeoff Lower Bounds,2026-09-30T17:57:33Z,https://arxiv.org/abs/2609.40334
+quantum query,2609.40331,Fast Quantum Algorithms for Learning Linear Threshold Functions,2026-09-30T17:56:41Z,https://arxiv.org/abs/2609.40331
+quantum query,2609.40263,Superlinear Quantum Query Lower Bounds for Subgraph Detection,2026-09-30T17:42:46Z,https://arxiv.org/abs/2609.40263
+quantum query,2609.40231,A Quantum Algorithm for $st$-Transport on Flat Connection Graphs,2026-09-30T17:30:46Z,https://arxiv.org/abs/2609.40231
+quantum query,2609.40180,Improved Quantum Query Bounds for Boolean Matrix Product Verification,2026-09-30T17:05:45Z,https://arxiv.org/abs/2609.40180
+quantum query,2609.39974,The quantum query complexity of the semigroup product problem,2026-09-30T15:36:00Z,https://arxiv.org/abs/2609.39974
+quantum query,2609.38736,Quantum Query Complexity for List Search,2026-09-30T01:20:04Z,https://arxiv.org/abs/2609.38736
+quantum query,2609.38073,Optimal Quantum-Classical Separations for Exact Learning,2026-09-29T17:34:21Z,https://arxiv.org/abs/2609.38073
+quantum query,2609.37926,Optimal Quantum Junta Testing,2026-09-29T16:16:54Z,https://arxiv.org/abs/2609.37926
+quantum query,2609.37091,Quantum Query Lower Bounds for Triangle-Listing and Spanners,2026-09-29T09:18:33Z,https://arxiv.org/abs/2609.37091
+quantum query,2609.35580,Quantum Query Complexity Beyond the Worst Case,2026-09-28T16:35:50Z,https://arxiv.org/abs/2609.35580
+quantum query,2609.35327,Distributional Variants of the Aaronson-Ambainis Conjecture,2026-09-28T14:52:32Z,https://arxiv.org/abs/2609.35327
+quantum query,2609.31312,Causal Query Compression for Lindblad Dynamics: Optimal Queries and Nearly Linear Local Simulation,2026-09-25T14:20:11Z,https://arxiv.org/abs/2609.31312
+quantum query,2609.30139,A General Composition Theorem for Approximate Degree,2026-09-24T17:08:10Z,https://arxiv.org/abs/2609.30139
+quantum query,2609.26678,Strong Selective and List-Decoding Direct Product Theorems for Quantum Query Complexity,2026-09-22T16:37:13Z,https://arxiv.org/abs/2609.26678
+quantum query,2609.20651,Hardness of Pathfinding in a Welded Tree,2026-09-17T16:29:09Z,https://arxiv.org/abs/2609.20651
+quantum query,2609.15063,Randomized query complexity can beat certificate complexity,2026-09-14T05:29:42Z,https://arxiv.org/abs/2609.15063
+quantum query,2609.11664,Near-Optimal Separations of Certificate Complexity from Randomized and Quantum Query Complexity,2026-09-10T15:04:28Z,https://arxiv.org/abs/2609.11664
+quantum query,2609.09035,Near-Optimal Quantum Lower Bounds for Convex Optimization via Fourier Rank,2026-09-08T17:01:51Z,https://arxiv.org/abs/2609.09035
+quantum query,2609.05813,Quantum Query Complexity of Persistence Statistics in Graph Zigzags,2026-09-05T02:16:28Z,https://arxiv.org/abs/2609.05813
+quantum query,2609.05812,Quantum Query Algorithms for the Constructive Diagonal Ramsey Theorem,2026-09-05T02:12:27Z,https://arxiv.org/abs/2609.05812
+quantum query,2609.05679,Quantum lower bounds for convex optimization and real matrix-vector query problems,2026-09-04T19:23:24Z,https://arxiv.org/abs/2609.05679
+quantum query,2609.05201,Optimal inequalities for completely bounded polynomials and the limitations of quantum query algorithms,2026-09-04T14:34:56Z,https://arxiv.org/abs/2609.05201
+quantum query,2609.29497,Quantum Query Advantage Requires Space,2026-09-04T13:04:04Z,https://arxiv.org/abs/2609.29497
+quantum query,2609.03802,Quantum Query Complexity of Finding a Tarski Fixed Point on a High-Dimensional Grid,2026-09-03T13:06:12Z,https://arxiv.org/abs/2609.03802
+quantum query,2609.03628,Random Garbage Creates Exponential Quantum Query Separations,2026-09-03T10:18:04Z,https://arxiv.org/abs/2609.03628
+quantum query,2608.31112,Unconditional Certified Randomness without Structure,2026-08-31T17:17:49Z,https://arxiv.org/abs/2608.31112
+quantum query,2608.24832,Certified Randomness without Structure Against Shallow-Query Adversaries,2026-08-25T17:15:01Z,https://arxiv.org/abs/2608.24832
+quantum query,2608.20297,Parallel Quantum Advantage with Limited Adaptivity Requires Structure,2026-08-20T17:37:03Z,https://arxiv.org/abs/2608.20297
+quantum query,2608.17610,Towards the Impossibility of Imperfectly Complete Key Agreement in the QROM,2026-08-18T10:19:27Z,https://arxiv.org/abs/2608.17610
+quantum query,2608.09513,Faster Algorithms for Multimarginal Optimal Transport,2026-08-10T12:14:25Z,https://arxiv.org/abs/2608.09513
+quantum query,2608.03824,Impossibility of Perfectly Complete Many-Round Key Agreement in the QROM,2026-08-04T15:33:42Z,https://arxiv.org/abs/2608.03824
+random oracle,2611.00609,Compressed Oracle Duality: A simple framework for knowing what quantum adversaries know,2026-10-31T04:12:27Z,https://arxiv.org/abs/2611.00609
+random oracle,2610.25518,Randomness Certification from Statistically Hiding Commitments,2026-10-18T20:22:34Z,https://arxiv.org/abs/2610.25518
+random oracle,2610.07124,Black Hole Radiation Decoding in the Haar Random Oracle Model,2026-10-05T17:44:16Z,https://arxiv.org/abs/2610.07124
+random oracle,2610.06700,Random-Oracle Unitary Synthesis is Impossible,2026-10-05T16:59:57Z,https://arxiv.org/abs/2610.06700
+random oracle,2610.03711,How to Build Pseudorandom Unitaries in Microcrypt,2026-10-02T17:58:06Z,https://arxiv.org/abs/2610.03711
+random oracle,2610.02101,Lower Bounds for Preprocessing Attacks on Quantum Cryptography,2026-10-01T17:26:36Z,https://arxiv.org/abs/2610.02101
+random oracle,2610.00502,Quantum Algorithms for OPI Variants Beyond Locality and Classical Decodability,2026-09-30T18:02:44Z,https://arxiv.org/abs/2610.00502
+random oracle,2609.40323,Computational Work Extraction: The Complexity of Catalysts,2026-09-30T17:55:18Z,https://arxiv.org/abs/2609.40323
+random oracle,2609.40301,Need for Coherent Access in Constructing Quantum Cryptography,2026-09-30T17:51:09Z,https://arxiv.org/abs/2609.40301
+random oracle,2609.38945,Certified Randomness with Optimal Rate,2026-09-30T04:16:27Z,https://arxiv.org/abs/2609.38945
+random oracle,2609.38894,Quantum Time-Lock Puzzles in the Quantum Random Oracle Model,2026-09-30T03:41:00Z,https://arxiv.org/abs/2609.38894
+random oracle,2609.38441,Classical Verifier Position Verification from Non-Local Games,2026-09-29T19:35:11Z,https://arxiv.org/abs/2609.38441
+random oracle,2609.38387,On Removing Interaction from Quantum Proofs,2026-09-29T18:44:33Z,https://arxiv.org/abs/2609.38387
+random oracle,2609.37429,Succinct Arguments for QMA in the Quantum Random Oracle Model,2026-09-29T12:54:55Z,https://arxiv.org/abs/2609.37429
+random oracle,2609.37467,An Operator-Norm Approach to Security with Quantum Advice,2026-09-28T08:51:18Z,https://arxiv.org/abs/2609.37467
+random oracle,2609.32603,Beyond NISQ Assumptions: One-time Memory in the Classically Accessible Random-Oracle Model,2026-09-26T13:22:30Z,https://arxiv.org/abs/2609.32603
+random oracle,2609.25211,Thermodynamic Proof of Quantumness without Structure,2026-09-21T18:00:01Z,https://arxiv.org/abs/2609.25211
+random oracle,2609.23234,Loss-Tolerant Quantum Position Verification for Metropolitan Area Networks,2026-09-19T22:22:24Z,https://arxiv.org/abs/2609.23234
+random oracle,2608.31112,Unconditional Certified Randomness without Structure,2026-08-31T17:17:49Z,https://arxiv.org/abs/2608.31112
+random oracle,2608.24832,Certified Randomness without Structure Against Shallow-Query Adversaries,2026-08-25T17:15:01Z,https://arxiv.org/abs/2608.24832
+random oracle,2608.19158,Quantum Speedups Require Structure or Depth,2026-08-19T17:42:10Z,https://arxiv.org/abs/2608.19158
+random oracle,2609.26258,CRT-Decomposed $Σ$-Protocols for CSIDH,2026-08-13T09:55:26Z,https://arxiv.org/abs/2609.26258
+random oracle,2608.03824,Impossibility of Perfectly Complete Many-Round Key Agreement in the QROM,2026-08-04T15:33:42Z,https://arxiv.org/abs/2608.03824
+query lower bound,2610.32693,"Elementary proofs of quantum lower bounds for element distinctness, k-sum and k-distinctness",2026-10-23T14:20:47Z,https://arxiv.org/abs/2610.32693
+query lower bound,2610.17163,Bosonic unstructured search: quantum enhancement without entanglement,2026-10-12T17:40:57Z,https://arxiv.org/abs/2610.17163
+query lower bound,2610.16209,Bootstrapping Classical and Quantum Query Lower Bounds for Finding Tarski Fixed Points,2026-10-12T05:39:35Z,https://arxiv.org/abs/2610.16209
+query lower bound,2610.06835,Distributional Quantum Query Complexity,2026-10-05T17:58:18Z,https://arxiv.org/abs/2610.06835
+query lower bound,2610.06815,CV-QAOA: Efficient Low-Depth Quantum Optimization of Continuous Variables,2026-10-05T17:55:39Z,https://arxiv.org/abs/2610.06815
+query lower bound,2610.06721,"Tight Query Lower Bounds for Quantum Sampling, with an Application to Certified Randomness",2026-10-05T17:13:39Z,https://arxiv.org/abs/2610.06721
+query lower bound,2610.06700,Random-Oracle Unitary Synthesis is Impossible,2026-10-05T16:59:57Z,https://arxiv.org/abs/2610.06700
+query lower bound,2610.04987,Improved Upper and Lower Bounds for Quantum Convex-Body Volume Estimation,2026-10-04T06:15:21Z,https://arxiv.org/abs/2610.04987
+query lower bound,2610.02101,Lower Bounds for Preprocessing Attacks on Quantum Cryptography,2026-10-01T17:26:36Z,https://arxiv.org/abs/2610.02101
+query lower bound,2610.01752,Near-optimal quantum query lower bounds on bipartiteness and expansion testing in the bounded-degree graph model,2026-10-01T14:18:02Z,https://arxiv.org/abs/2610.01752
+query lower bound,2609.40323,Computational Work Extraction: The Complexity of Catalysts,2026-09-30T17:55:18Z,https://arxiv.org/abs/2609.40323
+query lower bound,2609.40263,Superlinear Quantum Query Lower Bounds for Subgraph Detection,2026-09-30T17:42:46Z,https://arxiv.org/abs/2609.40263
+query lower bound,2609.40231,A Quantum Algorithm for $st$-Transport on Flat Connection Graphs,2026-09-30T17:30:46Z,https://arxiv.org/abs/2609.40231
+query lower bound,2609.40179,Breaking the Multiplicative Overhead in Quantum Entropy Estimation,2026-09-30T17:04:40Z,https://arxiv.org/abs/2609.40179
+query lower bound,2609.39295,Resource-Tunable Quantum Circuit Implementation of Nonlinear Element-Wise Transformations,2026-09-30T08:39:30Z,https://arxiv.org/abs/2609.39295
+query lower bound,2609.38403,Advantage of Sample Complexity in Quantum PAC Learning Requires Inverse Access to State-Preparation Unitaries,2026-09-29T19:00:20Z,https://arxiv.org/abs/2609.38403
+query lower bound,2609.37207,Near-Optimal Quantum Algorithm and Complexity Analysis for Riccati Problems,2026-09-29T10:25:40Z,https://arxiv.org/abs/2609.37207
+query lower bound,2609.37091,Quantum Query Lower Bounds for Triangle-Listing and Spanners,2026-09-29T09:18:33Z,https://arxiv.org/abs/2609.37091
+query lower bound,2609.26678,Strong Selective and List-Decoding Direct Product Theorems for Quantum Query Complexity,2026-09-22T16:37:13Z,https://arxiv.org/abs/2609.26678
+query lower bound,2609.20651,Hardness of Pathfinding in a Welded Tree,2026-09-17T16:29:09Z,https://arxiv.org/abs/2609.20651
+query lower bound,2609.18757,Query-Optimal and Gate-Efficient Lindbladian Simulation,2026-09-16T14:44:42Z,https://arxiv.org/abs/2609.18757
+query lower bound,2609.17490,Query-optimal quantum simulation of Lindblad evolution,2026-09-15T17:32:12Z,https://arxiv.org/abs/2609.17490
+query lower bound,2609.09035,Near-Optimal Quantum Lower Bounds for Convex Optimization via Fourier Rank,2026-09-08T17:01:51Z,https://arxiv.org/abs/2609.09035
+query lower bound,2609.03802,Quantum Query Complexity of Finding a Tarski Fixed Point on a High-Dimensional Grid,2026-09-03T13:06:12Z,https://arxiv.org/abs/2609.03802
+query lower bound,2608.06094,Time-Dependent Hamiltonian Simulation with Optimal Query Complexity,2026-08-06T14:35:47Z,https://arxiv.org/abs/2608.06094
+constant rate,2611.00410,Measurement-angle control of a continuously monitored quantum oscillator: purification limits and optimal protocols,2026-10-30T21:59:52Z,https://arxiv.org/abs/2611.00410
+constant rate,2610.03590,Constant-Rate Certified Deletion,2026-10-02T16:58:59Z,https://arxiv.org/abs/2610.03590
+constant rate,2610.01421,Robust and leakage-resilient device-independent oblivious transfer in MiniQCrypt,2026-10-01T10:22:59Z,https://arxiv.org/abs/2610.01421
+constant rate,2610.00444,Flexible rigidity: Compiling generic trusted-preparation protocols into sequential device-independent protocols,2026-09-30T17:40:35Z,https://arxiv.org/abs/2610.00444
+constant rate,2609.39589,Rate 1/5 Non-Malleable Codes against Entangled Split-State Tampering,2026-09-30T12:14:27Z,https://arxiv.org/abs/2609.39589
+constant rate,2609.39345,Constant-Overhead Injection into Quantum Codes,2026-09-30T09:09:28Z,https://arxiv.org/abs/2609.39345
+constant rate,2609.39286,Bounds on adiabatic path geometry from the width class of the gap profile,2026-09-30T08:34:45Z,https://arxiv.org/abs/2609.39286
+constant rate,2609.38996,"Constant Rate Codes with Fully Addressable Transversal T: Good Codes, Sparse Checks",2026-09-30T05:11:17Z,https://arxiv.org/abs/2609.38996
+constant rate,2609.37699,Constant-rate quantum codes with low-weight stabilizers and full logical Clifford actions via transversal and fold-transversal gates,2026-09-29T14:38:05Z,https://arxiv.org/abs/2609.37699
+constant rate,2609.37636,Resonance Breaking in Noisy Shor's Algorithm,2026-09-29T14:05:35Z,https://arxiv.org/abs/2609.37636
+constant rate,2609.37368,A Memory-Magic Exchange Law in Streaming Clifford+T Compilation,2026-09-29T12:26:01Z,https://arxiv.org/abs/2609.37368
+constant rate,2609.37270,Directional transfer from coherence to longitudinal polarization and algebraic storage in a transmon with Markovian dephasing and a glassy environment: A non-Markovian fractional renewal model,2026-09-29T11:14:35Z,https://arxiv.org/abs/2609.37270
+constant rate,2609.35129,Asymptotically Good Quantum Codes with Addressable Transversal T Gates,2026-09-28T13:22:40Z,https://arxiv.org/abs/2609.35129
+constant rate,2609.31596,Oracle Distillation,2026-09-25T17:52:52Z,https://arxiv.org/abs/2609.31596
+constant rate,2609.31541,Sipser-Spielman meets Dijkgraaf-Witten: non-Abelian qLDPC codes via twisted sheaf gauge theory and almost-constant-overhead magic state fountain,2026-09-25T17:12:03Z,https://arxiv.org/abs/2609.31541
+constant rate,2609.28028,Cubical Sheaf Complexes with Constant Expansion with Applications to Asymptotically Good qLTCs,2026-09-23T12:53:31Z,https://arxiv.org/abs/2609.28028
+constant rate,2609.26735,Good Quantum Locally Testable Codes from Product Expansion,2026-09-22T17:25:03Z,https://arxiv.org/abs/2609.26735
+constant rate,2609.22669,Metric Self-Dual Completion and Optimal Additive Hardness for Quantum and Graph-State Distance,2026-09-19T00:57:30Z,https://arxiv.org/abs/2609.22669
+constant rate,2609.20780,Asymptotically Good Quantum Locally Testable Codes,2026-09-17T17:49:39Z,https://arxiv.org/abs/2609.20780
+constant rate,2609.16125,Hyperbolic color codes with constant rate and polynomial distance,2026-09-14T18:00:02Z,https://arxiv.org/abs/2609.16125
+constant rate,2608.24000,Improved Quantum Codes with Transversal T Gates,2026-08-25T02:44:20Z,https://arxiv.org/abs/2608.24000
+constant rate,2608.22603,Robust Quantum Key Distribution Arbitrarily Close to Local Correlations,2026-08-23T21:20:19Z,https://arxiv.org/abs/2608.22603
+strong converse,2610.18731,Finite-energy two-way assisted capacities: Exact formulas for multimode loss and fading,2026-10-13T17:06:44Z,https://arxiv.org/abs/2610.18731
+strong converse,2610.06832,Energy-constrained two-way capacities of pure-loss and quantum-limited amplifier channels,2026-10-05T17:58:14Z,https://arxiv.org/abs/2610.06832
+strong converse,2610.02176,From Permutation Symmetry to Communication Bounds and Additivity,2026-10-01T17:57:24Z,https://arxiv.org/abs/2610.02176
+strong converse,2610.02134,A Generalized quantum Stein lemma on von Neumann algebras,2026-10-01T17:43:32Z,https://arxiv.org/abs/2610.02134
+strong converse,2610.00440,Finite-blocklength classical communication over the quantum erasure channel with and without classical feedback,2026-09-30T17:34:28Z,https://arxiv.org/abs/2610.00440
+strong converse,2609.40036,Cycle Codes and Decoded Quantum Interferometry,2026-09-30T16:07:40Z,https://arxiv.org/abs/2609.40036
+strong converse,2609.38328,Exponential strong converse for blind quantum data compression,2026-09-29T18:00:51Z,https://arxiv.org/abs/2609.38328
+strong converse,2609.38144,The exact strong converse exponent for private communication over quantum channels,2026-09-29T17:56:11Z,https://arxiv.org/abs/2609.38144
+strong converse,2609.34213,Monotonicity of the Rényi channel capacity under non-signaling assisted channel simulation,2026-09-28T03:21:52Z,https://arxiv.org/abs/2609.34213
+strong converse,2609.32515,An exponential strong converse for private communication over degradable quantum channels,2026-09-26T12:01:27Z,https://arxiv.org/abs/2609.32515
+strong converse,2609.30762,A Generalized Stein Lemma for Quantum Channels,2026-09-25T03:39:14Z,https://arxiv.org/abs/2609.30762
+strong converse,2609.30268,Quantum Channel Stein Theorem beyond Definite Causal Order,2026-09-24T17:59:57Z,https://arxiv.org/abs/2609.30268
+strong converse,2609.29885,The regularized channel Rényi divergence is continuous,2026-09-24T14:34:56Z,https://arxiv.org/abs/2609.29885
+strong converse,2609.27196,Quantum Channel Stein's Lemma with an Exponential Strong Converse,2026-09-23T01:00:18Z,https://arxiv.org/abs/2609.27196
+strong converse,2609.16608,Strong converse for the quantum capacity of the pure-loss bosonic channel,2026-09-15T04:10:13Z,https://arxiv.org/abs/2609.16608
+strong converse,2609.15004,Failure of the Asymptotic Equipartition Property for Quantum Channels,2026-09-14T04:11:20Z,https://arxiv.org/abs/2609.15004
+strong converse,2609.14658,Exact Asymptotic Rates and an Exponential Strong Converse for quantum SMP and One-Way Communication,2026-09-13T16:55:55Z,https://arxiv.org/abs/2609.14658
+strong converse,2609.14621,The classical capacity of generalized amplitude-damping channels and its strong-converse exponent,2026-09-13T15:50:01Z,https://arxiv.org/abs/2609.14621
+strong converse,2609.09839,Minimax games for quantum channel discrimination,2026-09-09T07:46:08Z,https://arxiv.org/abs/2609.09839
+strong converse,2609.08998,No information transmission through quantum channels above capacity,2026-09-08T16:37:23Z,https://arxiv.org/abs/2609.08998
+strong converse,2608.27202,Strong Converse Exponent of Quantum State Merging,2026-08-27T14:47:14Z,https://arxiv.org/abs/2608.27202
+strong converse,2608.21214,Integral representations of quantum Rényi divergences on von Neumann algebras,2026-08-21T15:24:29Z,https://arxiv.org/abs/2608.21214
+strong converse,2608.20726,"Difference-Set Weyl Channels: Exact Capacity, Optimizer Bifurcation, and Scalable Entanglement Separation",2026-08-21T04:15:10Z,https://arxiv.org/abs/2608.20726
+strong converse,2608.16452,Strong Converse Exponents of Quantum Soft Covering and Privacy Amplification,2026-08-17T11:54:48Z,https://arxiv.org/abs/2608.16452
+strong converse,2608.11000,The entanglement-assisted transmission capacity is a strong converse bound for identification,2026-08-11T14:48:53Z,https://arxiv.org/abs/2608.11000
+strong converse,2608.01308,Sharp Quantum Capacity Thresholds: Exponential Strong Converses for Degradable and Antidegradable Channels,2026-08-02T15:23:46Z,https://arxiv.org/abs/2608.01308
+query complexity,2610.41694,Exponential quantum-classical query separations for cyclic Forrelation,2026-10-30T13:01:24Z,https://arxiv.org/abs/2610.41694
+query complexity,2610.41180,Quantum query complexity of Hurwitz stability testing,2026-10-30T02:59:12Z,https://arxiv.org/abs/2610.41180
+query complexity,2610.40623,Optimal Diamond Distance Estimation for Unitary Channels,2026-10-29T17:56:18Z,https://arxiv.org/abs/2610.40623
+query complexity,2610.39702,Quantum Query Complexity of Tournament Solutions,2026-10-29T09:37:22Z,https://arxiv.org/abs/2610.39702
+query complexity,2610.35824,Sparse Carleman Embeddings for Nonlinear Discrete Dynamical Systems,2026-10-26T17:48:13Z,https://arxiv.org/abs/2610.35824
+query complexity,2610.32946,Low-frustration block encodings by patch routing,2026-10-23T17:40:02Z,https://arxiv.org/abs/2610.32946
+query complexity,2610.24518,"Exact Quantum Query Complexity of the Five-Bit Symmetric Boolean Function $\Exact^5_{3,4}$",2026-10-17T07:28:45Z,https://arxiv.org/abs/2610.24518
+query complexity,2610.23429,Cayley access models for matrix functions: reachable class and cost,2026-10-16T13:16:51Z,https://arxiv.org/abs/2610.23429
+query complexity,2610.22983,Quantum Tsallis Entropy Estimation: Near-Optimal Bounds and High-Precision Improvements,2026-10-16T06:08:51Z,https://arxiv.org/abs/2610.22983
+query complexity,2610.19936,Improved Quantum Algorithms for Rényi Entropies Estimation,2026-10-14T10:21:22Z,https://arxiv.org/abs/2610.19936
+query complexity,2610.19255,Quantum-classical algorithm interpolation for spatial search,2026-10-13T22:25:20Z,https://arxiv.org/abs/2610.19255
+query complexity,2610.17163,Bosonic unstructured search: quantum enhancement without entanglement,2026-10-12T17:40:57Z,https://arxiv.org/abs/2610.17163
+query complexity,2610.16209,Bootstrapping Classical and Quantum Query Lower Bounds for Finding Tarski Fixed Points,2026-10-12T05:39:35Z,https://arxiv.org/abs/2610.16209
+query complexity,2610.13906,Quantum Query Complexity of Maximum Degree and its Generalizations,2026-10-09T17:47:01Z,https://arxiv.org/abs/2610.13906
+query complexity,2610.14062,Grover Search for a Threshold-Fraction Variant of the Travelling Salesman Problem: A Circuit-Level Construction,2026-10-07T07:30:16Z,https://arxiv.org/abs/2610.14062
+query complexity,2610.08714,Quantum Algorithms for Multivariable Polynomial Transformations: From Efficient Synthesis to Quantum Channel Transformations,2026-10-06T17:22:36Z,https://arxiv.org/abs/2610.08714
+query complexity,2610.07439,Quantum Algorithms for Finding Vacua in the ADK Landscape,2026-10-05T21:42:22Z,https://arxiv.org/abs/2610.07439
+query complexity,2610.07252,Resource-Aware Grover Search for Minimum Vertex Cover,2026-10-05T18:50:29Z,https://arxiv.org/abs/2610.07252
+query complexity,2610.06835,Distributional Quantum Query Complexity,2026-10-05T17:58:18Z,https://arxiv.org/abs/2610.06835
+query complexity,2610.06803,Tight bounds for hybrid quantum-classical query algorithms,2026-10-05T17:53:05Z,https://arxiv.org/abs/2610.06803
+query complexity,2610.06721,"Tight Query Lower Bounds for Quantum Sampling, with an Application to Certified Randomness",2026-10-05T17:13:39Z,https://arxiv.org/abs/2610.06721
+query complexity,2610.04560,Quantum Submodular Maximization,2026-10-03T14:51:06Z,https://arxiv.org/abs/2610.04560
+query complexity,2610.04024,Accelerated search for global extrema in structured quantum signals,2026-10-02T20:28:51Z,https://arxiv.org/abs/2610.04024
+query complexity,2610.03914,Quantum Query Complexity and Span Programs from Pre-Geometry,2026-10-02T18:25:04Z,https://arxiv.org/abs/2610.03914
+query complexity,2610.03393,Multivariate quantum signal processing with optimal query complexity,2026-10-02T14:43:25Z,https://arxiv.org/abs/2610.03393
+query complexity,2610.02133,Optimal transducers using symmetries,2026-10-01T17:43:02Z,https://arxiv.org/abs/2610.02133
+query complexity,2610.01940,Optimal query complexity for fractional quantum evolution,2026-10-01T16:08:16Z,https://arxiv.org/abs/2610.01940
+query complexity,2610.01752,Near-optimal quantum query lower bounds on bipartiteness and expansion testing in the bounded-degree graph model,2026-10-01T14:18:02Z,https://arxiv.org/abs/2610.01752
+query complexity,2610.01555,Efficient certification of time-reversal symmetry requires entanglement,2026-10-01T12:23:12Z,https://arxiv.org/abs/2610.01555
+query complexity,2610.01125,Multivariate Quantum Signal Processing,2026-10-01T06:09:01Z,https://arxiv.org/abs/2610.01125
+query complexity,2610.00520,Near-Optimal Ground-State Preparation without Controlled Hamiltonian Evolutions,2026-09-30T18:11:53Z,https://arxiv.org/abs/2610.00520
+query complexity,2610.00506,Noisy Quantum Query Complexity via Fractional Block Sensitivity,2026-09-30T18:05:22Z,https://arxiv.org/abs/2610.00506
+query complexity,2609.40334,A Noise Operator Approach to Quantum Query Complexity and Time-Space Tradeoff Lower Bounds,2026-09-30T17:57:33Z,https://arxiv.org/abs/2609.40334
+query complexity,2609.40263,Superlinear Quantum Query Lower Bounds for Subgraph Detection,2026-09-30T17:42:46Z,https://arxiv.org/abs/2609.40263
+query complexity,2609.40254,Quantum oblique eigenprojection,2026-09-30T17:40:15Z,https://arxiv.org/abs/2609.40254
+query complexity,2609.40180,Improved Quantum Query Bounds for Boolean Matrix Product Verification,2026-09-30T17:05:45Z,https://arxiv.org/abs/2609.40180
+query complexity,2609.40179,Breaking the Multiplicative Overhead in Quantum Entropy Estimation,2026-09-30T17:04:40Z,https://arxiv.org/abs/2609.40179
+query complexity,2609.40073,Transducer-based linear combination of unitaries: theory and applications,2026-09-30T16:25:28Z,https://arxiv.org/abs/2609.40073
+query complexity,2609.40001,An exponential query advantage from access to Stinespring dilation unitaries in quantum channel learning,2026-09-30T15:47:36Z,https://arxiv.org/abs/2609.40001
+query complexity,2609.39974,The quantum query complexity of the semigroup product problem,2026-09-30T15:36:00Z,https://arxiv.org/abs/2609.39974
+query complexity,2609.39452,From Wavefunction Regularity to Eigenvector Conditioning: Accuracy--Cost Trade-offs of Quantum Algorithms for Non-Hermitian Transcorrelated Hamiltonians,2026-09-30T10:26:00Z,https://arxiv.org/abs/2609.39452
+query complexity,2609.39295,Resource-Tunable Quantum Circuit Implementation of Nonlinear Element-Wise Transformations,2026-09-30T08:39:30Z,https://arxiv.org/abs/2609.39295
+query complexity,2609.38736,Quantum Query Complexity for List Search,2026-09-30T01:20:04Z,https://arxiv.org/abs/2609.38736
+query complexity,2609.38704,A Separation Between Types of Quantum Oracle Separations,2026-09-30T00:33:37Z,https://arxiv.org/abs/2609.38704
+query complexity,2609.38403,Advantage of Sample Complexity in Quantum PAC Learning Requires Inverse Access to State-Preparation Unitaries,2026-09-29T19:00:20Z,https://arxiv.org/abs/2609.38403
+query complexity,2609.38145,Query-optimal unitary channel tomography in diamond distance with parallel access,2026-09-29T17:57:11Z,https://arxiv.org/abs/2609.38145
+query complexity,2609.38073,Optimal Quantum-Classical Separations for Exact Learning,2026-09-29T17:34:21Z,https://arxiv.org/abs/2609.38073
+query complexity,2609.37926,Optimal Quantum Junta Testing,2026-09-29T16:16:54Z,https://arxiv.org/abs/2609.37926
+query complexity,2609.37802,Quantum Complexity of Ancilla-Free Unitary Embeddings for Nonlinear Dynamics via Generalized State-Dependent Double-Bracket Flows,2026-09-29T15:24:02Z,https://arxiv.org/abs/2609.37802
+query complexity,2609.37207,Near-Optimal Quantum Algorithm and Complexity Analysis for Riccati Problems,2026-09-29T10:25:40Z,https://arxiv.org/abs/2609.37207
+query complexity,2609.36127,Near-Optimal Parallel Unitary Process Tomography in Diamond Distance,2026-09-28T19:00:20Z,https://arxiv.org/abs/2609.36127
+query complexity,2609.35668,Optimal Query Complexity for Ground-State Preparation,2026-09-28T17:26:19Z,https://arxiv.org/abs/2609.35668
+query complexity,2609.35656,The power of oracle access: Optimal sample and query complexity of the abelian state hidden subgroup problem,2026-09-28T17:21:41Z,https://arxiv.org/abs/2609.35656
+query complexity,2609.35580,Quantum Query Complexity Beyond the Worst Case,2026-09-28T16:35:50Z,https://arxiv.org/abs/2609.35580
+query complexity,2609.35511,How fast can a parent estimate the value of their children? A quantum algorithm for stochastic games,2026-09-28T16:06:44Z,https://arxiv.org/abs/2609.35511
+query complexity,2609.33132,Quantum Monte Carlo Tree Search with Fixed Confidence,2026-09-27T03:00:47Z,https://arxiv.org/abs/2609.33132
+query complexity,2609.32262,Contour-integral and Fourier transform based multivariable quantum eigenvalue transformation for commuting matrices,2026-09-26T05:33:28Z,https://arxiv.org/abs/2609.32262
+query complexity,2609.31312,Causal Query Compression for Lindblad Dynamics: Optimal Queries and Nearly Linear Local Simulation,2026-09-25T14:20:11Z,https://arxiv.org/abs/2609.31312
+query complexity,2609.30139,A General Composition Theorem for Approximate Degree,2026-09-24T17:08:10Z,https://arxiv.org/abs/2609.30139
+query complexity,2609.27103,Quantum-Enhanced Sampling of Schrödinger Bridges,2026-09-22T21:57:40Z,https://arxiv.org/abs/2609.27103
+query complexity,2609.26678,Strong Selective and List-Decoding Direct Product Theorems for Quantum Query Complexity,2026-09-22T16:37:13Z,https://arxiv.org/abs/2609.26678
+query complexity,2609.22445,Optimal Joint Lower Bound for Sparse Quantum Linear System Solvers,2026-09-18T18:02:04Z,https://arxiv.org/abs/2609.22445
+query complexity,2609.19676,Linear combination of Schrödingerization for quantum linear systems with optimal matrix-query complexity,2026-09-17T04:22:23Z,https://arxiv.org/abs/2609.19676
+query complexity,2609.18757,Query-Optimal and Gate-Efficient Lindbladian Simulation,2026-09-16T14:44:42Z,https://arxiv.org/abs/2609.18757
+query complexity,2609.17490,Query-optimal quantum simulation of Lindblad evolution,2026-09-15T17:32:12Z,https://arxiv.org/abs/2609.17490
+query complexity,2609.15063,Randomized query complexity can beat certificate complexity,2026-09-14T05:29:42Z,https://arxiv.org/abs/2609.15063
+query complexity,2609.12284,A Simple Quantum Linear-System Solver via Dissipation,2026-09-10T23:31:52Z,https://arxiv.org/abs/2609.12284
+query complexity,2609.11664,Near-Optimal Separations of Certificate Complexity from Randomized and Quantum Query Complexity,2026-09-10T15:04:28Z,https://arxiv.org/abs/2609.11664
+query complexity,2609.09977,"From Block-encoding to Generalized Quantum Signal Processing: Principles, Algorithms and Applications",2026-09-09T10:06:42Z,https://arxiv.org/abs/2609.09977
+query complexity,2609.09035,Near-Optimal Quantum Lower Bounds for Convex Optimization via Fourier Rank,2026-09-08T17:01:51Z,https://arxiv.org/abs/2609.09035
+query complexity,2609.07604,Quantum Approximate Counting with Bernoulli Oracles,2026-09-07T15:13:44Z,https://arxiv.org/abs/2609.07604
+query complexity,2609.05813,Quantum Query Complexity of Persistence Statistics in Graph Zigzags,2026-09-05T02:16:28Z,https://arxiv.org/abs/2609.05813
+query complexity,2609.05679,Quantum lower bounds for convex optimization and real matrix-vector query problems,2026-09-04T19:23:24Z,https://arxiv.org/abs/2609.05679
+query complexity,2609.29497,Quantum Query Advantage Requires Space,2026-09-04T13:04:04Z,https://arxiv.org/abs/2609.29497
+query complexity,2609.03802,Quantum Query Complexity of Finding a Tarski Fixed Point on a High-Dimensional Grid,2026-09-03T13:06:12Z,https://arxiv.org/abs/2609.03802
+query complexity,2609.02715,Quantum amplitude estimation beyond power-of-two schedules,2026-09-02T15:20:50Z,https://arxiv.org/abs/2609.02715
+query complexity,2608.30629,Gate-Efficient Implementation of the Query-Optimal Time-Dependent Hamiltonian Simulation,2026-08-31T11:39:55Z,https://arxiv.org/abs/2608.30629
+query complexity,2608.29839,Ancilla-mediated fixed-point quantum search using Grover iterations,2026-08-30T15:13:14Z,https://arxiv.org/abs/2608.29839
+query complexity,2608.29756,Pathwise Random Hamiltonian Simulation,2026-08-30T12:37:58Z,https://arxiv.org/abs/2608.29756
+query complexity,2608.26061,Asymptotically optimal purification of noisy unitary channels in any dimension,2026-08-26T17:30:35Z,https://arxiv.org/abs/2608.26061
+query complexity,2608.24711,Towards Optimal Quantum Estimators for State Frame Potential,2026-08-25T15:29:24Z,https://arxiv.org/abs/2608.24711
+query complexity,2608.17653,Quantum simulation of slow analytic time-dependent Hamiltonians,2026-08-18T11:14:53Z,https://arxiv.org/abs/2608.17653
+query complexity,2608.17610,Towards the Impossibility of Imperfectly Complete Key Agreement in the QROM,2026-08-18T10:19:27Z,https://arxiv.org/abs/2608.17610
+query complexity,2608.16860,Classical Adversarial Fault-Tolerance and PCPs,2026-08-17T17:43:54Z,https://arxiv.org/abs/2608.16860
+query complexity,2608.09513,Faster Algorithms for Multimarginal Optimal Transport,2026-08-10T12:14:25Z,https://arxiv.org/abs/2608.09513
+query complexity,2608.06094,Time-Dependent Hamiltonian Simulation with Optimal Query Complexity,2026-08-06T14:35:47Z,https://arxiv.org/abs/2608.06094
+query complexity,2608.02600,A Unified Complexity Framework for Quantum Property Testing,2026-08-03T17:59:11Z,https://arxiv.org/abs/2608.02600
+quantum query complexity,2610.41180,Quantum query complexity of Hurwitz stability testing,2026-10-30T02:59:12Z,https://arxiv.org/abs/2610.41180
+quantum query complexity,2610.39702,Quantum Query Complexity of Tournament Solutions,2026-10-29T09:37:22Z,https://arxiv.org/abs/2610.39702
+quantum query complexity,2610.24518,"Exact Quantum Query Complexity of the Five-Bit Symmetric Boolean Function $\Exact^5_{3,4}$",2026-10-17T07:28:45Z,https://arxiv.org/abs/2610.24518
+quantum query complexity,2610.16209,Bootstrapping Classical and Quantum Query Lower Bounds for Finding Tarski Fixed Points,2026-10-12T05:39:35Z,https://arxiv.org/abs/2610.16209
+quantum query complexity,2610.13906,Quantum Query Complexity of Maximum Degree and its Generalizations,2026-10-09T17:47:01Z,https://arxiv.org/abs/2610.13906
+quantum query complexity,2610.06835,Distributional Quantum Query Complexity,2026-10-05T17:58:18Z,https://arxiv.org/abs/2610.06835
+quantum query complexity,2610.06803,Tight bounds for hybrid quantum-classical query algorithms,2026-10-05T17:53:05Z,https://arxiv.org/abs/2610.06803
+quantum query complexity,2610.04560,Quantum Submodular Maximization,2026-10-03T14:51:06Z,https://arxiv.org/abs/2610.04560
+quantum query complexity,2610.03914,Quantum Query Complexity and Span Programs from Pre-Geometry,2026-10-02T18:25:04Z,https://arxiv.org/abs/2610.03914
+quantum query complexity,2610.02133,Optimal transducers using symmetries,2026-10-01T17:43:02Z,https://arxiv.org/abs/2610.02133
+quantum query complexity,2610.01752,Near-optimal quantum query lower bounds on bipartiteness and expansion testing in the bounded-degree graph model,2026-10-01T14:18:02Z,https://arxiv.org/abs/2610.01752
+quantum query complexity,2610.00506,Noisy Quantum Query Complexity via Fractional Block Sensitivity,2026-09-30T18:05:22Z,https://arxiv.org/abs/2610.00506
+quantum query complexity,2609.40334,A Noise Operator Approach to Quantum Query Complexity and Time-Space Tradeoff Lower Bounds,2026-09-30T17:57:33Z,https://arxiv.org/abs/2609.40334
+quantum query complexity,2609.40263,Superlinear Quantum Query Lower Bounds for Subgraph Detection,2026-09-30T17:42:46Z,https://arxiv.org/abs/2609.40263
+quantum query complexity,2609.40180,Improved Quantum Query Bounds for Boolean Matrix Product Verification,2026-09-30T17:05:45Z,https://arxiv.org/abs/2609.40180
+quantum query complexity,2609.39974,The quantum query complexity of the semigroup product problem,2026-09-30T15:36:00Z,https://arxiv.org/abs/2609.39974
+quantum query complexity,2609.38736,Quantum Query Complexity for List Search,2026-09-30T01:20:04Z,https://arxiv.org/abs/2609.38736
+quantum query complexity,2609.38073,Optimal Quantum-Classical Separations for Exact Learning,2026-09-29T17:34:21Z,https://arxiv.org/abs/2609.38073
+quantum query complexity,2609.37926,Optimal Quantum Junta Testing,2026-09-29T16:16:54Z,https://arxiv.org/abs/2609.37926
+quantum query complexity,2609.35580,Quantum Query Complexity Beyond the Worst Case,2026-09-28T16:35:50Z,https://arxiv.org/abs/2609.35580
+quantum query complexity,2609.31312,Causal Query Compression for Lindblad Dynamics: Optimal Queries and Nearly Linear Local Simulation,2026-09-25T14:20:11Z,https://arxiv.org/abs/2609.31312
+quantum query complexity,2609.30139,A General Composition Theorem for Approximate Degree,2026-09-24T17:08:10Z,https://arxiv.org/abs/2609.30139
+quantum query complexity,2609.26678,Strong Selective and List-Decoding Direct Product Theorems for Quantum Query Complexity,2026-09-22T16:37:13Z,https://arxiv.org/abs/2609.26678
+quantum query complexity,2609.15063,Randomized query complexity can beat certificate complexity,2026-09-14T05:29:42Z,https://arxiv.org/abs/2609.15063
+quantum query complexity,2609.11664,Near-Optimal Separations of Certificate Complexity from Randomized and Quantum Query Complexity,2026-09-10T15:04:28Z,https://arxiv.org/abs/2609.11664
+quantum query complexity,2609.05813,Quantum Query Complexity of Persistence Statistics in Graph Zigzags,2026-09-05T02:16:28Z,https://arxiv.org/abs/2609.05813
+quantum query complexity,2609.05679,Quantum lower bounds for convex optimization and real matrix-vector query problems,2026-09-04T19:23:24Z,https://arxiv.org/abs/2609.05679
+quantum query complexity,2609.29497,Quantum Query Advantage Requires Space,2026-09-04T13:04:04Z,https://arxiv.org/abs/2609.29497
+quantum query complexity,2609.03802,Quantum Query Complexity of Finding a Tarski Fixed Point on a High-Dimensional Grid,2026-09-03T13:06:12Z,https://arxiv.org/abs/2609.03802
+optimal query,2610.07124,Black Hole Radiation Decoding in the Haar Random Oracle Model,2026-10-05T17:44:16Z,https://arxiv.org/abs/2610.07124
+optimal query,2610.03393,Multivariate quantum signal processing with optimal query complexity,2026-10-02T14:43:25Z,https://arxiv.org/abs/2610.03393
+optimal query,2610.01940,Optimal query complexity for fractional quantum evolution,2026-10-01T16:08:16Z,https://arxiv.org/abs/2610.01940
+optimal query,2609.40184,More is Less:Optimal Security for Haar Quantum Money and More,2026-09-30T17:07:09Z,https://arxiv.org/abs/2609.40184
+optimal query,2609.40179,Breaking the Multiplicative Overhead in Quantum Entropy Estimation,2026-09-30T17:04:40Z,https://arxiv.org/abs/2609.40179
+optimal query,2609.40073,Transducer-based linear combination of unitaries: theory and applications,2026-09-30T16:25:28Z,https://arxiv.org/abs/2609.40073
+optimal query,2609.39280,Optimal learning of covariant quantum states and channels,2026-09-30T08:30:12Z,https://arxiv.org/abs/2609.39280
+optimal query,2609.38403,Advantage of Sample Complexity in Quantum PAC Learning Requires Inverse Access to State-Preparation Unitaries,2026-09-29T19:00:20Z,https://arxiv.org/abs/2609.38403
+optimal query,2609.38145,Query-optimal unitary channel tomography in diamond distance with parallel access,2026-09-29T17:57:11Z,https://arxiv.org/abs/2609.38145
+optimal query,2609.37802,Quantum Complexity of Ancilla-Free Unitary Embeddings for Nonlinear Dynamics via Generalized State-Dependent Double-Bracket Flows,2026-09-29T15:24:02Z,https://arxiv.org/abs/2609.37802
+optimal query,2609.37207,Near-Optimal Quantum Algorithm and Complexity Analysis for Riccati Problems,2026-09-29T10:25:40Z,https://arxiv.org/abs/2609.37207
+optimal query,2609.36127,Near-Optimal Parallel Unitary Process Tomography in Diamond Distance,2026-09-28T19:00:20Z,https://arxiv.org/abs/2609.36127
+optimal query,2609.35668,Optimal Query Complexity for Ground-State Preparation,2026-09-28T17:26:19Z,https://arxiv.org/abs/2609.35668
+optimal query,2609.33686,Simultaneously Query-Optimal Quantum Linear-System Algorithm,2026-09-27T15:49:21Z,https://arxiv.org/abs/2609.33686
+optimal query,2609.31312,Causal Query Compression for Lindblad Dynamics: Optimal Queries and Nearly Linear Local Simulation,2026-09-25T14:20:11Z,https://arxiv.org/abs/2609.31312
+optimal query,2609.23752,Near-optimal incoherent tomography of low-rank quantum channels,2026-09-20T17:00:46Z,https://arxiv.org/abs/2609.23752
+optimal query,2609.17490,Query-optimal quantum simulation of Lindblad evolution,2026-09-15T17:32:12Z,https://arxiv.org/abs/2609.17490
+optimal query,2609.10808,Tight Time-Space Lower Bounds for Collision Finding and Element Distinctness under Label Symmetry,2026-09-09T20:20:17Z,https://arxiv.org/abs/2609.10808
+optimal query,2609.09977,"From Block-encoding to Generalized Quantum Signal Processing: Principles, Algorithms and Applications",2026-09-09T10:06:42Z,https://arxiv.org/abs/2609.09977
+optimal query,2608.30629,Gate-Efficient Implementation of the Query-Optimal Time-Dependent Hamiltonian Simulation,2026-08-31T11:39:55Z,https://arxiv.org/abs/2608.30629
+optimal query,2608.24711,Towards Optimal Quantum Estimators for State Frame Potential,2026-08-25T15:29:24Z,https://arxiv.org/abs/2608.24711
+optimal query,2608.24434,Nearly Optimal Amplitude Estimation at any Depth,2026-08-25T11:46:21Z,https://arxiv.org/abs/2608.24434
+optimal query,2608.06094,Time-Dependent Hamiltonian Simulation with Optimal Query Complexity,2026-08-06T14:35:47Z,https://arxiv.org/abs/2608.06094
+css code,2611.01360,Logical-Class Diagnostic Layer for Stabilizer Codes and Decoders via Supercharge Structures,2026-10-31T23:58:39Z,https://arxiv.org/abs/2611.01360
+css code,2610.40592,Toric codes all the way down: decoupling translation-invariant topological CSS codes in higher dimensions,2026-10-29T17:49:18Z,https://arxiv.org/abs/2610.40592
+css code,2610.30087,Injection is all you need: parallel universal logic in high-rate concatenated self-dual codes,2026-10-21T17:34:04Z,https://arxiv.org/abs/2610.30087
+css code,2610.28737,Local Clifford equivalence to CSS codes: Polynomial-time classification and conversion,2026-10-20T18:00:03Z,https://arxiv.org/abs/2610.28737
+css code,2610.26784,High-Accuracy Propagation-Assisted Local Decoding for Fast Transversal Clifford Circuits,2026-10-19T17:35:34Z,https://arxiv.org/abs/2610.26784
+css code,2610.22710,Area Theorems for Quantum Error Correction,2026-10-15T22:27:10Z,https://arxiv.org/abs/2610.22710
+css code,2610.18218,Methods for Automated Equivalence Checking of Quantum Error-Correction Codes,2026-10-13T11:49:22Z,https://arxiv.org/abs/2610.18218
+css code,2610.17612,From Syndromes to Computation: A General Framework for Logical Operations in Quantum Error-Correcting Codes,2026-10-13T02:32:10Z,https://arxiv.org/abs/2610.17612
+css code,2610.12782,Coset Lifted Product Codes: Constructing Quantum LDPC Codes from Non-Normal Subgroup Actions,2026-10-08T22:39:36Z,https://arxiv.org/abs/2610.12782
+css code,2610.12597,Error correction and quantum information spreading on sparse random graphs,2026-10-08T18:19:50Z,https://arxiv.org/abs/2610.12597
+css code,2610.11097,A lower bound on the overhead of addressable surgery on sparse stabiliser codes,2026-10-08T02:11:55Z,https://arxiv.org/abs/2610.11097
+css code,2610.09341,Building codes with transversal CCZ using projective geometry and SAT solvers,2026-10-07T03:00:02Z,https://arxiv.org/abs/2610.09341
+css code,2610.06730,Qubit CSS codes with Universal Transversal Gates,2026-10-05T17:17:35Z,https://arxiv.org/abs/2610.06730
+css code,2610.06623,Large Language Model-Guided Discovery of Weight-Five Bivariate Bicycle Codes,2026-10-05T16:21:27Z,https://arxiv.org/abs/2610.06623
+css code,2610.05214,"Cups and Gates II: Operads, twists, and addressable intra-code gates",2026-10-04T13:31:27Z,https://arxiv.org/abs/2610.05214
+css code,2610.04617,New Methods for Constructing Classical and Quantum Codes from Graphs and Matroids,2026-10-03T15:59:45Z,https://arxiv.org/abs/2610.04617
+css code,2610.03714,SpiderCSS: Scalable Fault-Tolerant CSS State Preparation,2026-10-02T17:58:44Z,https://arxiv.org/abs/2610.03714
+css code,2610.03545,What Must a Quantum-Memory Decoder Know About Temporally Correlated Noise?,2026-10-02T16:28:22Z,https://arxiv.org/abs/2610.03545
+css code,2610.02392,"Singer-Difference-Set Qudit Stabilizer Codes from Non-Degenerate Quadrics in PG(d,q)PG(d,q): Construction, Structural Theorems, and Monte-Carlo Performance",2026-10-01T19:17:44Z,https://arxiv.org/abs/2610.02392
+css code,2610.01277,Linear-Time Encodable Quantum Codes near the CSS GV Bound,2026-10-01T08:15:50Z,https://arxiv.org/abs/2610.01277
+css code,2610.03794,"Generalised Bit-Vector Abstractions for Formal Verification of Quantum Error-Detection and Entanglement Circuits over {H,X,C-NOT}: CSS Constructions, Soundness, and Mutation-Based Validation",2026-10-01T00:22:13Z,https://arxiv.org/abs/2610.03794
+css code,2609.40319,Local Automorphism-Aware Syndrome Compilation for General Quantum LDPC Codes,2026-09-30T17:54:28Z,https://arxiv.org/abs/2609.40319
+css code,2609.40262,Quantum List Recovery and Decoding: Achievability and Limitations,2026-09-30T17:41:37Z,https://arxiv.org/abs/2609.40262
+css code,2609.40252,From Random Quantum Codes to Explicit qLDPC Codes via Local Properties,2026-09-30T17:39:08Z,https://arxiv.org/abs/2609.40252
+css code,2609.40022,CSS codes for Quantum Metrology with Discrete-time Error Correction,2026-09-30T15:59:11Z,https://arxiv.org/abs/2609.40022
+css code,2609.39522,"Layer codes as quantum memories: syndrome extraction, thresholds and idle robustness",2026-09-30T11:20:21Z,https://arxiv.org/abs/2609.39522
+css code,2609.38996,"Constant Rate Codes with Fully Addressable Transversal T: Good Codes, Sparse Checks",2026-09-30T05:11:17Z,https://arxiv.org/abs/2609.38996
+css code,2609.36213,Bivariate Bicycle Codes over Group Algebras,2026-09-28T20:10:05Z,https://arxiv.org/abs/2609.36213
+css code,2609.35601,Low-Weight Canonical Logical Bases from Pair-Partition Codes,2026-09-28T16:49:43Z,https://arxiv.org/abs/2609.35601
+css code,2609.35129,Asymptotically Good Quantum Codes with Addressable Transversal T Gates,2026-09-28T13:22:40Z,https://arxiv.org/abs/2609.35129
+css code,2609.30069,Design Principles for Ultra-High-Rate Quantum Codes,2026-09-24T16:26:34Z,https://arxiv.org/abs/2609.30069
+css code,2609.28028,Cubical Sheaf Complexes with Constant Expansion with Applications to Asymptotically Good qLTCs,2026-09-23T12:53:31Z,https://arxiv.org/abs/2609.28028
+css code,2609.26973,Near-optimal high-rate surgery from linear PCPPs,2026-09-22T19:09:42Z,https://arxiv.org/abs/2609.26973
+css code,2609.22669,Metric Self-Dual Completion and Optimal Additive Hardness for Quantum and Graph-State Distance,2026-09-19T00:57:30Z,https://arxiv.org/abs/2609.22669
+css code,2609.22572,Modular fault-tolerant quantum computing on a non-CSS code,2026-09-18T20:49:59Z,https://arxiv.org/abs/2609.22572
+css code,2609.20780,Asymptotically Good Quantum Locally Testable Codes,2026-09-17T17:49:39Z,https://arxiv.org/abs/2609.20780
+css code,2609.19250,Achieving the limits of automorphism gates,2026-09-16T18:00:00Z,https://arxiv.org/abs/2609.19250
+css code,2609.18666,Impact of a CSS quantum error correction code in underwater quantum key distribution,2026-09-16T13:42:52Z,https://arxiv.org/abs/2609.18666
+css code,2609.16542,"Phantom Codes: Hardness, Rate Optimal qLDPC Constructions, and Distance Limits",2026-09-15T02:37:22Z,https://arxiv.org/abs/2609.16542
+css code,2609.16159,Towards Block-Level Fault-Tolerant Quantum Simulation on Small High-Rate Non-CSS Codes,2026-09-14T18:04:08Z,https://arxiv.org/abs/2609.16159
+css code,2609.08203,Asymptotically good binary triorthogonal codes and higher-level transversal gates,2026-09-08T03:41:36Z,https://arxiv.org/abs/2609.08203
+css code,2609.01901,Need One Bell-pair Only (NOBOL) for Low-Overhead Fault-Tolerant Quantum Computing,2026-09-01T22:02:03Z,https://arxiv.org/abs/2609.01901
+css code,2608.26272,Fault-tolerant quantum computation cannot be achieved with constant spacetime overhead,2026-08-26T18:00:25Z,https://arxiv.org/abs/2608.26272
+css code,2608.25545,Certified decoding of quantum LDPC codes,2026-08-26T08:57:01Z,https://arxiv.org/abs/2608.25545
+css code,2608.24000,Improved Quantum Codes with Transversal T Gates,2026-08-25T02:44:20Z,https://arxiv.org/abs/2608.24000
+css code,2608.19094,Realizing Logical Diagonal Gates via Transversal Physical $Z$-Rotations in CSS Codes,2026-08-19T16:44:24Z,https://arxiv.org/abs/2608.19094
+css code,2608.18961,Subsystem Symmetries and Fracton Models in Quantum Error Correction,2026-08-19T14:27:20Z,https://arxiv.org/abs/2608.18961
+css code,2608.16995,Non-CSS Quantum Code Embedding,2026-08-17T18:00:16Z,https://arxiv.org/abs/2608.16995
+css code,2608.13543,Clifford Circuit Synthesis for Distributed Quantum Architectures with Arbitrary Network Topology,2026-08-13T17:55:40Z,https://arxiv.org/abs/2608.13543
+css code,2608.12509,Quantum Tanner Codes at Moderate Blocklength,2026-08-12T18:37:15Z,https://arxiv.org/abs/2608.12509
+css code,2608.10912,CSS Quantum LRCs with Intersecting Recovery Sets: Constructions and Bounds,2026-08-11T13:34:02Z,https://arxiv.org/abs/2608.10912
+css code,2608.10069,Coupled-Layer Codes: Beyond Quantum Product Constructions,2026-08-10T18:00:01Z,https://arxiv.org/abs/2608.10069
+css code,2608.09915,Decoupling 2D translation-invariant topological CSS codes,2026-08-10T17:56:05Z,https://arxiv.org/abs/2608.09915
+css code,2608.09913,Superselection Rigidity of Topological Calderbank--Shor--Steane Codes: From Koszul-Complex Models to Nonsplit Extensions,2026-08-10T17:54:31Z,https://arxiv.org/abs/2608.09913
+css code,2608.08996,Multi-agent discovery of practical quantum LDPC codes,2026-08-10T01:32:34Z,https://arxiv.org/abs/2608.08996
+css code,2608.05688,Beyond transversality: structure of Clifford circuits for CSS codes,2026-08-06T07:28:20Z,https://arxiv.org/abs/2608.05688
+query bound,2610.12664,A Catalytic Algorithm for Transposing Unknown Qutrit Unitaries with Tight Query Bounds,2026-10-08T19:42:10Z,https://arxiv.org/abs/2610.12664
+query bound,2610.07124,Black Hole Radiation Decoding in the Haar Random Oracle Model,2026-10-05T17:44:16Z,https://arxiv.org/abs/2610.07124
+query bound,2610.02030,Sparse Hamiltonian simulation with optimal dependence on the maximum column Euclidean norm,2026-10-01T16:47:55Z,https://arxiv.org/abs/2610.02030
+query bound,2609.40180,Improved Quantum Query Bounds for Boolean Matrix Product Verification,2026-09-30T17:05:45Z,https://arxiv.org/abs/2609.40180
+query bound,2609.40094,Accelerating Quantum Dense-Output Simulation through Locality,2026-09-30T16:32:34Z,https://arxiv.org/abs/2609.40094
+query bound,2609.39974,The quantum query complexity of the semigroup product problem,2026-09-30T15:36:00Z,https://arxiv.org/abs/2609.39974
+query bound,2609.25660,Schrödingerization for quantum linear systems problems,2026-09-22T04:08:59Z,https://arxiv.org/abs/2609.25660
+query bound,2609.07384,Wavelength-Uniform Quantum Algorithms for Mixed-State Quantum Dynamics,2026-09-07T12:00:04Z,https://arxiv.org/abs/2609.07384
+query bound,2608.17610,Towards the Impossibility of Imperfectly Complete Key Agreement in the QROM,2026-08-18T10:19:27Z,https://arxiv.org/abs/2608.17610
+query algorithm,2610.24518,"Exact Quantum Query Complexity of the Five-Bit Symmetric Boolean Function $\Exact^5_{3,4}$",2026-10-17T07:28:45Z,https://arxiv.org/abs/2610.24518
+query algorithm,2610.08714,Quantum Algorithms for Multivariable Polynomial Transformations: From Efficient Synthesis to Quantum Channel Transformations,2026-10-06T17:22:36Z,https://arxiv.org/abs/2610.08714
+query algorithm,2610.06803,Tight bounds for hybrid quantum-classical query algorithms,2026-10-05T17:53:05Z,https://arxiv.org/abs/2610.06803
+query algorithm,2610.03914,Quantum Query Complexity and Span Programs from Pre-Geometry,2026-10-02T18:25:04Z,https://arxiv.org/abs/2610.03914
+query algorithm,2610.01125,Multivariate Quantum Signal Processing,2026-10-01T06:09:01Z,https://arxiv.org/abs/2610.01125
+query algorithm,2610.00517,Blind Unforgeability implies Plus-One Unforgeability,2026-09-30T18:10:21Z,https://arxiv.org/abs/2610.00517
+query algorithm,2609.40334,A Noise Operator Approach to Quantum Query Complexity and Time-Space Tradeoff Lower Bounds,2026-09-30T17:57:33Z,https://arxiv.org/abs/2609.40334
+query algorithm,2609.40001,An exponential query advantage from access to Stinespring dilation unitaries in quantum channel learning,2026-09-30T15:47:36Z,https://arxiv.org/abs/2609.40001
+query algorithm,2609.35668,Optimal Query Complexity for Ground-State Preparation,2026-09-28T17:26:19Z,https://arxiv.org/abs/2609.35668
+query algorithm,2609.35327,Distributional Variants of the Aaronson-Ambainis Conjecture,2026-09-28T14:52:32Z,https://arxiv.org/abs/2609.35327
+query algorithm,2609.20651,Hardness of Pathfinding in a Welded Tree,2026-09-17T16:29:09Z,https://arxiv.org/abs/2609.20651
+query algorithm,2609.05812,Quantum Query Algorithms for the Constructive Diagonal Ramsey Theorem,2026-09-05T02:12:27Z,https://arxiv.org/abs/2609.05812
+query algorithm,2609.05201,Optimal inequalities for completely bounded polynomials and the limitations of quantum query algorithms,2026-09-04T14:34:56Z,https://arxiv.org/abs/2609.05201
+query algorithm,2608.22769,Classical and quantum spectral density estimation under local graph access,2026-08-24T03:44:46Z,https://arxiv.org/abs/2608.22769
+query algorithm,2608.20297,Parallel Quantum Advantage with Limited Adaptivity Requires Structure,2026-08-20T17:37:03Z,https://arxiv.org/abs/2608.20297
+quantum lower bound,2610.33521,Communication Complexity of Integer Matrix Singularity,2026-10-24T08:01:29Z,https://arxiv.org/abs/2610.33521
+quantum lower bound,2610.32693,"Elementary proofs of quantum lower bounds for element distinctness, k-sum and k-distinctness",2026-10-23T14:20:47Z,https://arxiv.org/abs/2610.32693
+quantum lower bound,2610.16209,Bootstrapping Classical and Quantum Query Lower Bounds for Finding Tarski Fixed Points,2026-10-12T05:39:35Z,https://arxiv.org/abs/2610.16209
+quantum lower bound,2610.06727,Random Order in Quantum Streaming: Replenishment and Robust Lower Bounds,2026-10-05T17:15:51Z,https://arxiv.org/abs/2610.06727
+quantum lower bound,2610.04996,The power of time reversal in Hamiltonian property testing,2026-10-04T06:32:39Z,https://arxiv.org/abs/2610.04996
+quantum lower bound,2610.04560,Quantum Submodular Maximization,2026-10-03T14:51:06Z,https://arxiv.org/abs/2610.04560
+quantum lower bound,2610.03360,Rate-Optimal Quantum Discrete Simulation Optimization,2026-10-02T14:22:57Z,https://arxiv.org/abs/2610.03360
+quantum lower bound,2609.37091,Quantum Query Lower Bounds for Triangle-Listing and Spanners,2026-09-29T09:18:33Z,https://arxiv.org/abs/2609.37091
+quantum lower bound,2609.26712,A quantum lower bound for path finding in welded trees,2026-09-22T17:03:38Z,https://arxiv.org/abs/2609.26712
+quantum lower bound,2609.10289,On the Limits of Quantum Multiparty Simultaneous Communication,2026-09-09T15:07:22Z,https://arxiv.org/abs/2609.10289
+quantum lower bound,2609.09035,Near-Optimal Quantum Lower Bounds for Convex Optimization via Fourier Rank,2026-09-08T17:01:51Z,https://arxiv.org/abs/2609.09035
+quantum lower bound,2609.05812,Quantum Query Algorithms for the Constructive Diagonal Ramsey Theorem,2026-09-05T02:12:27Z,https://arxiv.org/abs/2609.05812
+quantum lower bound,2609.05679,Quantum lower bounds for convex optimization and real matrix-vector query problems,2026-09-04T19:23:24Z,https://arxiv.org/abs/2609.05679
+quantum lower bound,2609.29497,Quantum Query Advantage Requires Space,2026-09-04T13:04:04Z,https://arxiv.org/abs/2609.29497
+quantum lower bound,2609.03802,Quantum Query Complexity of Finding a Tarski Fixed Point on a High-Dimensional Grid,2026-09-03T13:06:12Z,https://arxiv.org/abs/2609.03802
+quantum lower bound,2608.22769,Classical and quantum spectral density estimation under local graph access,2026-08-24T03:44:46Z,https://arxiv.org/abs/2608.22769
+quantum lower bound,2608.02826,Improved Quantum Algorithms for Reinforcement Learning Under a Generative Model,2026-08-03T19:38:31Z,https://arxiv.org/abs/2608.02826
+way function,2610.32145,Quantum Cryptomania with Classical Communication without One-Way Functions,2026-10-23T04:25:05Z,https://arxiv.org/abs/2610.32145
+way function,2610.18799,$\mathsf{EFI}\Leftrightarrow\mathsf{1PRS}$,2026-10-13T17:42:13Z,https://arxiv.org/abs/2610.18799
+way function,2610.03711,How to Build Pseudorandom Unitaries in Microcrypt,2026-10-02T17:58:06Z,https://arxiv.org/abs/2610.03711
+way function,2610.02101,Lower Bounds for Preprocessing Attacks on Quantum Cryptography,2026-10-01T17:26:36Z,https://arxiv.org/abs/2610.02101
+way function,2610.01421,Robust and leakage-resilient device-independent oblivious transfer in MiniQCrypt,2026-10-01T10:22:59Z,https://arxiv.org/abs/2610.01421
+way function,2609.40301,Need for Coherent Access in Constructing Quantum Cryptography,2026-09-30T17:51:09Z,https://arxiv.org/abs/2609.40301
+way function,2609.40289,Verifiable Quantum Advantage and Computation via Quantum Circuit Obfuscation,2026-09-30T17:49:01Z,https://arxiv.org/abs/2609.40289
+way function,2609.36335,Conversable Quantum Fire in the Standard Model,2026-09-28T22:13:43Z,https://arxiv.org/abs/2609.36335
+way function,2609.35633,Succinct Arguments for QMA from Collapsing Hash Functions,2026-09-28T17:02:06Z,https://arxiv.org/abs/2609.35633
+way function,2609.35447,Efficient classical algorithm for estimating linear statistics of Boson Sampling,2026-09-28T15:42:54Z,https://arxiv.org/abs/2609.35447
+way function,2609.33098,The Breakdown of Classical Minicrypt Equivalences in the Quantum-Computation Classical-Communication Model,2026-09-27T02:10:48Z,https://arxiv.org/abs/2609.33098
+way function,2609.30253,How Not to Build Microcrypt,2026-09-24T17:58:51Z,https://arxiv.org/abs/2609.30253
+way function,2609.15842,Instantiating Microcrypt: Obstacles and opportunities via tailored state certification,2026-09-14T16:39:48Z,https://arxiv.org/abs/2609.15842
+way function,2609.02687,Quantum Meta-Complexity Is All You Need: Characterizing One-Way Puzzles via Time-Bounded Kolmogorov Complexity,2026-09-02T14:54:44Z,https://arxiv.org/abs/2609.02687
+way function,2608.29493,Quantum Pessiland,2026-08-30T01:04:52Z,https://arxiv.org/abs/2608.29493
+way function,2608.05754,Quantum One-Way Functions and Related Cryptographic Primitives,2026-08-06T08:39:09Z,https://arxiv.org/abs/2608.05754
+way function,2608.03824,Impossibility of Perfectly Complete Many-Round Key Agreement in the QROM,2026-08-04T15:33:42Z,https://arxiv.org/abs/2608.03824
+optimal query complexity,2610.03393,Multivariate quantum signal processing with optimal query complexity,2026-10-02T14:43:25Z,https://arxiv.org/abs/2610.03393
+optimal query complexity,2610.01940,Optimal query complexity for fractional quantum evolution,2026-10-01T16:08:16Z,https://arxiv.org/abs/2610.01940
+optimal query complexity,2609.40179,Breaking the Multiplicative Overhead in Quantum Entropy Estimation,2026-09-30T17:04:40Z,https://arxiv.org/abs/2609.40179
+optimal query complexity,2609.40073,Transducer-based linear combination of unitaries: theory and applications,2026-09-30T16:25:28Z,https://arxiv.org/abs/2609.40073
+optimal query complexity,2609.38403,Advantage of Sample Complexity in Quantum PAC Learning Requires Inverse Access to State-Preparation Unitaries,2026-09-29T19:00:20Z,https://arxiv.org/abs/2609.38403
+optimal query complexity,2609.38145,Query-optimal unitary channel tomography in diamond distance with parallel access,2026-09-29T17:57:11Z,https://arxiv.org/abs/2609.38145
+optimal query complexity,2609.37802,Quantum Complexity of Ancilla-Free Unitary Embeddings for Nonlinear Dynamics via Generalized State-Dependent Double-Bracket Flows,2026-09-29T15:24:02Z,https://arxiv.org/abs/2609.37802
+optimal query complexity,2609.37207,Near-Optimal Quantum Algorithm and Complexity Analysis for Riccati Problems,2026-09-29T10:25:40Z,https://arxiv.org/abs/2609.37207
+optimal query complexity,2609.36127,Near-Optimal Parallel Unitary Process Tomography in Diamond Distance,2026-09-28T19:00:20Z,https://arxiv.org/abs/2609.36127
+optimal query complexity,2609.35668,Optimal Query Complexity for Ground-State Preparation,2026-09-28T17:26:19Z,https://arxiv.org/abs/2609.35668
+optimal query complexity,2609.17490,Query-optimal quantum simulation of Lindblad evolution,2026-09-15T17:32:12Z,https://arxiv.org/abs/2609.17490
+optimal query complexity,2609.09977,"From Block-encoding to Generalized Quantum Signal Processing: Principles, Algorithms and Applications",2026-09-09T10:06:42Z,https://arxiv.org/abs/2609.09977
+optimal query complexity,2608.30629,Gate-Efficient Implementation of the Query-Optimal Time-Dependent Hamiltonian Simulation,2026-08-31T11:39:55Z,https://arxiv.org/abs/2608.30629
+optimal query complexity,2608.24711,Towards Optimal Quantum Estimators for State Frame Potential,2026-08-25T15:29:24Z,https://arxiv.org/abs/2608.24711
+optimal query complexity,2608.06094,Time-Dependent Hamiltonian Simulation with Optimal Query Complexity,2026-08-06T14:35:47Z,https://arxiv.org/abs/2608.06094
+moment matching,2610.38780,An Eigenvector-Continued Green's Function Method,2026-10-28T19:52:33Z,https://arxiv.org/abs/2610.38780
+moment matching,2610.28031,Microscopically informed self-consistent multi-resolvent closure for dense many-body spectra,2026-10-20T11:20:23Z,https://arxiv.org/abs/2610.28031
+moment matching,2610.12646,Optimal linear-optical interferometers for unitary t-designs in a multi-photon Fock space,2026-10-08T19:08:32Z,https://arxiv.org/abs/2610.12646
+moment matching,2610.11466,An iterative Bayesian variational quantum eigensolver with the von Mises-Fisher distribution,2026-10-08T08:17:05Z,https://arxiv.org/abs/2610.11466
+moment matching,2610.02135,Random Quantum Circuits Beyond Moment Matching,2026-10-01T17:43:54Z,https://arxiv.org/abs/2610.02135
+moment matching,2610.02100,On the pseudorandomness of simple quantum processes,2026-10-01T17:26:18Z,https://arxiv.org/abs/2610.02100
+moment matching,2609.37926,Optimal Quantum Junta Testing,2026-09-29T16:16:54Z,https://arxiv.org/abs/2609.37926
+moment matching,2608.31117,"""Train classical, deploy quantum"" requires rethinking generalization",2026-08-31T17:26:27Z,https://arxiv.org/abs/2608.31117
+moment matching,2608.02600,A Unified Complexity Framework for Quantum Property Testing,2026-08-03T17:59:11Z,https://arxiv.org/abs/2608.02600
+moment matching,2608.01770,Fidelity Estimation to a Known Quantum State Is Nearly Quadratic in the Smaller Rank,2026-08-03T06:43:01Z,https://arxiv.org/abs/2608.01770
+quantum random oracle,2610.25518,Randomness Certification from Statistically Hiding Commitments,2026-10-18T20:22:34Z,https://arxiv.org/abs/2610.25518
+quantum random oracle,2609.38945,Certified Randomness with Optimal Rate,2026-09-30T04:16:27Z,https://arxiv.org/abs/2609.38945
+quantum random oracle,2609.38894,Quantum Time-Lock Puzzles in the Quantum Random Oracle Model,2026-09-30T03:41:00Z,https://arxiv.org/abs/2609.38894
+quantum random oracle,2609.38441,Classical Verifier Position Verification from Non-Local Games,2026-09-29T19:35:11Z,https://arxiv.org/abs/2609.38441
+quantum random oracle,2609.37429,Succinct Arguments for QMA in the Quantum Random Oracle Model,2026-09-29T12:54:55Z,https://arxiv.org/abs/2609.37429
+quantum random oracle,2609.37467,An Operator-Norm Approach to Security with Quantum Advice,2026-09-28T08:51:18Z,https://arxiv.org/abs/2609.37467
+quantum random oracle,2609.23234,Loss-Tolerant Quantum Position Verification for Metropolitan Area Networks,2026-09-19T22:22:24Z,https://arxiv.org/abs/2609.23234
+quantum random oracle,2608.31112,Unconditional Certified Randomness without Structure,2026-08-31T17:17:49Z,https://arxiv.org/abs/2608.31112
+quantum random oracle,2608.24832,Certified Randomness without Structure Against Shallow-Query Adversaries,2026-08-25T17:15:01Z,https://arxiv.org/abs/2608.24832
+quantum random oracle,2609.26258,CRT-Decomposed $Σ$-Protocols for CSIDH,2026-08-13T09:55:26Z,https://arxiv.org/abs/2609.26258
+deterministic polynomial,2610.28737,Local Clifford equivalence to CSS codes: Polynomial-time classification and conversion,2026-10-20T18:00:03Z,https://arxiv.org/abs/2610.28737
+deterministic polynomial,2610.12070,A deterministic polynomial chaos Galerkin method for non-Markovian quantum state diffusion,2026-10-08T14:48:29Z,https://arxiv.org/abs/2610.12070
+deterministic polynomial,2610.03893,Efficient Quantum Monte Carlo through Cluster Expansions,2026-10-02T18:07:57Z,https://arxiv.org/abs/2610.03893
+deterministic polynomial,2610.03377,No Size-Preserving Amplification with Quantum Advice,2026-10-02T14:32:20Z,https://arxiv.org/abs/2610.03377
+deterministic polynomial,2608.31081,Deterministic Minimum-Output-Entropy Nonadditivity via Haagerup's Inequality and Near-Free Permutation Representations,2026-08-31T16:53:42Z,https://arxiv.org/abs/2608.31081
+deterministic polynomial,2608.30340,Exact quantum splitting and the structure of finite algebras,2026-08-31T06:56:14Z,https://arxiv.org/abs/2608.30340
+deterministic polynomial,2608.11385,Evaluating QAOA expectation values can be as hard as counting optimal solutions,2026-08-11T19:47:04Z,https://arxiv.org/abs/2608.11385
+reservoir computer,2610.14454,Quantum-Fisher-information-aware optimization yields a quantum reservoir advantage over tuned classical reservoirs,2026-10-10T01:28:47Z,https://arxiv.org/abs/2610.14454
+reservoir computer,2609.24381,Versatile Quantum Machine Learning with an Ultra-low Power Photonic Quantum Reservoir Computer,2026-09-21T10:19:41Z,https://arxiv.org/abs/2609.24381
+reservoir computer,2608.23119,Quantum Reservoir Computing with Physics-Informed Correction for Reduced-Order PDE Forecasting,2026-08-24T11:28:49Z,https://arxiv.org/abs/2608.23119
+reservoir computer,2608.19668,A charge selection rule fixes what a squeezed-light reservoir computer can compute and afford,2026-08-20T06:03:09Z,https://arxiv.org/abs/2608.19668
+reservoir computer,2608.14181,The form of dissipation shapes what a quantum reservoir remembers,2026-08-14T10:54:51Z,https://arxiv.org/abs/2608.14181
+reservoir computer,2608.10382,A Single Atom in Front of a Mirror is a Universal Reservoir Computer,2026-08-11T02:22:13Z,https://arxiv.org/abs/2608.10382
+reservoir computer,2608.07677,"Storage, Scrambling, and Loss of Information in Quantum Reservoir Computing",2026-08-07T18:02:55Z,https://arxiv.org/abs/2608.07677
+entanglement breaking,2610.38817,Memory-Induced Limits on Entanglement Distribution,2026-10-28T20:14:09Z,https://arxiv.org/abs/2610.38817
+entanglement breaking,2610.26783,PPT-assisted capacities of bosonic Gaussian channels,2026-10-19T17:35:29Z,https://arxiv.org/abs/2610.26783
+entanglement breaking,2610.13135,"Pulsed control of an entanglement-breaking index: thermal valleys, a certified valve, and its open-close asymmetry",2026-10-09T07:28:24Z,https://arxiv.org/abs/2610.13135
+entanglement breaking,2610.10004,Causal confusion in quantum systems: distinguishing direct cause and common cause,2026-10-07T12:59:39Z,https://arxiv.org/abs/2610.10004
+entanglement breaking,2610.08786,Energy-constrained two-way capacity bounds for noisy Gaussian channels,2026-10-06T17:59:12Z,https://arxiv.org/abs/2610.08786
+entanglement breaking,2610.04831,Entanglement-of-formation potentials for feedback-assisted classical communication and randomness distillation,2026-10-04T00:33:14Z,https://arxiv.org/abs/2610.04831
+entanglement breaking,2610.03235,Two-body control of noiseless subsystems with mixed $SU(3)$ representations lifts teleportation above the classical fidelity limit,2026-10-02T12:45:07Z,https://arxiv.org/abs/2610.03235
+entanglement breaking,2609.36336,Separability rigidity of Gaussian states under positive domination,2026-09-28T22:15:01Z,https://arxiv.org/abs/2609.36336
+entanglement breaking,2609.32979,Toroidal-Core Certificates for PPT-Squared Diagonal Orthogonal Covariant Channels,2026-09-26T22:25:15Z,https://arxiv.org/abs/2609.32979
+entanglement breaking,2609.31863,Indefinite causal order with output-signalling instruments,2026-09-25T18:07:50Z,https://arxiv.org/abs/2609.31863
+entanglement breaking,2609.30762,A Generalized Stein Lemma for Quantum Channels,2026-09-25T03:39:14Z,https://arxiv.org/abs/2609.30762
+entanglement breaking,2609.30125,Transport and Channel Normal Forms for Clifford Interactions,2026-09-24T16:59:13Z,https://arxiv.org/abs/2609.30125
+entanglement breaking,2609.24168,A complete characterization of eventually entanglement breaking unital quantum channels,2026-09-21T06:36:42Z,https://arxiv.org/abs/2609.24168
+entanglement breaking,2609.18803,Feasibility Ordering of Entanglement-Source Placement for Qubit Channels,2026-09-16T15:16:14Z,https://arxiv.org/abs/2609.18803
+entanglement breaking,2609.13418,High quantum local differential privacy breaks entanglement,2026-09-11T18:29:55Z,https://arxiv.org/abs/2609.13418
+entanglement breaking,2609.09350,Measuring the entanglement-breaking index of a qubit collision channel on a quantum processor: protocol and worked example,2026-09-08T18:39:09Z,https://arxiv.org/abs/2609.09350
+entanglement breaking,2609.00168,Entangling capability of coherently controlled quantum processes,2026-08-31T18:01:03Z,https://arxiv.org/abs/2609.00168
+entanglement breaking,2609.27906,A sharp norm inequality for entanglement-breaking channels,2026-08-21T14:23:26Z,https://arxiv.org/abs/2609.27906
+entanglement breaking,2609.27908,"The quantum lifetime of a future-referential feedback loop: certified index, architecture floor, and thermal bonus",2026-08-21T14:16:27Z,https://arxiv.org/abs/2609.27908
+entanglement breaking,2608.20726,"Difference-Set Weyl Channels: Exact Capacity, Optimizer Bifurcation, and Scalable Entanglement Separation",2026-08-21T04:15:10Z,https://arxiv.org/abs/2608.20726
+entanglement breaking,2610.03726,Minimum Experimental Information for Certifying Bell Nonlocality of Gravity,2026-08-20T14:45:18Z,https://arxiv.org/abs/2610.03726
+entanglement breaking,2608.15464,A minimal qutrit counterexample to Conjecture 4.9 of Lesniewski and Ruskai,2026-08-16T01:11:59Z,https://arxiv.org/abs/2608.15464
+entanglement breaking,2608.13764,Entanglement breaking in self-referential quantum feedback: a record bound and an exactly solvable loop,2026-08-13T20:39:53Z,https://arxiv.org/abs/2608.13764
+entanglement breaking,2608.13551,Every PPT channel has finite entanglement breaking index,2026-08-13T17:59:28Z,https://arxiv.org/abs/2608.13551
+boolean function,2610.42069,The Quartic Gap Between Quantum and Dequantized Algorithms for Linear Algebra Is Tight,2026-10-30T17:27:21Z,https://arxiv.org/abs/2610.42069
+boolean function,2610.41694,Exponential quantum-classical query separations for cyclic Forrelation,2026-10-30T13:01:24Z,https://arxiv.org/abs/2610.41694
+boolean function,2610.38189,Ancilla-free randomized Toffoli gates and the T-count of Boolean oracles,2026-10-28T02:36:35Z,https://arxiv.org/abs/2610.38189
+boolean function,2610.34079,Two exact quantum queries use at most six variables,2026-10-25T05:38:00Z,https://arxiv.org/abs/2610.34079
+boolean function,2610.25315,Exact quantum Hamming-weight computation at optimal depth and minimum width,2026-10-18T14:47:17Z,https://arxiv.org/abs/2610.25315
+boolean function,2610.24518,"Exact Quantum Query Complexity of the Five-Bit Symmetric Boolean Function $\Exact^5_{3,4}$",2026-10-17T07:28:45Z,https://arxiv.org/abs/2610.24518
+boolean function,2610.23268,Unconditional Quantum PAC Learning Advantage in the Large Error Regime,2026-10-16T10:41:08Z,https://arxiv.org/abs/2610.23268
+boolean function,2610.17648,Nearly Optimal Quantum Sample Complexity of Learning Fourier-Sparse Boolean Functions,2026-10-13T03:22:24Z,https://arxiv.org/abs/2610.17648
+boolean function,2610.14758,Clifford Invariants and Three-Copy Quantum Tests,2026-10-10T09:26:55Z,https://arxiv.org/abs/2610.14758
+boolean function,2610.13233,Percolation of Data Constraints and Reorganization of Boolean Function States in Parity Learning,2026-10-09T08:51:20Z,https://arxiv.org/abs/2610.13233
+boolean function,2610.06835,Distributional Quantum Query Complexity,2026-10-05T17:58:18Z,https://arxiv.org/abs/2610.06835
+boolean function,2610.06700,Random-Oracle Unitary Synthesis is Impossible,2026-10-05T16:59:57Z,https://arxiv.org/abs/2610.06700
+boolean function,2610.02154,The Robustness of QAC0,2026-10-01T17:51:06Z,https://arxiv.org/abs/2610.02154
+boolean function,2610.02099,An exponential separation between entanglement-assisted and unassisted one-way quantum communication,2026-10-01T17:25:38Z,https://arxiv.org/abs/2610.02099
+boolean function,2610.00506,Noisy Quantum Query Complexity via Fractional Block Sensitivity,2026-09-30T18:05:22Z,https://arxiv.org/abs/2610.00506
+boolean function,2609.40294,The power of constant-depth quantum circuits of unbounded size,2026-09-30T17:50:16Z,https://arxiv.org/abs/2609.40294
+boolean function,2609.40273,Exponential Quantum Advantage in Numbers-on-Forehead Communication,2026-09-30T17:44:39Z,https://arxiv.org/abs/2609.40273
+boolean function,2609.37926,Optimal Quantum Junta Testing,2026-09-29T16:16:54Z,https://arxiv.org/abs/2609.37926
+boolean function,2609.35592,Exponential lower bounds for low-degree strategies in position-based quantum cryptography,2026-09-28T16:43:48Z,https://arxiv.org/abs/2609.35592
+boolean function,2609.35580,Quantum Query Complexity Beyond the Worst Case,2026-09-28T16:35:50Z,https://arxiv.org/abs/2609.35580
+boolean function,2609.30139,A General Composition Theorem for Approximate Degree,2026-09-24T17:08:10Z,https://arxiv.org/abs/2609.30139
+boolean function,2609.26678,Strong Selective and List-Decoding Direct Product Theorems for Quantum Query Complexity,2026-09-22T16:37:13Z,https://arxiv.org/abs/2609.26678
+boolean function,2609.25816,Exponential Quantum Advantage in Testing Fourier Dimensionality,2026-09-22T07:45:23Z,https://arxiv.org/abs/2609.25816
+boolean function,2609.25680,$\mathsf{BQP} \subseteq \mathsf{IP}$ Does Not Relativize,2026-09-22T04:34:07Z,https://arxiv.org/abs/2609.25680
+boolean function,2609.21900,The Quantum KKL Inequality,2026-09-18T15:28:16Z,https://arxiv.org/abs/2609.21900
+boolean function,2609.15063,Randomized query complexity can beat certificate complexity,2026-09-14T05:29:42Z,https://arxiv.org/abs/2609.15063
+boolean function,2609.11664,Near-Optimal Separations of Certificate Complexity from Randomized and Quantum Query Complexity,2026-09-10T15:04:28Z,https://arxiv.org/abs/2609.11664
+boolean function,2609.10289,On the Limits of Quantum Multiparty Simultaneous Communication,2026-09-09T15:07:22Z,https://arxiv.org/abs/2609.10289
+boolean function,2609.09836,Robust Device-Independent Certification of Boolean-Phase Gates,2026-09-09T07:41:09Z,https://arxiv.org/abs/2609.09836
+boolean function,2609.08058,From Bits to Qubits: The Theory and Practice of Quantum Data Encoding,2026-09-07T23:42:37Z,https://arxiv.org/abs/2609.08058
+boolean function,2609.05153,Fanout Complexity of Symmetric Boolean Functions in $\mathsf{QAC}^0$,2026-09-04T13:55:20Z,https://arxiv.org/abs/2609.05153
+boolean function,2609.29497,Quantum Query Advantage Requires Space,2026-09-04T13:04:04Z,https://arxiv.org/abs/2609.29497
+boolean function,2609.20854,Oracle Synthesis Based on X-Map Decision Diagrams,2026-08-26T07:48:12Z,https://arxiv.org/abs/2609.20854
+boolean function,2608.05775,Robust logarithmic entanglement lower bound for $f$-routing,2026-08-06T09:09:44Z,https://arxiv.org/abs/2608.05775
+boolean function,2608.04627,Efficient Depth--Ancilla Tradeoffs for Hamming Weight Computation and Symmetric Boolean Functions,2026-08-05T09:42:03Z,https://arxiv.org/abs/2608.04627
+boolean function,2608.01424,Dense Hamiltonians at the Parseval Limit: The Noncommutative BH Constant is Exponential and the Quantum FEI Conjecture is False,2026-08-02T18:12:46Z,https://arxiv.org/abs/2608.01424
+boolean function,2608.00414,Sparse Quantum State Preparation with Sublinear T-Count,2026-08-01T03:33:19Z,https://arxiv.org/abs/2608.00414
+random oracle model,2610.25518,Randomness Certification from Statistically Hiding Commitments,2026-10-18T20:22:34Z,https://arxiv.org/abs/2610.25518
+random oracle model,2610.07124,Black Hole Radiation Decoding in the Haar Random Oracle Model,2026-10-05T17:44:16Z,https://arxiv.org/abs/2610.07124
+random oracle model,2610.02101,Lower Bounds for Preprocessing Attacks on Quantum Cryptography,2026-10-01T17:26:36Z,https://arxiv.org/abs/2610.02101
+random oracle model,2609.40323,Computational Work Extraction: The Complexity of Catalysts,2026-09-30T17:55:18Z,https://arxiv.org/abs/2609.40323
+random oracle model,2609.38945,Certified Randomness with Optimal Rate,2026-09-30T04:16:27Z,https://arxiv.org/abs/2609.38945
+random oracle model,2609.38894,Quantum Time-Lock Puzzles in the Quantum Random Oracle Model,2026-09-30T03:41:00Z,https://arxiv.org/abs/2609.38894
+random oracle model,2609.38441,Classical Verifier Position Verification from Non-Local Games,2026-09-29T19:35:11Z,https://arxiv.org/abs/2609.38441
+random oracle model,2609.38387,On Removing Interaction from Quantum Proofs,2026-09-29T18:44:33Z,https://arxiv.org/abs/2609.38387
+random oracle model,2609.37429,Succinct Arguments for QMA in the Quantum Random Oracle Model,2026-09-29T12:54:55Z,https://arxiv.org/abs/2609.37429
+random oracle model,2609.32603,Beyond NISQ Assumptions: One-time Memory in the Classically Accessible Random-Oracle Model,2026-09-26T13:22:30Z,https://arxiv.org/abs/2609.32603
+random oracle model,2609.23234,Loss-Tolerant Quantum Position Verification for Metropolitan Area Networks,2026-09-19T22:22:24Z,https://arxiv.org/abs/2609.23234
+random oracle model,2608.31112,Unconditional Certified Randomness without Structure,2026-08-31T17:17:49Z,https://arxiv.org/abs/2608.31112
+random oracle model,2608.24832,Certified Randomness without Structure Against Shallow-Query Adversaries,2026-08-25T17:15:01Z,https://arxiv.org/abs/2608.24832
+random oracle model,2609.26258,CRT-Decomposed $Σ$-Protocols for CSIDH,2026-08-13T09:55:26Z,https://arxiv.org/abs/2609.26258
+sided bound,2610.39136,Beyond energy bounds: comparing Schrödinger eigenstates,2026-10-29T01:29:29Z,https://arxiv.org/abs/2610.39136
+sided bound,2610.39091,Time-Switching Energy-Harvesting Quantum Relay-Assisted FSO Communication with Displaced Squeezed Signaling,2026-10-29T00:31:39Z,https://arxiv.org/abs/2610.39091
+sided bound,2610.15312,Photonic realization of an electromagnetic cavity field with uniform mirror motion,2026-10-11T03:36:53Z,https://arxiv.org/abs/2610.15312
+sided bound,2610.06272,Two-Sided Bounds on Ground State Properties in Lattice Gauge Theories,2026-10-05T13:05:48Z,https://arxiv.org/abs/2610.06272
+sided bound,2609.37620,Optimal interferometric certification of multi-photon indistinguishability,2026-09-29T14:00:08Z,https://arxiv.org/abs/2609.37620
+sided bound,2609.36702,Quantum Fidelity Landscape-Guided Prior Calibration for Single-Circuit QGAN Image Generation,2026-09-29T04:40:39Z,https://arxiv.org/abs/2609.36702
+sided bound,2609.33576,Effective atom-dimer bands of three-body lattice systems at strong coupling: exact critical mass ratios and a statistics-quasimomentum duality,2026-09-27T13:53:49Z,https://arxiv.org/abs/2609.33576
+sided bound,2609.25834,Nullspace-guided Adaptive Bootstrap of Quantum Many-body Systems,2026-09-22T08:00:11Z,https://arxiv.org/abs/2609.25834
+sided bound,2609.22420,Bootstrap certification of string order in quantum spin chains,2026-09-18T18:00:00Z,https://arxiv.org/abs/2609.22420
+sided bound,2609.18568,"Spectral Optimization for Absolutely PPT States: Purity, Entropy, and Volume Decay",2026-09-16T12:27:38Z,https://arxiv.org/abs/2609.18568
+sided bound,2608.18935,Real Classical Shadows with Noise,2026-08-19T14:04:13Z,https://arxiv.org/abs/2608.18935
+local error,2610.40651,Renormalization for Robust Memory without Synchronization,2026-10-29T17:59:33Z,https://arxiv.org/abs/2610.40651
+local error,2610.39670,Error-Corrected Quantum Optimization via Rydberg Atom Array Embeddings,2026-10-29T09:19:57Z,https://arxiv.org/abs/2610.39670
+local error,2610.38847,Local Quantum Fault Tolerance Without Expansion,2026-10-28T20:31:21Z,https://arxiv.org/abs/2610.38847
+local error,2610.30887,A sharp gradient-corrected Lieb--Thirring inequality in one dimension with applications to density functional theory,2026-10-22T08:05:44Z,https://arxiv.org/abs/2610.30887
+local error,2610.28600,Complete Modified Logarithmic Sobolev Inequalities for one-dimensional quantum Spin Chain,2026-10-20T17:47:28Z,https://arxiv.org/abs/2610.28600
+local error,2610.26784,High-Accuracy Propagation-Assisted Local Decoding for Fast Transversal Clifford Circuits,2026-10-19T17:35:34Z,https://arxiv.org/abs/2610.26784
+local error,2610.21596,Time-optimal robust quantum control for partially known errors,2026-10-15T09:42:16Z,https://arxiv.org/abs/2610.21596
+local error,2610.18124,Local error correction prolongs time-crystalline memory,2026-10-13T10:36:57Z,https://arxiv.org/abs/2610.18124
+local error,2610.14580,Entanglement-Capability-Aware Finite-Bond Circuit Cutting for Distributed Quantum Computing,2026-10-10T04:58:51Z,https://arxiv.org/abs/2610.14580
+local error,2610.02786,Quantum Error-Corrected Memories Keep Proper Time,2026-10-02T04:20:47Z,https://arxiv.org/abs/2610.02786
+local error,2610.01923,Loss-tolerant distributed lattice surgery using fusion networks,2026-10-01T15:57:13Z,https://arxiv.org/abs/2610.01923
+local error,2609.19485,Efficiently estimating failure rates of fault-tolerant logical non-Clifford blocks,2026-09-16T22:57:23Z,https://arxiv.org/abs/2609.19485
+local error,2609.13383,Noise-resilient sequential circuits for generating quantum order,2026-09-11T18:00:03Z,https://arxiv.org/abs/2609.13383
+local error,2609.09291,Spectral Core-Tail Architecture for Locally Certified Gibbs-State Preparation,2026-09-08T18:00:06Z,https://arxiv.org/abs/2609.09291
+local error,2608.02030,Zero-G: A Pre-Decoder-Aware Decoder for Quantum Error Correction,2026-08-03T10:25:29Z,https://arxiv.org/abs/2608.02030
+local measurement,2610.41140,Probing Operator Spreading with Local Quantum Fluctuations,2026-10-30T01:57:10Z,https://arxiv.org/abs/2610.41140
+local measurement,2610.39912,Cross-Platform Verification of Continuous-Variable Quantum Systems,2026-10-29T12:20:02Z,https://arxiv.org/abs/2610.39912
+local measurement,2610.38922,Adaptive Local Measurements For Quantum Learning Can Exponentially Outperform Nonadaptive Global Measurements,2026-10-28T21:14:51Z,https://arxiv.org/abs/2610.38922
+local measurement,2610.36391,Consensus And Information Redistribution In Quantum Networks,2026-10-26T23:16:52Z,https://arxiv.org/abs/2610.36391
+local measurement,2610.35632,Quantum-enhanced metrology with classical shadows,2026-10-26T15:42:29Z,https://arxiv.org/abs/2610.35632
+local measurement,2610.34322,Two-qubit binegativity can increase under local amplitude damping,2026-10-25T14:32:22Z,https://arxiv.org/abs/2610.34322
+local measurement,2610.30473,"Photon localization: Local measurements, localized states, and causality",2026-10-21T21:44:04Z,https://arxiv.org/abs/2610.30473
+local measurement,2610.26587,Local Measurement Theory for Quantum Cellular Automata,2026-10-19T15:34:54Z,https://arxiv.org/abs/2610.26587
+local measurement,2610.21465,Periodic conditional measurements on a photonic chip,2026-10-15T08:09:11Z,https://arxiv.org/abs/2610.21465
+local measurement,2610.19941,Joint-measurement advantage and finite-time transitions in accelerated detector registers,2026-10-14T10:25:03Z,https://arxiv.org/abs/2610.19941
+local measurement,2610.16018,Adaptive Entanglement Witnessing for Two-Qubit Systems,2026-10-12T00:34:29Z,https://arxiv.org/abs/2610.16018
+local measurement,2610.15601,A Quantum Analogue of the Covering Lemma: Limits of Exact Anonymous Computation,2026-10-11T13:23:21Z,https://arxiv.org/abs/2610.15601
+local measurement,2610.10279,Gaussian Scrooge Ensemble from Deep Thermalization in Free-Fermions,2026-10-07T15:45:20Z,https://arxiv.org/abs/2610.10279
+local measurement,2610.08757,Complexity of self-consistent entanglement certification,2026-10-06T17:48:36Z,https://arxiv.org/abs/2610.08757
+local measurement,2610.08723,Efficient Learning of Structured Fermionic States under General Quadratic Evolution,2026-10-06T17:27:45Z,https://arxiv.org/abs/2610.08723
+local measurement,2610.07995,A Single Conformal Coordinate Decodes Outcome-Resolved Measurement-Induced Entanglement,2026-10-06T08:54:23Z,https://arxiv.org/abs/2610.07995
+local measurement,2610.07991,Entanglement Swapping Scheduling for Quantum Repeater Chains under Decoherence during Classical Communications,2026-10-06T08:51:49Z,https://arxiv.org/abs/2610.07991
+local measurement,2610.05234,Complete Classification of Reversible Entanglement Transformations of Two Qutrits,2026-10-04T13:58:28Z,https://arxiv.org/abs/2610.05234
+local measurement,2610.02453,Investigating entanglement dynamics with dynamical decoupling together with initial qubit-reservoir correlations,2026-10-01T20:26:12Z,https://arxiv.org/abs/2610.02453
+local measurement,2610.02157,Learning Many-Body Hamiltonians Using a Local Probe,2026-10-01T17:51:57Z,https://arxiv.org/abs/2610.02157
+local measurement,2610.01703,Exact first-detection probability in a locally monitored solvable quantum circuit,2026-10-01T13:49:47Z,https://arxiv.org/abs/2610.01703
+local measurement,2609.40332,Tight Universal Bounds on Quantum Data Hiding with Multipartite Werner States,2026-09-30T17:57:07Z,https://arxiv.org/abs/2609.40332
+local measurement,2609.40228,Perfect non-local quantum computation is impossible,2026-09-30T17:29:13Z,https://arxiv.org/abs/2609.40228
+local measurement,2609.39879,Fault Tolerant Quantum Phases of Matter,2026-09-30T14:54:12Z,https://arxiv.org/abs/2609.39879
+local measurement,2609.38441,Classical Verifier Position Verification from Non-Local Games,2026-09-29T19:35:11Z,https://arxiv.org/abs/2609.38441
+local measurement,2609.38168,When Classical Correlations Certify Entanglement Recovery,2026-09-29T17:59:36Z,https://arxiv.org/abs/2609.38168
+local measurement,2609.38139,Local autonomous inference machines for quantum LDPC codes,2026-09-29T17:55:19Z,https://arxiv.org/abs/2609.38139
+local measurement,2609.36907,Device-independent quantification of steerability in tripartite scenario,2026-09-29T07:29:10Z,https://arxiv.org/abs/2609.36907
+local measurement,2609.35973,One-dimensional quantum Gibbs states in constant circuit depth,2026-09-28T18:00:02Z,https://arxiv.org/abs/2609.35973
+local measurement,2609.32101,"Particles, Localization and ""Collapse""",2026-09-26T00:15:11Z,https://arxiv.org/abs/2609.32101
+local measurement,2609.25193,Probing quantum spin liquids with multiple quantum coherences,2026-09-21T17:36:10Z,https://arxiv.org/abs/2609.25193
+local measurement,2609.19625,Experimental certification of the nonlocal advantages of quantum imaginarity,2026-09-17T03:16:45Z,https://arxiv.org/abs/2609.19625
+local measurement,2609.19310,Quantum inflation and source-transfer hierarchies are complete for tree networks,2026-09-16T18:21:32Z,https://arxiv.org/abs/2609.19310
+local measurement,2609.18865,Quantum Behaviors Are Not Semialgebraic,2026-09-16T16:04:20Z,https://arxiv.org/abs/2609.18865
+local measurement,2609.18655,Learning to Program Adaptive Non-Local Observables for Machine Learning,2026-09-16T13:35:31Z,https://arxiv.org/abs/2609.18655
+local measurement,2609.17670,Structure of Measurement-Induced Entanglement in Infinite-Randomness Critical States,2026-09-15T18:00:05Z,https://arxiv.org/abs/2609.17670
+local measurement,2609.17013,Strictly Localized Mixed States,2026-09-15T11:23:30Z,https://arxiv.org/abs/2609.17013
+local measurement,2609.15757,Optimal entanglement-assisted source coding under a balanced-difference promise,2026-09-14T15:43:27Z,https://arxiv.org/abs/2609.15757
+local measurement,2609.11854,PureSuperQMA(exp) = BellPureSymQMA(poly) = QMA via Dimension-Free Bosonic Argmax,2026-09-10T17:37:22Z,https://arxiv.org/abs/2609.11854
+local measurement,2609.09836,Robust Device-Independent Certification of Boolean-Phase Gates,2026-09-09T07:41:09Z,https://arxiv.org/abs/2609.09836
+local measurement,2609.09296,Distinguishability Transitions from Global Quantum Snapshots,2026-09-08T18:00:11Z,https://arxiv.org/abs/2609.09296
+local measurement,2609.07875,Measurement-induced remote activation of nonclassicality,2026-09-07T18:36:31Z,https://arxiv.org/abs/2609.07875
+local measurement,2609.07233,Power and Limits of Collective Local Measurements in Multicopy State Discrimination,2026-09-07T08:49:34Z,https://arxiv.org/abs/2609.07233
+local measurement,2609.04121,Quantum thermalization achieves optimal approximate quantum error correction,2026-09-03T17:23:17Z,https://arxiv.org/abs/2609.04121
+local measurement,2608.30037,Quantum Steering Geometry at High Energy Particle Colliders,2026-08-30T20:53:58Z,https://arxiv.org/abs/2608.30037
+local measurement,2609.29570,Task-Resolved Fisher Spectroscopy for Quantum Reservoir Computing,2026-08-26T18:00:16Z,https://arxiv.org/abs/2609.29570
+local measurement,2608.24628,Long-Range Order and Composite Boson Condensation in Lattice Quantum Hall States,2026-08-25T14:44:13Z,https://arxiv.org/abs/2608.24628
+local measurement,2608.20741,Activate genuine nonlocality from distinguishable sets in tripartite systems,2026-08-21T05:02:17Z,https://arxiv.org/abs/2608.20741
+local measurement,2610.03726,Minimum Experimental Information for Certifying Bell Nonlocality of Gravity,2026-08-20T14:45:18Z,https://arxiv.org/abs/2610.03726
+local measurement,2608.17750,On the Expressive Power of the Transverse-Field Ising Model for Graph Learning,2026-08-18T13:12:50Z,https://arxiv.org/abs/2608.17750
+local measurement,2608.17189,Fast Nondestructive Readout for High-Clock-Rate Atom Array Quantum Processor,2026-08-17T22:58:16Z,https://arxiv.org/abs/2608.17189
+local measurement,2608.15467,Universal Frame Potential Hierarchy in Critical Projected Ensembles,2026-08-16T01:23:04Z,https://arxiv.org/abs/2608.15467
+local measurement,2608.19242,Non-Inertial Response of Correlations: From Scalar Bell Observables to an Extended Correlation Tensor,2026-08-14T12:09:46Z,https://arxiv.org/abs/2608.19242
+local measurement,2608.13725,Scalable Test of Genuine Multipartite Entanglement via Partially Randomized Measurements,2026-08-13T19:37:49Z,https://arxiv.org/abs/2608.13725
+local measurement,2608.12519,Flux control of measurement back-action and Leggett-Garg correlations in chiral quantum walks,2026-08-12T18:51:37Z,https://arxiv.org/abs/2608.12519
+local measurement,2608.08778,How to Test Bell Nonlocality for Gravity?,2026-08-09T15:52:53Z,https://arxiv.org/abs/2608.08778
+local measurement,2608.07806,A Universal Entanglement Witness Generator,2026-08-07T23:05:13Z,https://arxiv.org/abs/2608.07806
+local measurement,2608.06308,On Optimal Quantum Data Hiding and Maximal Separable Ball,2026-08-06T17:23:27Z,https://arxiv.org/abs/2608.06308
+local measurement,2608.05821,Quantum error correction with global control,2026-08-06T09:50:45Z,https://arxiv.org/abs/2608.05821
+local measurement,2608.05595,How Much Reconstruction Does Quantum Machine Learning Need? Late Fusion of Uncoupled Quantum Subcircuits,2026-08-06T04:35:54Z,https://arxiv.org/abs/2608.05595
+local measurement,2608.05289,Theory of Measurement-Altered Criticality,2026-08-05T18:00:03Z,https://arxiv.org/abs/2608.05289
+local measurement,2608.01248,Quantum sequential parameter testing,2026-08-02T14:01:08Z,https://arxiv.org/abs/2608.01248
+finite depth,2610.41926,Lifting the mixed to the pure: quantum phases of matter from canonical purification,2026-10-30T15:54:14Z,https://arxiv.org/abs/2610.41926
+finite depth,2610.40592,Toric codes all the way down: decoupling translation-invariant topological CSS codes in higher dimensions,2026-10-29T17:49:18Z,https://arxiv.org/abs/2610.40592
+finite depth,2610.40424,Structural Bottlenecks in QAOA Mixer Design: Transport and Causal Reach,2026-10-29T16:49:11Z,https://arxiv.org/abs/2610.40424
+finite depth,2610.40235,Three-dimensional QCA that are not stably circuits,2026-10-29T15:08:44Z,https://arxiv.org/abs/2610.40235
+finite depth,2610.36525,Minimal Projective Measurement Settings for Estimating Multiple Observables,2026-10-27T02:28:57Z,https://arxiv.org/abs/2610.36525
+finite depth,2610.25020,Fast and High-Fidelity Motional-State-Preserving Transport in Optical Tweezers,2026-10-18T05:00:36Z,https://arxiv.org/abs/2610.25020
+finite depth,2610.22689,Circuit Synthesis for Variational Quantum Algorithms: The Depth of Algebra and Geometry,2026-10-15T21:56:24Z,https://arxiv.org/abs/2610.22689
+finite depth,2610.18953,Invertible subalgebras for chiral semion topological order,2026-10-13T18:00:00Z,https://arxiv.org/abs/2610.18953
+finite depth,2610.14165,Categorifying Quantum Spin Systems,2026-10-09T18:00:00Z,https://arxiv.org/abs/2610.14165
+finite depth,2610.13477,Harmonic analysis and circuit approximation of Sobolev functions on quantum input spaces,2026-10-09T12:12:32Z,https://arxiv.org/abs/2610.13477
+finite depth,2610.09047,Heating and Escape of Confined Atoms Subject to Colored Noise,2026-10-06T19:52:17Z,https://arxiv.org/abs/2610.09047
+finite depth,2610.05214,"Cups and Gates II: Operads, twists, and addressable intra-code gates",2026-10-04T13:31:27Z,https://arxiv.org/abs/2610.05214
+finite depth,2610.00736,Beyond Feasibility: Finite-Depth Accessibility in Constrained QAOA,2026-09-30T21:29:34Z,https://arxiv.org/abs/2610.00736
+finite depth,2610.00480,Mixed-state phases induced by power-law quantum channels,2026-09-30T18:00:12Z,https://arxiv.org/abs/2610.00480
+finite depth,2609.39879,Fault Tolerant Quantum Phases of Matter,2026-09-30T14:54:12Z,https://arxiv.org/abs/2609.39879
+finite depth,2609.32266,Symmetry-permuting entanglers for non-invertible symmetry-protected topological phases,2026-09-26T05:46:30Z,https://arxiv.org/abs/2609.32266
+finite depth,2609.27053,Equivalence of maximal and generic reachability for non-universal Variational Quantum Circuits,2026-09-22T20:51:19Z,https://arxiv.org/abs/2609.27053
+finite depth,2609.25246,Operator Score Matching for Learning Quantum Hamiltonians,2026-09-21T18:02:28Z,https://arxiv.org/abs/2609.25246
+finite depth,2609.18209,The Expressive Power of Constrained QAOA: What You Might Have MISsed,2026-09-16T06:40:42Z,https://arxiv.org/abs/2609.18209
+finite depth,2609.17482,Predictive Structure Behind Rare Outcomes in Random Quantum Circuits,2026-09-15T17:24:08Z,https://arxiv.org/abs/2609.17482
+finite depth,2609.16089,Structure-Preserving Quantum Circuit Architectures for Robot Kinematics,2026-09-14T11:20:14Z,https://arxiv.org/abs/2609.16089
+finite depth,2609.14153,Programmable nonlinear function synthesis on a photonic processor with quantum signal processing,2026-09-12T21:08:26Z,https://arxiv.org/abs/2609.14153
+finite depth,2609.11021,Full-Rank Noise Forbids Long-Range Entanglement Swapping,2026-09-10T02:58:05Z,https://arxiv.org/abs/2609.11021
+finite depth,2609.10929,Probing the Error-Mitigation Threshold with Matrix Product States,2026-09-10T00:29:38Z,https://arxiv.org/abs/2609.10929
+finite depth,2609.10676,Krylov Edge Spectroscopy of Symmetry-Protected Topological Phases,2026-09-09T18:00:01Z,https://arxiv.org/abs/2609.10676
+finite depth,2609.28493,Cipher-Structure-Aware Variational Quantum Cryptanalysis: A Reversible Public-Diagnostic Framework,2026-09-01T19:02:30Z,https://arxiv.org/abs/2609.28493
+finite depth,2608.28828,Representation Learning with Quantum Signal Processing,2026-08-28T19:57:26Z,https://arxiv.org/abs/2608.28828
+finite depth,2608.22939,Universal equilibrium magic in quantum many-body systems,2026-08-24T08:13:16Z,https://arxiv.org/abs/2608.22939
+finite depth,2608.20603,Scaling Behavior of Parameterized Quantum Circuits from a Lie-Algebraic Perspective,2026-08-20T22:52:25Z,https://arxiv.org/abs/2608.20603
+finite depth,2608.09913,Superselection Rigidity of Topological Calderbank--Shor--Steane Codes: From Koszul-Complex Models to Nonsplit Extensions,2026-08-10T17:54:31Z,https://arxiv.org/abs/2608.09913
+finite depth,2608.08821,"State preparation via measurement and feedback: pushing relations, state structures, and non-invertible symmetries",2026-08-09T17:12:14Z,https://arxiv.org/abs/2608.08821
+finite depth,2608.01121,Polynomial Time Quantum Approximation Schemes for Constrained Optimisation,2026-08-02T09:35:42Z,https://arxiv.org/abs/2608.01121
+finite depth,2608.00830,Measurement-Based Loss Tolerance in Graph-GKP Codes through Syndrome-Resolved Pauli-Frame Decoding,2026-08-01T19:14:42Z,https://arxiv.org/abs/2608.00830
+logical class,2611.01360,Logical-Class Diagnostic Layer for Stabilizer Codes and Decoders via Supercharge Structures,2026-10-31T23:58:39Z,https://arxiv.org/abs/2611.01360
+logical class,2610.24503,Logical-Space Theory of Ordered-Statistics Decoding for Quantum LDPC Codes,2026-10-17T06:57:17Z,https://arxiv.org/abs/2610.24503
+logical class,2609.39965,"Single-shot state preparation thresholds in quantum LDPC codes: soundness, confinement, and statistical mechanics",2026-09-30T15:31:38Z,https://arxiv.org/abs/2609.39965
+logical class,2609.39556,Exact Maximum Likelihood Decoding beyond Treewidth via Rank-Decomposition Dynamic Programming,2026-09-30T11:54:18Z,https://arxiv.org/abs/2609.39556
+logical class,2609.39395,Logical Operator Decomposition for Distance Analysis of Bivariate Bicycle Codes,2026-09-30T09:43:36Z,https://arxiv.org/abs/2609.39395
+logical class,2609.11930,Hierarchy of Rényi Coherent Information in Stabilizer Codes,2026-09-10T17:59:57Z,https://arxiv.org/abs/2609.11930
+logical class,2609.07035,Capability-Gated Conformance Testing of Quantum Error-Correction Decoder Libraries,2026-09-07T04:44:19Z,https://arxiv.org/abs/2609.07035
+logical class,2609.03928,Approximate maximum-likelihood decoding via truncated free energies,2026-09-03T14:40:22Z,https://arxiv.org/abs/2609.03928
+logical class,2608.25545,Certified decoding of quantum LDPC codes,2026-08-26T08:57:01Z,https://arxiv.org/abs/2608.25545
+quantum query algorithm,2610.03914,Quantum Query Complexity and Span Programs from Pre-Geometry,2026-10-02T18:25:04Z,https://arxiv.org/abs/2610.03914
+quantum query algorithm,2610.01125,Multivariate Quantum Signal Processing,2026-10-01T06:09:01Z,https://arxiv.org/abs/2610.01125
+quantum query algorithm,2610.00517,Blind Unforgeability implies Plus-One Unforgeability,2026-09-30T18:10:21Z,https://arxiv.org/abs/2610.00517
+quantum query algorithm,2609.40334,A Noise Operator Approach to Quantum Query Complexity and Time-Space Tradeoff Lower Bounds,2026-09-30T17:57:33Z,https://arxiv.org/abs/2609.40334
+quantum query algorithm,2609.35327,Distributional Variants of the Aaronson-Ambainis Conjecture,2026-09-28T14:52:32Z,https://arxiv.org/abs/2609.35327
+quantum query algorithm,2609.20651,Hardness of Pathfinding in a Welded Tree,2026-09-17T16:29:09Z,https://arxiv.org/abs/2609.20651
+quantum query algorithm,2609.05812,Quantum Query Algorithms for the Constructive Diagonal Ramsey Theorem,2026-09-05T02:12:27Z,https://arxiv.org/abs/2609.05812
+quantum query algorithm,2609.05201,Optimal inequalities for completely bounded polynomials and the limitations of quantum query algorithms,2026-09-04T14:34:56Z,https://arxiv.org/abs/2609.05201
+quantum query algorithm,2608.20297,Parallel Quantum Advantage with Limited Adaptivity Requires Structure,2026-08-20T17:37:03Z,https://arxiv.org/abs/2608.20297
+energy constrained,2610.39912,Cross-Platform Verification of Continuous-Variable Quantum Systems,2026-10-29T12:20:02Z,https://arxiv.org/abs/2610.39912
+energy constrained,2610.30295,Pure states are optimal for total energy-constrained quantum channel discrimination,2026-10-21T18:10:21Z,https://arxiv.org/abs/2610.30295
+energy constrained,2610.26783,PPT-assisted capacities of bosonic Gaussian channels,2026-10-19T17:35:29Z,https://arxiv.org/abs/2610.26783
+energy constrained,2610.22308,Classical Capacity of Single-Mode Bosonic Gaussian Channels,2026-10-15T17:49:43Z,https://arxiv.org/abs/2610.22308
+energy constrained,2610.18731,Finite-energy two-way assisted capacities: Exact formulas for multimode loss and fading,2026-10-13T17:06:44Z,https://arxiv.org/abs/2610.18731
+energy constrained,2610.13854,No advantage from classical assistance for energy-constrained bosonic dephasing channels,2026-10-09T17:03:33Z,https://arxiv.org/abs/2610.13854
+energy constrained,2610.12365,Energy-constrained two-way capacities of the pure-loss channel,2026-10-08T17:27:32Z,https://arxiv.org/abs/2610.12365
+energy constrained,2610.08945,Efficiently computable bounds on the energy-constrained quantum reading capacity,2026-10-06T18:10:04Z,https://arxiv.org/abs/2610.08945
+energy constrained,2610.08786,Energy-constrained two-way capacity bounds for noisy Gaussian channels,2026-10-06T17:59:12Z,https://arxiv.org/abs/2610.08786
+energy constrained,2610.06832,Energy-constrained two-way capacities of pure-loss and quantum-limited amplifier channels,2026-10-05T17:58:14Z,https://arxiv.org/abs/2610.06832
+energy constrained,2610.05766,Certified Randomness Generation against Quantum Adversaries via Energy Constraints,2026-10-05T04:11:53Z,https://arxiv.org/abs/2610.05766
+energy constrained,2610.03674,Efficient capacity-achieving entanglement generation with application to pure-loss Bosonic channels,2026-10-02T17:43:59Z,https://arxiv.org/abs/2610.03674
+energy constrained,2609.25928,Modulating Retroreflector-Aided UAV-Based FSO/QKD Systems,2026-09-22T09:31:23Z,https://arxiv.org/abs/2609.25928
+energy constrained,2608.27357,Randomness can be certified in energy-constrained semi-device-independent scenarios,2026-08-27T16:55:04Z,https://arxiv.org/abs/2608.27357
+energy constrained,2609.19163,Energy-Constrained Commutator Variance for Weyl Pairs,2026-08-25T17:20:31Z,https://arxiv.org/abs/2609.19163
+energy constrained,2608.17239,Gaussian Optimality of Energy-Constrained One-Shot Communication through Single-Mode Bosonic Gaussian Channels,2026-08-18T00:55:31Z,https://arxiv.org/abs/2608.17239
+asymptotic rate,2610.35722,Distillable entanglement is continuous,2026-10-26T16:42:25Z,https://arxiv.org/abs/2610.35722
+asymptotic rate,2610.30887,A sharp gradient-corrected Lieb--Thirring inequality in one dimension with applications to density functional theory,2026-10-22T08:05:44Z,https://arxiv.org/abs/2610.30887
+asymptotic rate,2610.22308,Classical Capacity of Single-Mode Bosonic Gaussian Channels,2026-10-15T17:49:43Z,https://arxiv.org/abs/2610.22308
+asymptotic rate,2610.14785,Classical Communication Helps Single-Shot Quantum Compression,2026-10-10T10:16:21Z,https://arxiv.org/abs/2610.14785
+asymptotic rate,2610.13602,Entanglement Catalysis Beyond the Asymptotic Rate,2026-10-09T13:50:33Z,https://arxiv.org/abs/2610.13602
+asymptotic rate,2610.02392,"Singer-Difference-Set Qudit Stabilizer Codes from Non-Degenerate Quadrics in PG(d,q)PG(d,q): Construction, Structural Theorems, and Monte-Carlo Performance",2026-10-01T19:17:44Z,https://arxiv.org/abs/2610.02392
+asymptotic rate,2609.40080,Universal Entanglement Distillation,2026-09-30T16:28:01Z,https://arxiv.org/abs/2609.40080
+asymptotic rate,2609.35129,Asymptotically Good Quantum Codes with Addressable Transversal T Gates,2026-09-28T13:22:40Z,https://arxiv.org/abs/2609.35129
+asymptotic rate,2609.21418,Ultimate Information Rate for Quantum Sensing under Multilevel Relaxation,2026-09-18T07:28:36Z,https://arxiv.org/abs/2609.21418
+asymptotic rate,2610.00187,Entanglement cost of quantum depolarization,2026-09-17T15:09:17Z,https://arxiv.org/abs/2610.00187
+asymptotic rate,2609.14658,Exact Asymptotic Rates and an Exponential Strong Converse for quantum SMP and One-Way Communication,2026-09-13T16:55:55Z,https://arxiv.org/abs/2609.14658
+asymptotic rate,2608.09347,Binary code rate bounds via classical--quantum channels,2026-08-10T09:25:40Z,https://arxiv.org/abs/2608.09347
+classical query,2610.42069,The Quartic Gap Between Quantum and Dequantized Algorithms for Linear Algebra Is Tight,2026-10-30T17:27:21Z,https://arxiv.org/abs/2610.42069
+classical query,2610.41694,Exponential quantum-classical query separations for cyclic Forrelation,2026-10-30T13:01:24Z,https://arxiv.org/abs/2610.41694
+classical query,2610.06803,Tight bounds for hybrid quantum-classical query algorithms,2026-10-05T17:53:05Z,https://arxiv.org/abs/2610.06803
+classical query,2610.00506,Noisy Quantum Query Complexity via Fractional Block Sensitivity,2026-09-30T18:05:22Z,https://arxiv.org/abs/2610.00506
+classical query,2609.35580,Quantum Query Complexity Beyond the Worst Case,2026-09-28T16:35:50Z,https://arxiv.org/abs/2609.35580
+classical query,2609.35327,Distributional Variants of the Aaronson-Ambainis Conjecture,2026-09-28T14:52:32Z,https://arxiv.org/abs/2609.35327
+classical query,2609.32603,Beyond NISQ Assumptions: One-time Memory in the Classically Accessible Random-Oracle Model,2026-09-26T13:22:30Z,https://arxiv.org/abs/2609.32603
+classical query,2609.26678,Strong Selective and List-Decoding Direct Product Theorems for Quantum Query Complexity,2026-09-22T16:37:13Z,https://arxiv.org/abs/2609.26678
+classical query,2609.11901,EFI Pairs Without One-Way Puzzles: Oracle Separations from Communication Complexity,2026-09-10T17:54:55Z,https://arxiv.org/abs/2609.11901
+classical query,2609.05201,Optimal inequalities for completely bounded polynomials and the limitations of quantum query algorithms,2026-09-04T14:34:56Z,https://arxiv.org/abs/2609.05201
+classical query,2608.20297,Parallel Quantum Advantage with Limited Adaptivity Requires Structure,2026-08-20T17:37:03Z,https://arxiv.org/abs/2608.20297
+classical query,2608.19158,Quantum Speedups Require Structure or Depth,2026-08-19T17:42:10Z,https://arxiv.org/abs/2608.19158
+classical query,2608.09513,Faster Algorithms for Multimarginal Optimal Transport,2026-08-10T12:14:25Z,https://arxiv.org/abs/2608.09513

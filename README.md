@@ -1,6 +1,6 @@
 # arXiv Quantum Trends
 
-A Python program for exploring recent keyword trends in arXiv `quant-ph`, with a separate Lindblad/GKSL open-dynamics candidate subset. It includes an interactive Streamlit dashboard, an offline HTML report, word clouds, time-series graphs, and auditable CSV exports. No API key or language-model service is required.
+A Python program for exploring recent keyword trends in arXiv `quant-ph`, with a separate Lindblad/GKSL open-dynamics candidate subset. It prioritizes **emerging terms outside an editable canonical vocabulary**, with an interactive Streamlit dashboard, an offline HTML report, score-weighted word clouds, time-series graphs, and auditable CSV exports. No API key or language-model service is required.
 
 The bundled snapshot contains **20,755 papers**, including **551 Lindblad/GKSL candidates**, originally submitted from **1 December 2025 through 23 November 2026**. It was fetched on 23 November 2026, with coverage verified against arXiv API totals. November is a partial month. The saved corpus remains fixed until you fetch again.
 
@@ -22,10 +22,42 @@ On Windows, activate the environment with `.venv\Scripts\activate` instead. Stre
 The dashboard supports:
 
 - Switching between all quantum-physics papers and the Lindblad subset.
-- Word clouds, keyword frequencies, monthly paper volume, and keyword trajectories with counts or normalized percentages.
-- Recent-versus-previous comparisons over 1, 2, 3, or 6 complete months.
+- Emerging-term rankings and word clouds weighted by growth, with supporting papers and an inspectable canonical exclusion list.
+- Keyword trajectories defaulting to emerging candidates, plus a separate frequency-context view and monthly publication volume.
+- Recent windows of 1, 2, 3, or 6 complete months compared with all earlier complete months for emergence; equal-length windows remain available for general share changes.
 - Filtering to primary `quant-ph` papers, including or excluding cross-lists.
 - Custom stopwords, searchable papers, clickable arXiv links, matching text, and CSV downloads.
+
+## Emerging terms and the canonical baseline
+
+The default view answers “which terms outside the canonical vocabulary are gaining attention?” rather than ranking the most frequent physics terms. It runs independently for the full corpus and the Lindblad subset.
+
+The **canonical set** combines:
+
+- An editable core list in `quantum_trends/canonical_keywords.txt`, also editable directly in the dashboard. The list is a starting point, not an authoritative taxonomy.
+- Optional historical exclusions: terms occurring in at least **2% of baseline papers overall**, and reaching that threshold in at least **three baseline months** (or all baseline months when fewer are available). Only earlier data is used; recently popular terms cannot exclude themselves through this rule. This is learned separately for each cohort.
+
+Exclusions match exact normalized terms. Excluding “error correction” still allows a longer phrase such as “autonomous error correction”. The exported canonical tables show each exclusion's reason and baseline counts. Use `--canonical my-vocabulary.txt` to replace the seed list and `--no-learn-canonical` to use only your own list. Lines beginning with `#` are comments.
+
+By default, the recent period is the last **three complete months** (August–October 2026 in the snapshot), and the baseline is **all earlier complete months** (December 2025–July 2026). A candidate must:
+
+- Be outside the canonical set and have at least **five recent papers**, with matches in **two recent months** (one when using a one-month window).
+- Appear in at least **one recent paper title**. This helps suppress incidental abstract phrases.
+- Be a multiword phrase, with a positive increase in paper share and at least **1.5× smoothed growth**.
+
+The score balances growth and support:
+
+```text
+baseline_rate = baseline_matching_papers / baseline_total_papers
+excess_recent_papers = recent_matching_papers - recent_total_papers * baseline_rate
+smoothed_growth = ((recent_matching_papers + 0.5) / (recent_total_papers + 1))
+                  / ((baseline_matching_papers + 0.5) / (baseline_total_papers + 1))
+score = excess_recent_papers * log2(smoothed_growth)
+```
+
+This controls for different publication volumes and window lengths. Nested phrases are collapsed only when they have identical supporting paper sets. Generic prose fragments are filtered, but this remains lexical extraction: inspect the linked papers and refine the exclusions when needed.
+
+“Not seen in baseline” means absent from the **earlier portion of this dataset**, not newly invented. Long-established methods can gain attention in a new context. A year of abstracts cannot establish field-wide novelty. Rankings are descriptive, with no claim of statistical significance, and rare-term growth is sensitive to the smoothing choice. If no candidate qualifies, the dashboard says so instead of substituting common terms. Partial months remain visible in trajectories but never affect the score or learned vocabulary.
 
 ## Command line
 
@@ -64,6 +96,14 @@ python -m quantum_trends fetch --months 6 --data data/six-months.json
 python -m quantum_trends report --primary-only
 ```
 
+Customize the discovery criteria:
+
+```bash
+python -m quantum_trends report --canonical my-vocabulary.txt --canonical-pct 1.5 --min-df 8 --min-growth 2 --min-recent-months 2
+```
+
+Use `--include-unigrams` to admit single-word terms and acronyms. Use `--min-title-papers 0` to allow candidates found only in abstracts. `--min-df` is the minimum **recent** paper count for emergence; it remains an overall support threshold in the frequency-context views. The dashboard exposes all these options. Reports record the full configuration and explicit canonical list in `manifest.json`.
+
 Use `--stopwords exclusions.txt` to exclude one word or phrase per line. Use `--refresh` on `fetch`/`run` to bypass cached pages. `--user-agent "YourResearchTool/1.0 (contact: your-email)"` can identify your research client. All command options are available with `--help`.
 
 ## What the analysis measures
@@ -72,11 +112,11 @@ Use `--stopwords exclusions.txt` to exclude one word or phrase per line. Use `--
 2. **Time:** papers are assigned to their original submission month (`published`), not their revision month (`updated`). The API supplies the latest title and abstract, so later revisions can change historical keyword frequencies.
 3. **Keywords:** titles and abstracts are tokenized, mathematical markup is removed, and English stopwords and generic scientific prose are excluded. Adjacent two/three-word phrases are retained, along with a small physics phrase dictionary. Explicit synonym and plural mappings are in `quantum_trends/analysis.py`. This is transparent lexical extraction, not topic modeling or a semantic classifier.
 4. **Frequency:** a paper contributes once per keyword, regardless of repetitions. Monthly share is `100 × matching papers / all papers in that cohort/month`. Terms overlap, so shares do not sum to 100%. A month with zero cohort papers has an undefined share and a gap in the plot.
-5. **Recent changes:** the default compares the last three complete calendar months with the preceding three. For the bundled corpus, this is **August–October 2026 versus May–July 2026**. Percentages pool papers across each window; the report ranks their difference in percentage points. It does not average monthly percentages, include unfinished months, or treat ranks as significance tests. Minimum support is the combined document count across the two comparison windows.
+5. **Recent changes:** the default compares the last three complete calendar months with the preceding three. For the bundled corpus, this is **August–October 2026 versus May–July 2026**. Percentages pool papers across each window; the general share-change table ranks their difference in percentage points. This is separate from the emergence ranking described above. It does not average monthly percentages, include unfinished months, or treat ranks as significance tests. Minimum support is the combined document count across the two comparison windows.
 6. **Lindblad screen:** explicit title/abstract mentions of Lindblad, Lindbladian, GKSL, GKLS, GKS, or Gorini–Kossakowski–Sudarshan identify candidate articles. Generic “open systems” or “dissipation” alone do not qualify. This rule can include comparisons, incidental mentions, and papers going beyond Lindblad dynamics; it can miss papers whose relevant details appear only in the full text. `lindblad_papers.csv` includes the matching snippet for review. The standalone word “lindblad” is omitted from the subset's default top-keyword list because it defines the cohort; it remains available for explicit tracking.
 7. **Enrichment:** keyword frequency in the subset is compared with its **disjoint complement**, rather than the overlapping full corpus. Ratios use `(matches + 0.5)/(papers + 1)` smoothing. Defining Lindblad/GKSL/GKLS terms and eponym names are excluded from this ranking.
 
-Cloud sizes are relative within each panel. Compare exact percentages in the tables across cohorts. Broad keywords can still be nonspecific, and phrases can be redundant. Sparse terms fluctuate sharply. These plots measure topic language, not research quality, citations, or scientific impact.
+Emergence cloud sizes reflect the growth score; frequency-context clouds reflect document counts. Sizes are relative within each panel. Compare exact percentages in the tables across cohorts. Broad keywords can still be nonspecific, and phrases can be redundant. Sparse terms fluctuate sharply. These plots measure topic language, not research quality, citations, or scientific impact.
 
 ## Files produced
 
@@ -87,8 +127,11 @@ Cloud sizes are relative within each panel. Compare exact percentages in the tab
 | `report/figures/` | PNG and SVG word clouds and graphs |
 | `report/tables/papers.csv` | Every analyzed paper and its cohort membership |
 | `report/tables/lindblad_papers.csv` | Candidate subset with evidence snippets and links |
+| `report/tables/*_emerging.csv` | Candidate scores, baseline/recent counts, denominators, shares, growth ratios, recurrence, title support, and first observed month |
+| `report/tables/*_canonical.csv` | Full excluded vocabulary, reasons, and historical counts |
+| `report/tables/*_emerging_evidence.csv` | Recent supporting papers and links for the top 30 emerging terms |
 | `report/tables/*_keywords.csv` | Top keyword document counts and corpus shares |
-| `report/tables/*_monthly_keywords.csv` | Monthly counts, denominators, shares, and full-month flags for the top 30 plus explicitly selected terms |
+| `report/tables/*_monthly_keywords.csv` | Monthly counts, denominators, shares, and full-month flags for the top 30 frequent and emerging terms plus explicitly selected terms |
 | `report/tables/*_changes.csv` | All supported keyword comparisons |
 | `report/tables/lindblad_enrichment.csv` | Subset-versus-complement frequency ratios |
 | `report/manifest.json` | Coverage, retrieval times, filters, and comparison windows |
@@ -108,9 +151,9 @@ python -m pip install -r requirements-dev.txt
 python -m pytest -q
 ```
 
-Tests cover API parsing, errors, incomplete and duplicate pagination, date boundaries, recursive date subdivision, first-submission dates, deduplication, document-frequency normalization, cohort isolation, primary-category filtering, empty cohorts, partial months, pooled comparison rates, and extraction rules.
+Tests cover API parsing, errors, incomplete and duplicate pagination, date boundaries, recursive date subdivision, first-submission dates, deduplication, document-frequency normalization, cohort isolation, primary-category filtering, empty cohorts, partial months, pooled comparison rates, extraction rules, emergence normalization, historical-only canonical learning, exact phrase exclusions, sparse/one-month bursts, title evidence, partial-month exclusion, true document-set deduplication, and independent cohort baselines.
 
-The main modules are `arxiv_client.py` (retrieval), `analysis.py` (screening and counting), `report.py` (figures and exports), and `app.py` (dashboard). The included report is reproducible from the included corpus without another API call.
+The main modules are `arxiv_client.py` (retrieval), `analysis.py` (screening and counting), `emergence.py` (canonical vocabulary and growing-term discovery), `report.py` (figures and exports), and `app.py` (dashboard). The included report is reproducible from the included corpus without another API call.
 
 We thank arXiv for use of its open access interoperability. Data are provided by arXiv; this is an independent research tool, not an arXiv product.
 

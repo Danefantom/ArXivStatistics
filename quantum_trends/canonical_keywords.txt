@@ -1,0 +1,138 @@
+# Editable core vocabulary. Exact normalized matches only, one term per line.
+# Longer phrases containing these words are still eligible for discovery.
+# Historical common terms are added separately, using only the baseline period.
+quantum
+quantum state
+quantum system
+quantum dynamics
+quantum mechanics
+quantum theory
+quantum physics
+quantum information
+quantum information theory
+quantum computing
+quantum computation
+quantum computer
+quantum algorithm
+quantum circuit
+quantum gate
+quantum channel
+quantum measurement
+quantum entanglement
+quantum correlation
+quantum simulation
+quantum communication
+quantum control
+quantum error correction
+error correction
+quantum noise
+classical noise
+open quantum system
+open system
+closed system
+master equation
+lindblad
+lindblad equation
+lindblad master equation
+lindblad dynamics
+lindblad generator
+lindblad operator
+liouvillian
+liouvillian dynamics
+density matrix
+density operator
+steady state
+stationary state
+markovian
+non markovian
+markovian dynamics
+non markovian dynamics
+non hermitian
+many body
+many body system
+many body dynamics
+entanglement
+coherence
+decoherence
+dissipation
+dissipative dynamics
+hamiltonian
+hilbert space
+schrodinger equation
+von neumann
+unitary dynamics
+unitary evolution
+quantum evolution
+time evolution
+time dependent
+time independent
+time scale
+initial state
+initial condition
+boundary condition
+phase space
+phase transition
+ground state
+excited state
+thermal state
+finite temperature
+zero temperature
+finite size
+strong coupling
+weak coupling
+coupling strength
+numerical simulation
+numerical result
+experimental realization
+experimental implementation
+experimental platform
+analytical expression
+analytical result
+proof concept
+state art
+large number
+wide range
+broad range
+special case
+simple example
+recent advance
+recent progress
+# Standard mathematical and experimental descriptors.
+finite dimensional
+infinite dimensional
+pure state
+mixed state
+product state
+relative entropy
+trace distance
+trace norm
+diamond norm
+diamond norm error
+norm error
+error bound
+expectation value
+local observables
+classical dynamics
+classical communication
+polynomial time
+inverse polynomial
+square root
+inverse square
+bounded error
+additive error
+upper bound
+lower bound
+finite range
+finite sample
+large scale
+single mode
+low energy
+broad class
+fixed positive
+fisher information
+quantum fisher information
+monte carlo
+fokker planck
+independent lindblad
+time independent lindblad
+time dependent lindblad

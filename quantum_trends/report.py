@@ -11,9 +11,11 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
 from wordcloud import WordCloud
 
 from .analysis import Analysis
+from .emergence import Emergence, EmergenceSettings, emerging, evidence
 
 COLORS = ["#0d9488", "#2563eb", "#e87924", "#8b5cf6", "#e34b6c", "#78902a", "#9a6324", "#64748b"]
 plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 11, "axes.spines.top": False,
@@ -21,28 +23,32 @@ plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 11, "axes.spines
                      "text.color": "#172b45", "axes.titleweight": "bold", "figure.facecolor": "white"})
 
 
-def cloud_figure(analysis: Analysis, cohort: str):
-    top = analysis.ranked(cohort, 70)
+def cloud_figure(analysis: Analysis, cohort: str, discovery: Emergence | None = None):
+    top = analysis.ranked(cohort, 70) if discovery is None else discovery.ranking.head(70)
     fig, ax = plt.subplots(figsize=(12, 5.8))
     if top.empty:
-        ax.text(.5, .5, "No keywords meet the minimum paper count", ha="center", va="center")
+        ax.text(.5, .5, "No keywords meet the selected criteria", ha="center", va="center")
     else:
         cloud = WordCloud(width=1500, height=680, background_color="white", colormap="viridis",
                           prefer_horizontal=.93, random_state=42, collocations=False,
                           max_font_size=130, min_font_size=13, relative_scaling=.5,
                           font_path=matplotlib.font_manager.findfont("DejaVu Sans"))
-        cloud.generate_from_frequencies(dict(zip(top.keyword, top.papers)))
+        weights = top.papers if discovery is None else top.score
+        cloud.generate_from_frequencies(dict(zip(top.keyword, weights)))
         ax.imshow(cloud, interpolation="bilinear")
     ax.axis("off")
     label = "Lindblad / GKSL" if cohort == "lindblad" else "Quantum physics"
-    ax.set_title(f"{label} · Keywords in titles & abstracts", loc="left", pad=16, fontsize=17)
-    fig.text(.04, .015, "Word size reflects document frequency · a paper counts once per term", fontsize=10, color="#64748b")
+    title = "Keywords in titles & abstracts" if discovery is None else "Emerging terms beyond the canonical vocabulary"
+    caption = ("Word size reflects document frequency · a paper counts once per term" if discovery is None else
+               "Word size reflects emergence score · growth within this snapshot, not proof of novelty")
+    ax.set_title(f"{label} · {title}", loc="left", pad=16, fontsize=17)
+    fig.text(.04, .015, caption, fontsize=10, color="#64748b")
     fig.tight_layout(rect=(0, .035, 1, 1))
     return fig
 
 
 def trends_figure(analysis: Analysis, cohort: str, keywords: list[str] | None = None):
-    keywords = keywords or analysis.ranked(cohort, 6).keyword.tolist()
+    keywords = analysis.ranked(cohort, 6).keyword.tolist() if keywords is None else keywords
     fig, ax = plt.subplots(figsize=(12, 5.8))
     x = np.arange(len(analysis.months))
     for i, term in enumerate(keywords):
@@ -63,6 +69,21 @@ def trends_figure(analysis: Analysis, cohort: str, keywords: list[str] | None = 
         ax.legend(loc="upper center", bbox_to_anchor=(.5, -.22), ncol=3, frameon=False, fontsize=10)
     fig.text(.04, .01, "* Partial calendar month · gaps mean no papers in that cohort/month", color="#64748b", fontsize=10)
     fig.tight_layout(rect=(0, .04, 1, 1))
+    return fig
+
+
+def emergence_figure(discovery: Emergence):
+    fig, ax = plt.subplots(figsize=(12, 6.5))
+    shown = discovery.ranking.head(12).iloc[::-1]
+    if shown.empty:
+        ax.text(.5, .5, "No emerging terms meet the selected criteria", transform=ax.transAxes, ha="center")
+    else:
+        ax.barh(shown.keyword, shown.score, color=COLORS[0])
+    ax.set_xlabel("Emergence score (excess recent papers × log₂ growth ratio)")
+    ax.set_title("Growing terms outside the canonical vocabulary", loc="left", pad=18)
+    ax.grid(axis="x", color="#e2e8f0")
+    ax.set_axisbelow(True)
+    fig.tight_layout()
     return fig
 
 
@@ -101,7 +122,8 @@ def table(df, count=12) -> str:
     return df.head(count).to_html(index=False, float_format=lambda x: f"{x:.2f}", border=0, classes="data")
 
 
-def export_report(analysis: Analysis, output: Path, keywords: list[str] | None = None) -> Path:
+def export_report(analysis: Analysis, output: Path, keywords: list[str] | None = None, *,
+                  emergence_settings: EmergenceSettings | None = None, canonical_terms: set[str] | None = None) -> Path:
     output.mkdir(parents=True, exist_ok=True)
     figures = output / "figures"
     figures.mkdir(exist_ok=True)
@@ -134,17 +156,49 @@ def export_report(analysis: Analysis, output: Path, keywords: list[str] | None =
     negations; review the evidence in <code>tables/lindblad_papers.csv</code>. Full texts are not searched.</div>
     <section><h2>The publication landscape</h2>"""
     body += image_tag(volumes_figure(analysis), figures / "publication_volume.png", "Monthly paper counts and Lindblad share") + "</section>"
+    emergence_manifests = {}
     for cohort, label in [("all", "All quantum physics"), ("lindblad", "Lindblad-based open dynamics · candidate subset")]:
         top = analysis.ranked(cohort, 70)
         top.to_csv(tables / f"{cohort}_keywords.csv", index=False)
-        selected = keywords or top.head(6).keyword.tolist()
-        exported_terms = list(dict.fromkeys(top.head(30).keyword.tolist() + selected))
+        discovery = emerging(analysis, cohort, settings=emergence_settings, canonical_terms=canonical_terms)
+        emergence_manifests[cohort] = discovery.manifest()
+        rank = discovery.ranking
+        rank.to_csv(tables / f"{cohort}_emerging.csv", index=False)
+        discovery.canonical.to_csv(tables / f"{cohort}_canonical.csv", index=False)
+        selected = keywords if keywords is not None else rank.head(6).keyword.tolist()
+        exported_terms = list(dict.fromkeys(top.head(30).keyword.tolist() + rank.head(30).keyword.tolist() + selected))
         analysis.monthly(exported_terms, cohort).to_csv(tables / f"{cohort}_monthly_keywords.csv", index=False)
         changes = analysis.changes(cohort)
         changes.to_csv(tables / f"{cohort}_changes.csv", index=False)
         body += f'<section><div class="eyebrow">{"01 / THE FIELD" if cohort == "all" else "02 / THE FOCUS"}</div><h2>{label}</h2>'
+        body += '<h3>Emerging terms beyond the canonical vocabulary</h3>'
+        if discovery.baseline:
+            body += f'<p>Recent: {", ".join(discovery.recent)}. Baseline: {discovery.baseline[0]} through {discovery.baseline[-1]}.</p>'
+        body += '<p>These are candidates for growing attention within the saved corpus. Absence from the baseline does not establish novelty in physics.</p>'
+        cfg = discovery.settings
+        body += f'<p class="muted">Minimum {analysis.min_df} recent papers, {min(cfg.min_recent_months, len(discovery.recent))} recent months, {cfg.min_title_papers} recent titles, and {cfg.min_growth:g}× smoothed growth. Canonical exclusions: {len(discovery.canonical):,} exact terms; inspect the exported canonical table for reasons.</p>'
+        body += image_tag(emergence_figure(discovery), figures / f"{cohort}_emerging.png", f"{label} emergence ranking")
+        body += image_tag(cloud_figure(analysis, cohort, discovery), figures / f"{cohort}_emerging_wordcloud.png", f"{label} emerging term word cloud")
+        body += image_tag(trends_figure(analysis, cohort, selected), figures / f"{cohort}_trends.png", f"{label} emerging term trajectories")
+        if rank.empty:
+            body += '<p>No candidates meet these settings, or insufficient complete-month data is available.</p>'
+        else:
+            body += table(rank[["keyword", "baseline_papers", "recent_papers", "baseline_pct", "recent_pct", "growth_ratio", "score", "status"]], 15)
+        body += '<details><summary>Recent papers supporting leading candidates</summary>'
+        evidence_rows = []
+        for term in rank.head(30).keyword:
+            supporting = evidence(analysis, term, cohort, discovery.recent)
+            for _, paper in supporting.iterrows():
+                evidence_rows.append({"keyword": term, "id": paper.id, "title": paper.title,
+                                      "published": paper.published, "url": paper.url})
+            if term in rank.head(6).keyword.tolist():
+                body += '<h4>' + html.escape(term) + '</h4><ul>'
+                for _, paper in supporting.head(3).iterrows():
+                    body += '<li><a href="' + html.escape(paper.url, quote=True) + '">' + html.escape(paper.title) + '</a></li>'
+                body += '</ul>'
+        pd.DataFrame(evidence_rows, columns=["keyword", "id", "title", "published", "url"]).to_csv(tables / f"{cohort}_emerging_evidence.csv", index=False)
+        body += '</details><details><summary>Frequency context and all keyword changes</summary>'
         body += image_tag(cloud_figure(analysis, cohort), figures / f"{cohort}_wordcloud.png", f"{label} word cloud")
-        body += image_tag(trends_figure(analysis, cohort, selected), figures / f"{cohort}_trends.png", f"{label} monthly keyword trends")
         body += '<h3>Most common keywords</h3>' + table(top, 12)
         body += '<h3>Recent changes in keyword share</h3><p>' + html.escape(windows) + '</p>'
         body += '<p class="muted">Percentage-point changes in pooled paper shares, excluding partial months. Descriptive rankings, not significance tests.</p>'
@@ -154,15 +208,18 @@ def export_report(analysis: Analysis, output: Path, keywords: list[str] | None =
             cols = ["keyword", "previous_papers", "recent_papers", "previous_pct", "recent_pct", "change_pp"]
             body += '<div class="twocol"><div><h4>Increasing</h4>' + table(changes[changes.change_pp > 0][cols], 10) + '</div>'
             body += '<div><h4>Decreasing</h4>' + table(changes[changes.change_pp < 0].sort_values("change_pp")[cols], 10) + '</div></div>'
-        body += '</section>'
+        body += '</details></section>'
     body += '<section><h2>What distinguishes the Lindblad subset?</h2><p>Frequency relative to papers outside the subset. Ratios use 0.5-count smoothing; defining Lindblad terms are excluded.</p>'
     body += table(enrichment, 15) + '</section>'
     body += f"""<section><h2>How to read this analysis</h2><ul>
     <li>Each paper contributes at most once per keyword. A paper may mention many keywords; shares do not sum to 100%.</li>
     <li>Unigrams and adjacent two/three-word phrases are extracted after removing English stopwords, mathematical markup, and generic prose. An editable dictionary merges selected synonyms and plurals.</li>
     <li>Monthly share = matching papers / all papers in that cohort and month. Zero-paper months have an undefined share, not zero.</li>
-    <li>The minimum document count is {analysis.min_df}. Word-cloud sizes are relative within each panel; compare exact percentages in tables.</li>
-    <li>Growth compares the last {analysis.comparison_months} complete calendar months with the preceding {analysis.comparison_months}, weighted by paper counts. Sparse terms can fluctuate sharply.</li>
+    <li>Emergence compares the recent window with all earlier complete months. The score is excess recent papers above the baseline rate multiplied by log₂ of the smoothed share ratio. Smoothing is (matches + 0.5)/(papers + 1). It is a descriptive ranking, not a significance test.</li>
+    <li>The canonical vocabulary combines an editable exact-match list with optional historically common terms learned separately for each cohort. Learned terms must reach the configured share threshold overall and in at least three baseline months (or all if fewer). Recent data never contributes to this learned set. Longer phrases containing canonical words remain eligible.</li>
+    <li>Discovery favors multiword terms supported in recent titles and multiple months. Nested phrases are collapsed only when they match identical paper sets. All settings and the explicit canonical list are recorded in manifest.json.</li>
+    <li>The minimum document count is {analysis.min_df}. Emergence cloud sizes reflect score; frequency-context clouds reflect paper counts. Sizes are relative within each panel; compare exact percentages in tables.</li>
+    <li>The general share-change tables compare the last {analysis.comparison_months} complete calendar months with the preceding {analysis.comparison_months}, weighted by paper counts. Sparse terms can fluctuate sharply.</li>
     <li>Dates are original submissions (version 1), while titles and abstracts are the latest metadata returned by arXiv. Revisions may change historical keyword counts.</li>
     <li>Coverage is checked against API totals, with one record per arXiv ID. Complete retrieval means all indexed matches at retrieval time; indexing delays can still affect recent dates.</li>
     <li>This measures language and topic attention, not scientific quality, citations, or proven research impact. The Lindblad screen can miss implicit descriptions and include incidental mentions.</li>
@@ -185,6 +242,6 @@ def export_report(analysis: Analysis, output: Path, keywords: list[str] | None =
     summary = {k: v for k, v in corpus.items() if k != "papers"}
     summary.update({"analyzed_papers": n, "lindblad_candidates": nl, "primary_only": analysis.primary_only,
                     "min_df": analysis.min_df, "comparison_months": analysis.comparison_months,
-                    "previous_window": prev, "recent_window": recent})
+                    "previous_window": prev, "recent_window": recent, "emergence": emergence_manifests})
     (output / "manifest.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
     return path

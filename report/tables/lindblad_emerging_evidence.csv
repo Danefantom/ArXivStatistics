@@ -1,0 +1,35 @@
+keyword,id,title,published,url
+gibbs sampler,2610.40361,Rapid mixing for Gibbs samplers for quantum spin systems with all-to-all interactions,2026-10-29T16:14:42Z,https://arxiv.org/abs/2610.40361
+gibbs sampler,2610.31571,Size-independent Logarithmic Sobolev Inequalities for Quantum Gibbs Samplers,2026-10-22T17:12:59Z,https://arxiv.org/abs/2610.31571
+gibbs sampler,2610.06818,The complete phase diagram of detailed-balanced Gibbs samplers for the mean-field Heisenberg model,2026-10-05T17:56:27Z,https://arxiv.org/abs/2610.06818
+gibbs sampler,2610.05953,Fast mixing of the SYK model at high temperatures,2026-10-05T08:06:18Z,https://arxiv.org/abs/2610.05953
+gibbs sampler,2609.15902,Relative Entropy Decay via BKM coercivity for Quantum Markov Semigroups,2026-09-14T17:19:43Z,https://arxiv.org/abs/2609.15902
+gibbs sampler,2608.28451,Constant-time equilibration of observables under rapid Lindbladian dynamics,2026-08-28T15:40:45Z,https://arxiv.org/abs/2608.28451
+hamiltonian simulation,2610.05288,Fast Random Compilers for Time-Dependent and Time-Independent Lindbladian Simulation,2026-10-04T15:07:45Z,https://arxiv.org/abs/2610.05288
+hamiltonian simulation,2609.40094,Accelerating Quantum Dense-Output Simulation through Locality,2026-09-30T16:32:34Z,https://arxiv.org/abs/2609.40094
+hamiltonian simulation,2609.36203,Near-optimal quantum simulation of lattice Lindbladian dynamics,2026-09-28T20:02:10Z,https://arxiv.org/abs/2609.36203
+hamiltonian simulation,2609.31266,Locality and filter design for dissipative ground-state preparation,2026-09-25T13:41:56Z,https://arxiv.org/abs/2609.31266
+hamiltonian simulation,2609.26372,Lattice Lindbladian simulation by patching and merging,2026-09-22T13:21:04Z,https://arxiv.org/abs/2609.26372
+hamiltonian simulation,2609.18757,Query-Optimal and Gate-Efficient Lindbladian Simulation,2026-09-16T14:44:42Z,https://arxiv.org/abs/2609.18757
+hamiltonian simulation,2609.17490,Query-optimal quantum simulation of Lindblad evolution,2026-09-15T17:32:12Z,https://arxiv.org/abs/2609.17490
+hamiltonian simulation,2609.11508,Joint Mitigation of Algorithmic and Physical Errors in Noisy Hamiltonian Simulation,2026-09-10T13:15:37Z,https://arxiv.org/abs/2609.11508
+nitrogen vacancy,2610.11350,Magnonic cavity-enhanced quantum magnetometry with nitrogen-vacancy centre ensembles,2026-10-08T06:44:57Z,https://arxiv.org/abs/2610.11350
+nitrogen vacancy,2609.25368,Low-rank propagation for tridiagonalizable open quantum systems: near-linear scaling with system size,2026-09-21T20:07:43Z,https://arxiv.org/abs/2609.25368
+nitrogen vacancy,2609.21501,Optimal control for duty-cycle-limited interferometry with single-NV centers,2026-09-18T08:50:42Z,https://arxiv.org/abs/2609.21501
+nitrogen vacancy,2609.10606,When Measurement Constraints Favor Quantum Computational Sensing for Stealthy Power-Grid Attack Detection,2026-09-08T06:38:31Z,https://arxiv.org/abs/2609.10606
+nitrogen vacancy,2609.02792,Phonon-limited detection thresholds for genetically encoded fluorescent-protein spin-qubit relaxometry of neural radicals,2026-09-02T16:25:19Z,https://arxiv.org/abs/2609.02792
+quark gluon plasma,2611.00194,Heavy quarkonium dynamics beyond the binding energy over temperature expansion,2026-10-30T18:00:00Z,https://arxiv.org/abs/2611.00194
+quark gluon plasma,2610.02313,How Quantum Is Bottomonium in the Quark-Gluon Plasma?,2026-10-01T18:00:02Z,https://arxiv.org/abs/2610.02313
+quark gluon plasma,2609.04117,Non-Abelian string melting and thermalization in an open lattice gauge theory,2026-09-03T17:19:56Z,https://arxiv.org/abs/2609.04117
+quark gluon plasma,2608.17372,From the universal Lindblad equation to Boltzmann equations: in-QGP quarkonium dynamics,2026-08-18T05:06:15Z,https://arxiv.org/abs/2608.17372
+quark gluon plasma,2608.15347,General Lindblad equation for quarkonium evolution in a quark-gluon plasma,2026-08-15T18:02:07Z,https://arxiv.org/abs/2608.15347
+mixing time,2610.40361,Rapid mixing for Gibbs samplers for quantum spin systems with all-to-all interactions,2026-10-29T16:14:42Z,https://arxiv.org/abs/2610.40361
+mixing time,2610.03860,Driven-Dissipative Ground State Preparation: Mixing Time and Randomness,2026-10-02T17:55:26Z,https://arxiv.org/abs/2610.03860
+mixing time,2609.36016,Is rapid mixing stable?,2026-09-28T18:01:02Z,https://arxiv.org/abs/2609.36016
+mixing time,2608.30272,Modular-Annihilator Parent Hamiltonians for Purified Gibbs States: Spectral Design and Controlled Approximation,2026-08-31T05:33:17Z,https://arxiv.org/abs/2608.30272
+mixing time,2608.28451,Constant-time equilibration of observables under rapid Lindbladian dynamics,2026-08-28T15:40:45Z,https://arxiv.org/abs/2608.28451
+tensor network,2610.27462,Systematic Truncated Wigner Approximation for Open Spin Systems Reveals Long-Range Order Far from Equilibrium,2026-10-20T01:24:04Z,https://arxiv.org/abs/2610.27462
+tensor network,2609.05024,Lindblad Multiproduct Formulas,2026-09-04T11:43:51Z,https://arxiv.org/abs/2609.05024
+tensor network,2609.04117,Non-Abelian string melting and thermalization in an open lattice gauge theory,2026-09-03T17:19:56Z,https://arxiv.org/abs/2609.04117
+tensor network,2609.00159,Nonlinear Fluctuating Hydrodynamics from Interacting Noisy Quantum Matter,2026-08-31T18:00:17Z,https://arxiv.org/abs/2609.00159
+tensor network,2608.24668,Scalable Lindblad Noise Learning via Stochastic Tensor-Network Simulation,2026-08-25T15:07:11Z,https://arxiv.org/abs/2608.24668

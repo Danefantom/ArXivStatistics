@@ -30,6 +30,13 @@ def main():
         command.add_argument("--compare-months", type=int, default=3)
         command.add_argument("--primary-only", action="store_true", help="Exclude cross-list-only papers")
         command.add_argument("--keywords", help="Comma-separated exact extracted terms to plot")
+        command.add_argument("--canonical", type=Path, help="Replace the default canonical vocabulary with a UTF-8 file, one exact term per line")
+        command.add_argument("--no-learn-canonical", action="store_true", help="Use only the explicit canonical list")
+        command.add_argument("--canonical-pct", type=float, default=2.0)
+        command.add_argument("--min-growth", type=float, default=1.5)
+        command.add_argument("--min-recent-months", type=int, default=2)
+        command.add_argument("--min-title-papers", type=int, default=1)
+        command.add_argument("--include-unigrams", action="store_true")
         command.add_argument("--stopwords", type=Path, help="UTF-8 file with additional excluded words/phrases, one per line")
     args = parser.parse_args()
     try:
@@ -41,13 +48,19 @@ def main():
         else:
             corpus = json.loads(args.data.read_text(encoding="utf-8"))
         if args.command in {"run", "report"}:
-            from .analysis import analyze, extract_terms
+            from .analysis import analyze
+            from .emergence import EmergenceSettings, parse_canonical
             from .report import export_report
             stopwords = set(args.stopwords.read_text(encoding="utf-8").splitlines()) if args.stopwords else None
             analysis = analyze(corpus, min_df=args.min_df, comparison_months=args.compare_months,
                                primary_only=args.primary_only, extra_stopwords=stopwords)
             keywords = [v.strip().lower() for v in args.keywords.split(",") if v.strip()] if args.keywords else None
-            path = export_report(analysis, args.output, keywords)
+            settings = EmergenceSettings(learn_canonical=not args.no_learn_canonical,
+                                         canonical_pct=args.canonical_pct, min_growth=args.min_growth,
+                                         min_recent_months=args.min_recent_months,
+                                         phrases_only=not args.include_unigrams, min_title_papers=args.min_title_papers)
+            canonical = parse_canonical(args.canonical.read_text(encoding="utf-8")) if args.canonical else None
+            path = export_report(analysis, args.output, keywords, emergence_settings=settings, canonical_terms=canonical)
             print(f"Report: {path.resolve()}")
             print(f"Lindblad/GKSL candidates: {int(analysis.papers.lindblad.sum()):,}")
         return 0

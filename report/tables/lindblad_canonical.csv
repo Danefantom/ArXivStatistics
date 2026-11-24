@@ -1,0 +1,877 @@
+keyword,reason,baseline_papers,baseline_pct,common_baseline_months
+absence,historically common,10,2.840909090909091,4
+access,historically common,8,2.272727272727273,5
+accessible,historically common,19,5.3977272727272725,7
+accuracy,historically common,15,4.261363636363637,6
+accurate,historically common,13,3.6931818181818183,7
+acting,historically common,10,2.840909090909091,4
+action,historically common,9,2.5568181818181817,6
+active,historically common,9,2.5568181818181817,5
+addition,historically common,9,2.5568181818181817,4
+additional,historically common,11,3.125,7
+additive error,explicit,0,0.0,0
+adiabatic,historically common,8,2.272727272727273,4
+admits,historically common,13,3.6931818181818183,6
+advantage,historically common,10,2.840909090909091,4
+agreement,historically common,10,2.840909090909091,5
+algebraic,historically common,10,2.840909090909091,4
+algorithm,historically common,37,10.511363636363637,8
+amplitude,historically common,24,6.818181818181818,7
+amplitude damping,historically common,11,3.125,6
+analytic,historically common,13,3.6931818181818183,8
+analytical expression,explicit,0,0.0,0
+analytical result,explicit,0,0.0,0
+analyze,historically common,32,9.090909090909092,8
+analyzing,historically common,8,2.272727272727273,5
+ancilla,historically common,10,2.840909090909091,5
+appearing,historically common,8,2.272727272727273,4
+approximate,historically common,16,4.545454545454546,6
+approximation,historically common,24,6.818181818181818,8
+approximations,historically common,15,4.261363636363637,6
+architecture,historically common,8,2.272727272727273,5
+architectures,historically common,10,2.840909090909091,6
+arise,historically common,16,4.545454545454546,7
+arises,historically common,9,2.5568181818181817,5
+arising,historically common,9,2.5568181818181817,4
+assisted,historically common,9,2.5568181818181817,5
+assumptions,historically common,17,4.829545454545454,6
+asymptotic,historically common,13,3.6931818181818183,6
+atom,historically common,17,4.829545454545454,5
+atomic,historically common,12,3.409090909090909,7
+autonomous,historically common,10,2.840909090909091,5
+average,historically common,11,3.125,6
+balance,historically common,12,3.409090909090909,6
+basis,historically common,26,7.386363636363637,8
+bath,historically common,46,13.068181818181818,7
+bath coupling,historically common,9,2.5568181818181817,6
+battery,historically common,9,2.5568181818181817,4
+benchmark,historically common,15,4.261363636363637,7
+better,historically common,9,2.5568181818181817,4
+bloch,historically common,11,3.125,6
+block,historically common,10,2.840909090909091,5
+body,historically common,42,11.931818181818182,8
+born,historically common,11,3.125,6
+born markov,historically common,10,2.840909090909091,5
+bosonic,historically common,23,6.534090909090909,6
+bosonic mode,historically common,8,2.272727272727273,4
+bound,historically common,47,13.352272727272727,8
+boundary,historically common,20,5.681818181818182,7
+boundary condition,explicit,0,0.0,0
+bounded,historically common,8,2.272727272727273,5
+bounded error,explicit,0,0.0,0
+breaking,historically common,12,3.409090909090909,7
+broad,historically common,15,4.261363636363637,6
+broad class,explicit,6,1.7045454545454546,4
+broad range,explicit,4,1.1363636363636365,3
+brownian,historically common,9,2.5568181818181817,4
+brownian motion,historically common,8,2.272727272727273,3
+building,historically common,11,3.125,7
+cancellation,historically common,8,2.272727272727273,5
+canonical,historically common,11,3.125,5
+cat,historically common,8,2.272727272727273,5
+cavity,historically common,22,6.25,8
+central,historically common,20,5.681818181818182,8
+chain,historically common,32,9.090909090909092,7
+chains,historically common,11,3.125,5
+challenge,historically common,10,2.840909090909091,6
+challenging,historically common,13,3.6931818181818183,8
+channel,historically common,69,19.602272727272727,8
+chaos,historically common,8,2.272727272727273,6
+chaotic,historically common,11,3.125,6
+characterization,historically common,17,4.829545454545454,6
+characterize,historically common,12,3.409090909090909,6
+characterized,historically common,16,4.545454545454546,5
+charge,historically common,11,3.125,5
+circuit,historically common,34,9.659090909090908,8
+classical communication,explicit,0,0.0,0
+classical dynamics,explicit,3,0.8522727272727273,2
+classical noise,explicit,0,0.0,0
+close,historically common,10,2.840909090909091,6
+closed form,historically common,21,5.965909090909091,7
+closed form expressions,historically common,8,2.272727272727273,6
+closed system,explicit,0,0.0,0
+coarse,historically common,13,3.6931818181818183,6
+coarse grained,historically common,8,2.272727272727273,5
+coarse graining,historically common,8,2.272727272727273,4
+code,historically common,10,2.840909090909091,6
+coefficients,historically common,15,4.261363636363637,5
+coherence,explicit + historical,30,8.522727272727273,8
+coherent,historically common,56,15.909090909090908,8
+coherent state,historically common,11,3.125,6
+collective,historically common,23,6.534090909090909,7
+collective spin,historically common,9,2.5568181818181817,6
+combining,historically common,13,3.6931818181818183,6
+common,historically common,13,3.6931818181818183,6
+compare,historically common,11,3.125,4
+compared,historically common,21,5.965909090909091,7
+compatible,historically common,9,2.5568181818181817,5
+competition,historically common,9,2.5568181818181817,5
+complete,historically common,18,5.113636363636363,6
+completely,historically common,27,7.670454545454546,8
+completely positive,historically common,20,5.681818181818182,8
+completely positive trace,historically common,8,2.272727272727273,4
+complex,historically common,24,6.818181818181818,8
+complexity,historically common,21,5.965909090909091,8
+components,historically common,10,2.840909090909091,5
+computation,historically common,15,4.261363636363637,7
+computational,historically common,18,5.113636363636363,7
+compute,historically common,10,2.840909090909091,6
+computing,historically common,14,3.977272727272727,6
+condition,historically common,24,6.818181818181818,6
+conditional,historically common,13,3.6931818181818183,7
+conditions,historically common,41,11.647727272727273,8
+connection,historically common,10,2.840909090909091,6
+conservation,historically common,9,2.5568181818181817,5
+consistency,historically common,13,3.6931818181818183,7
+consistent,historically common,27,7.670454545454546,7
+constraints,historically common,19,5.3977272727272725,8
+constructing,historically common,10,2.840909090909091,6
+continuous,historically common,40,11.363636363636363,8
+continuous time,historically common,17,4.829545454545454,6
+contrast,historically common,22,6.25,7
+contribution,historically common,9,2.5568181818181817,4
+control,historically common,50,14.204545454545455,8
+controlled,historically common,31,8.806818181818182,8
+controlling,historically common,12,3.409090909090909,6
+conventional,historically common,21,5.965909090909091,7
+convergence,historically common,18,5.113636363636363,8
+correction,historically common,12,3.409090909090909,6
+correlated,historically common,15,4.261363636363637,7
+correlation,historically common,56,15.909090909090908,8
+correlation function,historically common,14,3.977272727272727,4
+cost,historically common,19,5.3977272727272725,7
+coupled,historically common,66,18.75,8
+coupling,historically common,58,16.477272727272727,8
+coupling strength,explicit + historical,8,2.272727272727273,4
+couplings,historically common,10,2.840909090909091,5
+cptp,historically common,10,2.840909090909091,4
+criterion,historically common,13,3.6931818181818183,5
+critical,historically common,15,4.261363636363637,5
+cross,historically common,10,2.840909090909091,5
+crossover,historically common,9,2.5568181818181817,5
+crucially,historically common,8,2.272727272727273,5
+cummings,historically common,10,2.840909090909091,4
+current,historically common,25,7.1022727272727275,8
+currents,historically common,10,2.840909090909091,6
+damped,historically common,10,2.840909090909091,5
+damping,historically common,23,6.534090909090909,7
+data,historically common,18,5.113636363636363,7
+decay,historically common,38,10.795454545454545,8
+decoherence,explicit + historical,48,13.636363636363637,8
+define,historically common,10,2.840909090909091,4
+defined,historically common,18,5.113636363636363,8
+degrees,historically common,14,3.977272727272727,6
+density,historically common,58,16.477272727272727,8
+density matrix,explicit + historical,36,10.227272727272727,8
+density operator,explicit,4,1.1363636363636365,3
+depend,historically common,9,2.5568181818181817,4
+dependence,historically common,17,4.829545454545454,7
+dependent,historically common,57,16.193181818181817,8
+depending,historically common,10,2.840909090909091,3
+dephasing,historically common,45,12.784090909090908,8
+depolarizing,historically common,10,2.840909090909091,5
+depth,historically common,9,2.5568181818181817,4
+describing,historically common,13,3.6931818181818183,7
+descriptions,historically common,13,3.6931818181818183,7
+design,historically common,17,4.829545454545454,7
+desired,historically common,9,2.5568181818181817,5
+despite,historically common,13,3.6931818181818183,5
+detailed,historically common,12,3.409090909090909,7
+detailed balance,historically common,8,2.272727272727273,5
+detection,historically common,12,3.409090909090909,6
+deterministic,historically common,14,3.977272727272727,7
+device,historically common,13,3.6931818181818183,6
+devices,historically common,11,3.125,5
+diagnostic,historically common,12,3.409090909090909,7
+diagonal,historically common,19,5.3977272727272725,8
+diamond norm,explicit,5,1.4204545454545454,4
+diamond norm error,explicit,1,0.2840909090909091,1
+differential,historically common,17,4.829545454545454,7
+differential equation,historically common,12,3.409090909090909,6
+diffusion,historically common,12,3.409090909090909,6
+dimensions,historically common,9,2.5568181818181817,4
+dipole,historically common,8,2.272727272727273,4
+direct,historically common,23,6.534090909090909,8
+direction,historically common,8,2.272727272727273,5
+directly,historically common,34,9.659090909090908,8
+discrete,historically common,23,6.534090909090909,7
+dissipation,explicit + historical,85,24.147727272727273,8
+dissipative,historically common,121,34.375,8
+dissipative dynamics,explicit + historical,26,7.386363636363637,8
+dissipator,historically common,11,3.125,7
+distance,historically common,16,4.545454545454546,8
+distinct,historically common,29,8.238636363636363,8
+distribution,historically common,15,4.261363636363637,5
+distributions,historically common,10,2.840909090909091,4
+does,historically common,30,8.522727272727273,8
+dominant,historically common,13,3.6931818181818183,5
+dressed,historically common,9,2.5568181818181817,4
+drift,historically common,9,2.5568181818181817,6
+drive,historically common,13,3.6931818181818183,5
+driven,historically common,52,14.772727272727273,8
+driven dissipative,historically common,15,4.261363636363637,8
+drives,historically common,11,3.125,5
+driving,historically common,22,6.25,6
+dynamical,historically common,65,18.46590909090909,8
+dynamically,historically common,9,2.5568181818181817,5
+efficiency,historically common,18,5.113636363636363,7
+eigenvalue,historically common,13,3.6931818181818183,6
+emerge,historically common,11,3.125,4
+emergence,historically common,9,2.5568181818181817,5
+emergent,historically common,10,2.840909090909091,5
+emerges,historically common,11,3.125,6
+emission,historically common,14,3.977272727272727,7
+employing,historically common,10,2.840909090909091,5
+encoded,historically common,16,4.545454545454546,6
+end,historically common,9,2.5568181818181817,4
+energy,historically common,55,15.625,8
+engineered,historically common,17,4.829545454545454,6
+engineering,historically common,17,4.829545454545454,7
+enhance,historically common,8,2.272727272727273,5
+enhanced,historically common,14,3.977272727272727,6
+ensemble,historically common,20,5.681818181818182,7
+entangled,historically common,13,3.6931818181818183,6
+entanglement,explicit + historical,31,8.806818181818182,8
+entropy,historically common,20,5.681818181818182,7
+environment,historically common,55,15.625,8
+environmental,historically common,20,5.681818181818182,6
+environments,historically common,8,2.272727272727273,4
+equilibrium,historically common,26,7.386363636363637,8
+equivalent,historically common,12,3.409090909090909,5
+error,historically common,57,16.193181818181817,8
+error bound,explicit + historical,8,2.272727272727273,4
+error correction,explicit + historical,10,2.840909090909091,6
+essential,historically common,13,3.6931818181818183,8
+estimate,historically common,10,2.840909090909091,5
+estimates,historically common,12,3.409090909090909,5
+et al,historically common,8,2.272727272727273,4
+evolution,historically common,111,31.53409090909091,8
+evolution equation,historically common,8,2.272727272727273,5
+evolution time,historically common,10,2.840909090909091,3
+evolutions,historically common,11,3.125,5
+evolving,historically common,9,2.5568181818181817,3
+exceptional,historically common,14,3.977272727272727,5
+exceptional point,historically common,9,2.5568181818181817,5
+exceptional points,historically common,11,3.125,5
+exchange,historically common,14,3.977272727272727,6
+excitation,historically common,12,3.409090909090909,6
+excitations,historically common,8,2.272727272727273,4
+excited,historically common,8,2.272727272727273,5
+excited state,explicit,5,1.4204545454545454,3
+existing,historically common,22,6.25,8
+expansion,historically common,11,3.125,6
+expectation,historically common,13,3.6931818181818183,5
+expectation value,explicit,2,0.5681818181818182,1
+expectation values,historically common,10,2.840909090909091,4
+expected,historically common,9,2.5568181818181817,6
+experimental implementation,explicit,0,0.0,0
+experimental platform,explicit,0,0.0,0
+experimental realization,explicit,0,0.0,0
+experiments,historically common,13,3.6931818181818183,7
+explicit,historically common,43,12.215909090909092,8
+explicitly,historically common,20,5.681818181818182,8
+exponential,historically common,23,6.534090909090909,8
+exponentially,historically common,21,5.965909090909091,8
+expression,historically common,14,3.977272727272727,7
+expressions,historically common,18,5.113636363636363,6
+external,historically common,19,5.3977272727272725,6
+factor,historically common,17,4.829545454545454,7
+far,historically common,11,3.125,5
+fast,historically common,12,3.409090909090909,7
+fault,historically common,8,2.272727272727273,5
+features,historically common,24,6.818181818181818,6
+fermionic,historically common,12,3.409090909090909,5
+fermions,historically common,13,3.6931818181818183,5
+fidelity,historically common,21,5.965909090909091,8
+field,historically common,58,16.477272727272727,8
+fields,historically common,12,3.409090909090909,6
+finally,historically common,28,7.954545454545454,8
+findings,historically common,13,3.6931818181818183,5
+finite dimensional,explicit + historical,11,3.125,4
+finite range,explicit,2,0.5681818181818182,1
+finite sample,explicit,1,0.2840909090909091,1
+finite size,explicit,7,1.9886363636363635,3
+finite temperature,explicit,4,1.1363636363636365,3
+finite time,historically common,14,3.977272727272727,7
+fisher information,explicit,5,1.4204545454545454,3
+fixed point,historically common,9,2.5568181818181817,5
+fixed positive,explicit,0,0.0,0
+flow,historically common,17,4.829545454545454,7
+fluctuation,historically common,24,6.818181818181818,7
+fock,historically common,9,2.5568181818181817,5
+focus,historically common,10,2.840909090909091,3
+focusing,historically common,10,2.840909090909091,4
+fokker planck,explicit,1,0.2840909090909091,1
+form expressions,historically common,8,2.272727272727273,6
+formalism,historically common,26,7.386363636363637,8
+formulation,historically common,16,4.545454545454546,8
+foundation,historically common,13,3.6931818181818183,6
+fourier,historically common,8,2.272727272727273,3
+free,historically common,33,9.375,8
+freedom,historically common,18,5.113636363636363,8
+frequency,historically common,23,6.534090909090909,8
+function,historically common,51,14.488636363636363,8
+functional,historically common,9,2.5568181818181817,4
+fundamentally,historically common,11,3.125,5
+gain,historically common,8,2.272727272727273,4
+gap,historically common,18,5.113636363636363,6
+gate,historically common,22,6.25,7
+gauge,historically common,10,2.840909090909091,6
+gaussian,historically common,30,8.522727272727273,8
+generalization,historically common,8,2.272727272727273,4
+generalized,historically common,20,5.681818181818182,8
+generate,historically common,13,3.6931818181818183,4
+generated,historically common,22,6.25,7
+generates,historically common,8,2.272727272727273,4
+generating,historically common,15,4.261363636363637,5
+generation,historically common,15,4.261363636363637,7
+generator,historically common,53,15.056818181818182,8
+generic,historically common,10,2.840909090909091,6
+genuine,historically common,9,2.5568181818181817,4
+geometric,historically common,25,7.1022727272727275,7
+geometry,historically common,16,4.545454545454546,6
+gibbs,historically common,12,3.409090909090909,5
+gibbs state,historically common,8,2.272727272727273,3
+global,historically common,25,7.1022727272727275,8
+governed,historically common,38,10.795454545454545,8
+governing,historically common,14,3.977272727272727,7
+gradient,historically common,11,3.125,6
+grained,historically common,8,2.272727272727273,5
+graining,historically common,8,2.272727272727273,4
+ground,historically common,15,4.261363636363637,6
+ground state,explicit + historical,13,3.6931818181818183,6
+growth,historically common,9,2.5568181818181817,5
+guarantees,historically common,12,3.409090909090909,6
+hamiltonian,explicit + historical,79,22.443181818181817,8
+hamiltonians,historically common,27,7.670454545454546,7
+hardware,historically common,22,6.25,8
+harmonic,historically common,16,4.545454545454546,7
+harmonic oscillator,historically common,8,2.272727272727273,4
+heat,historically common,9,2.5568181818181817,5
+heisenberg,historically common,19,5.3977272727272725,7
+hermitian,historically common,44,12.5,8
+higher,historically common,20,5.681818181818182,8
+highly,historically common,12,3.409090909090909,6
+hilbert,historically common,24,6.818181818181818,8
+hilbert space,explicit + historical,19,5.3977272727272725,8
+homogeneous,historically common,8,2.272727272727273,5
+hopping,historically common,10,2.840909090909091,4
+hubbard,historically common,8,2.272727272727273,5
+hybrid,historically common,18,5.113636363636363,6
+ideal,historically common,12,3.409090909090909,5
+identity,historically common,9,2.5568181818181817,4
+imaginary,historically common,8,2.272727272727273,5
+implement,historically common,9,2.5568181818181817,5
+implementation,historically common,12,3.409090909090909,7
+implications,historically common,11,3.125,4
+implies,historically common,8,2.272727272727273,6
+important,historically common,12,3.409090909090909,6
+increase,historically common,11,3.125,5
+increases,historically common,10,2.840909090909091,4
+increasing,historically common,13,3.6931818181818183,5
+independent lindblad,explicit,6,1.7045454545454546,3
+individual,historically common,8,2.272727272727273,5
+induce,historically common,11,3.125,6
+induced,historically common,46,13.068181818181818,8
+induces,historically common,8,2.272727272727273,5
+inequality,historically common,8,2.272727272727273,4
+infinite,historically common,15,4.261363636363637,6
+infinite dimensional,explicit,2,0.5681818181818182,1
+influence,historically common,10,2.840909090909091,5
+initial,historically common,42,11.931818181818182,8
+initial condition,explicit,0,0.0,0
+initial conditions,historically common,8,2.272727272727273,5
+initial state,explicit + historical,21,5.965909090909091,7
+initially,historically common,8,2.272727272727273,5
+insight,historically common,10,2.840909090909091,4
+insights,historically common,9,2.5568181818181817,6
+instead,historically common,9,2.5568181818181817,5
+interacting,historically common,35,9.943181818181818,8
+interaction,historically common,73,20.738636363636363,8
+interference,historically common,11,3.125,4
+intermediate,historically common,9,2.5568181818181817,5
+internal,historically common,12,3.409090909090909,6
+interplay,historically common,12,3.409090909090909,5
+intrinsic,historically common,13,3.6931818181818183,5
+intrinsically,historically common,8,2.272727272727273,5
+invariant,historically common,19,5.3977272727272725,8
+inverse polynomial,explicit,0,0.0,0
+inverse square,explicit,0,0.0,0
+ion,historically common,9,2.5568181818181817,7
+ising,historically common,10,2.840909090909091,4
+jaynes,historically common,8,2.272727272727273,4
+jaynes cummings,historically common,8,2.272727272727273,4
+jump,historically common,42,11.931818181818182,8
+jump operator,historically common,26,7.386363636363637,8
+jumps,historically common,14,3.977272727272727,6
+kernel,historically common,9,2.5568181818181817,5
+kerr,historically common,11,3.125,4
+key,historically common,22,6.25,7
+kraus,historically common,11,3.125,7
+large number,explicit,1,0.2840909090909091,0
+large scale,explicit,4,1.1363636363636365,3
+lattice,historically common,15,4.261363636363637,7
+lattices,historically common,9,2.5568181818181817,4
+law,historically common,17,4.829545454545454,6
+laws,historically common,8,2.272727272727273,3
+learning,historically common,17,4.829545454545454,7
+leggett,historically common,9,2.5568181818181817,3
+levels,historically common,9,2.5568181818181817,4
+light,historically common,11,3.125,5
+like,historically common,22,6.25,7
+limited,historically common,17,4.829545454545454,6
+lindblad,explicit + historical,350,99.43181818181819,8
+lindblad dynamics,explicit + historical,63,17.897727272727273,8
+lindblad equation,explicit + historical,48,13.636363636363637,8
+lindblad evolution,historically common,16,4.545454545454546,8
+lindblad form,historically common,10,2.840909090909091,5
+lindblad generator,explicit + historical,24,6.818181818181818,8
+lindblad jump,historically common,8,2.272727272727273,6
+lindblad lindblad,historically common,24,6.818181818181818,8
+lindblad lindblad master,historically common,10,2.840909090909091,5
+lindblad master,historically common,96,27.272727272727273,8
+lindblad master equation,explicit + historical,96,27.272727272727273,8
+lindblad operator,explicit + historical,10,2.840909090909091,6
+lindblad simulation,historically common,9,2.5568181818181817,5
+linear,historically common,37,10.511363636363637,8
+liouville,historically common,10,2.840909090909091,5
+liouvillian,explicit + historical,26,7.386363636363637,8
+liouvillian dynamics,explicit,1,0.2840909090909091,1
+local lindblad,historically common,17,4.829545454545454,6
+local observable,explicit,1,0.2840909090909091,0
+localized,historically common,11,3.125,5
+locally,historically common,9,2.5568181818181817,7
+logarithmic,historically common,14,3.977272727272727,6
+logical,historically common,9,2.5568181818181817,6
+long range,historically common,18,5.113636363636363,8
+long time,historically common,18,5.113636363636363,6
+longer,historically common,9,2.5568181818181817,5
+loss,historically common,28,7.954545454545454,8
+low energy,explicit,3,0.8522727272727273,2
+lower bound,explicit + historical,13,3.6931818181818183,5
+magnetic,historically common,13,3.6931818181818183,6
+magnetic field,historically common,10,2.840909090909091,6
+magnitude,historically common,9,2.5568181818181817,4
+main,historically common,10,2.840909090909091,6
+making,historically common,10,2.840909090909091,5
+manifold,historically common,14,3.977272727272727,6
+many body,explicit + historical,38,10.795454545454545,8
+many body dynamics,explicit,0,0.0,0
+many body system,explicit,0,0.0,0
+map,historically common,22,6.25,7
+maps,historically common,16,4.545454545454546,8
+markov,historically common,22,6.25,7
+markovian,explicit + historical,70,19.886363636363637,8
+markovian dynamics,explicit + historical,12,3.409090909090909,4
+markovian open,historically common,14,3.977272727272727,7
+markovianity,historically common,16,4.545454545454546,7
+master equation,explicit + historical,127,36.07954545454545,8
+mathematical,historically common,10,2.840909090909091,5
+matrices,historically common,10,2.840909090909091,5
+matrix,historically common,57,16.193181818181817,8
+matter,historically common,10,2.840909090909091,5
+mean,historically common,27,7.670454545454546,8
+mean field,historically common,15,4.261363636363637,5
+measure,historically common,10,2.840909090909091,6
+measurement,historically common,60,17.045454545454547,8
+mechanics,historically common,11,3.125,5
+mechanism,historically common,35,9.943181818181818,8
+mechanisms,historically common,19,5.3977272727272725,7
+mediated,historically common,11,3.125,5
+memory,historically common,21,5.965909090909091,7
+metric,historically common,8,2.272727272727273,4
+microscopic,historically common,26,7.386363636363637,7
+minimal,historically common,17,4.829545454545454,6
+mitigation,historically common,9,2.5568181818181817,4
+mixed,historically common,23,6.534090909090909,8
+mixed state,explicit + historical,17,4.829545454545454,8
+mixing,historically common,12,3.409090909090909,5
+mode,historically common,57,16.193181818181817,8
+modeled,historically common,12,3.409090909090909,5
+modeling,historically common,9,2.5568181818181817,4
+molecular,historically common,8,2.272727272727273,4
+monitoring,historically common,9,2.5568181818181817,5
+monte carlo,explicit,5,1.4204545454545454,3
+motion,historically common,20,5.681818181818182,7
+motivated,historically common,12,3.409090909090909,5
+multi,historically common,35,9.943181818181818,8
+multiple,historically common,11,3.125,4
+naturally,historically common,25,7.1022727272727275,7
+nature,historically common,9,2.5568181818181817,5
+near,historically common,33,9.375,7
+near term,historically common,10,2.840909090909091,5
+necessary,historically common,10,2.840909090909091,5
+need,historically common,9,2.5568181818181817,5
+negative,historically common,14,3.977272727272727,5
+negativity,historically common,9,2.5568181818181817,7
+network,historically common,19,5.3977272727272725,7
+noise,historically common,70,19.886363636363637,8
+noisy,historically common,15,4.261363636363637,6
+non hermitian,explicit + historical,36,10.227272727272727,7
+non markovian,explicit + historical,35,9.943181818181818,8
+non markovian dynamics,explicit,5,1.4204545454545454,3
+non markovianity,historically common,12,3.409090909090909,6
+non unitary,historically common,14,3.977272727272727,6
+nonequilibrium,historically common,41,11.647727272727273,8
+nonequilibrium steady,historically common,11,3.125,7
+nonequilibrium steady state,historically common,11,3.125,7
+nonlinear,historically common,29,8.238636363636363,8
+nontrivial,historically common,9,2.5568181818181817,7
+norm,historically common,13,3.6931818181818183,6
+norm error,explicit,1,0.2840909090909091,1
+notion,historically common,8,2.272727272727273,5
+numbers,historically common,8,2.272727272727273,5
+numerical result,explicit,0,0.0,0
+numerical simulation,explicit,0,0.0,0
+observable,historically common,37,10.511363636363637,8
+observed,historically common,8,2.272727272727273,4
+occupation,historically common,10,2.840909090909091,5
+offers,historically common,9,2.5568181818181817,5
+open quantum dynamics,historically common,9,2.5568181818181817,4
+open quantum system,explicit + historical,114,32.38636363636363,8
+open system,explicit,0,0.0,0
+operating,historically common,11,3.125,7
+operational,historically common,8,2.272727272727273,3
+operations,historically common,9,2.5568181818181817,4
+operator,historically common,83,23.579545454545453,8
+optical,historically common,15,4.261363636363637,7
+optimization,historically common,16,4.545454545454546,7
+optimized,historically common,9,2.5568181818181817,5
+orders,historically common,8,2.272727272727273,4
+origin,historically common,10,2.840909090909091,4
+oscillations,historically common,12,3.409090909090909,5
+oscillator,historically common,22,6.25,7
+oscillatory,historically common,9,2.5568181818181817,4
+outside,historically common,9,2.5568181818181817,5
+overhead,historically common,10,2.840909090909091,7
+pair,historically common,16,4.545454545454546,7
+parity,historically common,9,2.5568181818181817,4
+partial,historically common,10,2.840909090909091,7
+particle,historically common,20,5.681818181818182,7
+particles,historically common,8,2.272727272727273,5
+path,historically common,13,3.6931818181818183,7
+pauli,historically common,27,7.670454545454546,8
+performance,historically common,28,7.954545454545454,8
+periodic,historically common,8,2.272727272727273,4
+perspective,historically common,8,2.272727272727273,3
+perturbation,historically common,9,2.5568181818181817,5
+perturbations,historically common,12,3.409090909090909,6
+phase,historically common,72,20.454545454545453,8
+phase space,explicit + historical,17,4.829545454545454,6
+phase transition,explicit + historical,16,4.545454545454546,6
+phenomena,historically common,17,4.829545454545454,6
+phenomenon,historically common,10,2.840909090909091,5
+photon,historically common,28,7.954545454545454,8
+photon number,historically common,9,2.5568181818181817,3
+phys,historically common,8,2.272727272727273,4
+physically,historically common,20,5.681818181818182,6
+picture,historically common,13,3.6931818181818183,5
+platform,historically common,15,4.261363636363637,5
+platforms,historically common,15,4.261363636363637,6
+point,historically common,37,10.511363636363637,8
+points,historically common,22,6.25,7
+poisson,historically common,8,2.272727272727273,4
+polynomial,historically common,9,2.5568181818181817,3
+polynomial time,explicit,3,0.8522727272727273,2
+population,historically common,11,3.125,5
+positive,historically common,31,8.806818181818182,8
+positive trace,historically common,8,2.272727272727273,4
+positivity,historically common,11,3.125,5
+post,historically common,11,3.125,6
+potential,historically common,11,3.125,6
+power,historically common,19,5.3977272727272725,6
+powerful,historically common,9,2.5568181818181817,6
+practical,historically common,16,4.545454545454546,7
+precision,historically common,16,4.545454545454546,7
+predicted,historically common,8,2.272727272727273,5
+predictions,historically common,15,4.261363636363637,7
+preparation,historically common,30,8.522727272727273,8
+presence,historically common,29,8.238636363636363,8
+preserves,historically common,12,3.409090909090909,7
+preserving,historically common,26,7.386363636363637,7
+previous,historically common,12,3.409090909090909,6
+previously,historically common,10,2.840909090909091,6
+principle,historically common,10,2.840909090909091,6
+principles,historically common,8,2.272727272727273,4
+prior,historically common,9,2.5568181818181817,5
+probability,historically common,13,3.6931818181818183,6
+probe,historically common,13,3.6931818181818183,7
+processing,historically common,12,3.409090909090909,6
+processors,historically common,8,2.272727272727273,6
+produce,historically common,8,2.272727272727273,6
+produces,historically common,15,4.261363636363637,6
+product,historically common,19,5.3977272727272725,7
+product state,explicit + historical,10,2.840909090909091,4
+production,historically common,9,2.5568181818181817,4
+proof concept,explicit,0,0.0,0
+protocol,historically common,31,8.806818181818182,8
+protocols,historically common,23,6.534090909090909,8
+pulse,historically common,10,2.840909090909091,5
+pure,historically common,25,7.1022727272727275,7
+pure state,explicit + historical,8,2.272727272727273,5
+purely,historically common,20,5.681818181818182,8
+purity,historically common,10,2.840909090909091,5
+qed,historically common,12,3.409090909090909,5
+quadratic,historically common,12,3.409090909090909,6
+quantifying,historically common,8,2.272727272727273,4
+quantities,historically common,8,2.272727272727273,4
+quantity,historically common,8,2.272727272727273,5
+quantization,historically common,8,2.272727272727273,3
+quantum,explicit,0,0.0,0
+quantum algorithm,explicit + historical,10,2.840909090909091,5
+quantum battery,historically common,8,2.272727272727273,4
+quantum channel,explicit + historical,18,5.113636363636363,6
+quantum circuit,explicit + historical,14,3.977272727272727,5
+quantum coherence,historically common,11,3.125,6
+quantum communication,explicit,1,0.2840909090909091,0
+quantum computation,explicit + historical,8,2.272727272727273,5
+quantum computer,explicit,6,1.7045454545454546,3
+quantum computing,explicit + historical,10,2.840909090909091,6
+quantum control,explicit + historical,9,2.5568181818181817,4
+quantum correlation,explicit + historical,10,2.840909090909091,5
+quantum dynamical,historically common,9,2.5568181818181817,4
+quantum dynamics,explicit + historical,26,7.386363636363637,8
+quantum entanglement,explicit,4,1.1363636363636365,2
+quantum error,historically common,12,3.409090909090909,6
+quantum error correction,explicit + historical,8,2.272727272727273,4
+quantum evolution,explicit,3,0.8522727272727273,2
+quantum fisher information,explicit,5,1.4204545454545454,3
+quantum gate,explicit,1,0.2840909090909091,1
+quantum information,explicit + historical,15,4.261363636363637,6
+quantum information theory,explicit,0,0.0,0
+quantum jump,historically common,13,3.6931818181818183,5
+quantum master,historically common,12,3.409090909090909,6
+quantum master equation,historically common,12,3.409090909090909,6
+quantum measurement,explicit,1,0.2840909090909091,1
+quantum mechanics,explicit + historical,9,2.5568181818181817,4
+quantum noise,explicit,1,0.2840909090909091,1
+quantum physics,explicit,0,0.0,0
+quantum simulation,explicit + historical,12,3.409090909090909,5
+quantum state,explicit + historical,24,6.818181818181818,7
+quantum system,explicit,0,0.0,0
+quantum technologies,historically common,8,2.272727272727273,4
+quantum theory,explicit,1,0.2840909090909091,1
+quantum thermodynamics,historically common,8,2.272727272727273,3
+quantum trajectory,historically common,11,3.125,6
+quasi,historically common,8,2.272727272727273,4
+qubit,historically common,86,24.431818181818183,8
+random,historically common,18,5.113636363636363,5
+rank,historically common,10,2.840909090909091,4
+rapid,historically common,9,2.5568181818181817,5
+rate,historically common,38,10.795454545454545,8
+rates,historically common,25,7.1022727272727275,7
+ratio,historically common,8,2.272727272727273,3
+readout,historically common,8,2.272727272727273,5
+real,historically common,17,4.829545454545454,6
+realistic,historically common,23,6.534090909090909,6
+realization,historically common,13,3.6931818181818183,6
+recent,historically common,17,4.829545454545454,6
+recent advance,explicit,0,0.0,0
+recent progress,explicit,0,0.0,0
+recently,historically common,17,4.829545454545454,7
+reduce,historically common,11,3.125,5
+reduced,historically common,35,9.943181818181818,8
+reduces,historically common,19,5.3977272727272725,7
+reducing,historically common,9,2.5568181818181817,6
+reduction,historically common,9,2.5568181818181817,5
+regimes,historically common,38,10.795454545454545,8
+related,historically common,13,3.6931818181818183,6
+relation,historically common,15,4.261363636363637,7
+relations,historically common,9,2.5568181818181817,5
+relative,historically common,13,3.6931818181818183,6
+relative entropy,explicit,2,0.5681818181818182,2
+relaxation,historically common,37,10.511363636363637,8
+rely,historically common,12,3.409090909090909,6
+representation,historically common,33,9.375,8
+reproduces,historically common,8,2.272727272727273,4
+reservoir,historically common,24,6.818181818181818,8
+resolution,historically common,8,2.272727272727273,4
+resolved,historically common,15,4.261363636363637,6
+resonance,historically common,14,3.977272727272727,6
+resource,historically common,18,5.113636363636363,7
+respect,historically common,10,2.840909090909091,5
+response,historically common,14,3.977272727272727,7
+restricted,historically common,10,2.840909090909091,4
+resulting,historically common,53,15.056818181818182,8
+revealing,historically common,8,2.272727272727273,4
+reveals,historically common,23,6.534090909090909,7
+rigorous,historically common,15,4.261363636363637,7
+rigorously,historically common,9,2.5568181818181817,5
+rise,historically common,11,3.125,6
+robust,historically common,27,7.670454545454546,8
+robustness,historically common,11,3.125,7
+rotation,historically common,8,2.272727272727273,7
+route,historically common,19,5.3977272727272725,8
+rules,historically common,8,2.272727272727273,5
+sampling,historically common,13,3.6931818181818183,6
+satisfying,historically common,8,2.272727272727273,5
+scalable,historically common,16,4.545454545454546,6
+scalar,historically common,10,2.840909090909091,5
+scale,historically common,28,7.954545454545454,8
+scales,historically common,20,5.681818181818182,7
+scaling,historically common,42,11.931818181818182,8
+schemes,historically common,13,3.6931818181818183,5
+schrodinger,historically common,15,4.261363636363637,6
+schrodinger equation,explicit + historical,9,2.5568181818181817,4
+sector,historically common,19,5.3977272727272725,6
+sectors,historically common,8,2.272727272727273,3
+selected,historically common,10,2.840909090909091,5
+selection,historically common,11,3.125,5
+self,historically common,14,3.977272727272727,8
+semiclassical,historically common,15,4.261363636363637,7
+semigroup,historically common,10,2.840909090909091,5
+semigroups,historically common,10,2.840909090909091,4
+sensing,historically common,8,2.272727272727273,5
+sensitivity,historically common,11,3.125,5
+separation,historically common,9,2.5568181818181817,5
+set,historically common,24,6.818181818181818,8
+settings,historically common,9,2.5568181818181817,5
+shift,historically common,10,2.840909090909091,6
+short time,historically common,14,3.977272727272727,6
+signal,historically common,8,2.272727272727273,4
+signatures,historically common,13,3.6931818181818183,7
+simple example,explicit,0,0.0,0
+simulating,historically common,17,4.829545454545454,7
+simulation,historically common,69,19.602272727272727,8
+single mode,explicit,6,1.7045454545454546,4
+single qubit,historically common,15,4.261363636363637,5
+site,historically common,13,3.6931818181818183,8
+slow,historically common,13,3.6931818181818183,5
+solutions,historically common,15,4.261363636363637,6
+solve,historically common,14,3.977272727272727,7
+solving,historically common,10,2.840909090909091,6
+source,historically common,12,3.409090909090909,7
+sparse,historically common,9,2.5568181818181817,4
+spatial,historically common,15,4.261363636363637,6
+special,historically common,8,2.272727272727273,4
+special case,explicit,0,0.0,0
+specific,historically common,21,5.965909090909091,7
+specifically,historically common,13,3.6931818181818183,6
+spectra,historically common,13,3.6931818181818183,6
+spectral,historically common,45,12.784090909090908,8
+spectral gap,historically common,8,2.272727272727273,5
+spectrum,historically common,26,7.386363636363637,8
+speed,historically common,10,2.840909090909091,5
+spin,historically common,53,15.056818181818182,8
+spin chain,historically common,11,3.125,4
+spontaneous,historically common,11,3.125,6
+square root,explicit,0,0.0,0
+squeezed,historically common,8,2.272727272727273,4
+stability,historically common,14,3.977272727272727,8
+stable,historically common,10,2.840909090909091,7
+starting,historically common,14,3.977272727272727,6
+state art,explicit,0,0.0,0
+state preparation,historically common,22,6.25,8
+static,historically common,10,2.840909090909091,4
+stationary,historically common,18,5.113636363636363,7
+stationary state,explicit + historical,8,2.272727272727273,5
+statistical,historically common,12,3.409090909090909,5
+statistics,historically common,22,6.25,8
+steady,historically common,70,19.886363636363637,8
+steady state,explicit + historical,70,19.886363636363637,8
+stochastic,historically common,37,10.511363636363637,8
+storage,historically common,8,2.272727272727273,4
+strategies,historically common,8,2.272727272727273,6
+strength,historically common,32,9.090909090909092,8
+strengths,historically common,8,2.272727272727273,5
+strict,historically common,9,2.5568181818181817,5
+strictly,historically common,12,3.409090909090909,6
+strong coupling,explicit + historical,12,3.409090909090909,5
+strongly,historically common,28,7.954545454545454,8
+strongly correlated,historically common,8,2.272727272727273,5
+structural,historically common,12,3.409090909090909,7
+structures,historically common,14,3.977272727272727,7
+studying,historically common,8,2.272727272727273,5
+subject,historically common,14,3.977272727272727,7
+subspace,historically common,13,3.6931818181818183,5
+substantially,historically common,8,2.272727272727273,4
+subsystem,historically common,10,2.840909090909091,5
+sufficient,historically common,12,3.409090909090909,8
+sufficiently,historically common,12,3.409090909090909,5
+sum,historically common,9,2.5568181818181817,4
+superconducting,historically common,20,5.681818181818182,7
+superconducting qubit,historically common,9,2.5568181818181817,5
+support,historically common,9,2.5568181818181817,5
+supports,historically common,8,2.272727272727273,4
+suppress,historically common,11,3.125,5
+suppressed,historically common,10,2.840909090909091,6
+suppresses,historically common,10,2.840909090909091,5
+suppression,historically common,20,5.681818181818182,5
+symmetric,historically common,18,5.113636363636363,7
+symmetry,historically common,45,12.784090909090908,8
+symmetry breaking,historically common,8,2.272727272727273,5
+systematic,historically common,18,5.113636363636363,6
+systematically,historically common,9,2.5568181818181817,5
+target,historically common,16,4.545454545454546,6
+technologies,historically common,11,3.125,4
+temperature,historically common,28,7.954545454545454,7
+temporal,historically common,14,3.977272727272727,7
+tensor,historically common,14,3.977272727272727,6
+terms,historically common,36,10.227272727272727,7
+theorem,historically common,16,4.545454545454546,7
+thermal,historically common,46,13.068181818181818,8
+thermal bath,historically common,8,2.272727272727273,4
+thermal state,explicit,7,1.9886363636363635,4
+thermalization,historically common,13,3.6931818181818183,6
+thermodynamic,historically common,23,6.534090909090909,8
+thermodynamic limit,historically common,10,2.840909090909091,6
+thermodynamics,historically common,11,3.125,5
+threshold,historically common,13,3.6931818181818183,7
+time dependent,explicit + historical,28,7.954545454545454,8
+time dependent lindblad,explicit,3,0.8522727272727273,1
+time evolution,explicit + historical,30,8.522727272727273,7
+time independent,explicit + historical,14,3.977272727272727,7
+time independent lindblad,explicit,6,1.7045454545454546,3
+time scale,explicit,4,1.1363636363636365,2
+timescales,historically common,9,2.5568181818181817,5
+tomography,historically common,9,2.5568181818181817,5
+tool,historically common,9,2.5568181818181817,6
+topological,historically common,11,3.125,5
+topology,historically common,8,2.272727272727273,5
+total,historically common,16,4.545454545454546,6
+trace,historically common,27,7.670454545454546,8
+trace distance,explicit,3,0.8522727272727273,2
+trace norm,explicit,4,1.1363636363636365,3
+trace preserving,historically common,15,4.261363636363637,6
+trajectory,historically common,30,8.522727272727273,8
+transfer,historically common,15,4.261363636363637,7
+transformation,historically common,13,3.6931818181818183,4
+transient,historically common,13,3.6931818181818183,5
+transition,historically common,41,11.647727272727273,8
+transport,historically common,25,7.1022727272727275,8
+transverse,historically common,9,2.5568181818181817,4
+trapped,historically common,10,2.840909090909091,6
+trapped ion,historically common,8,2.272727272727273,6
+treating,historically common,8,2.272727272727273,4
+treatment,historically common,11,3.125,6
+tunneling,historically common,8,2.272727272727273,4
+typically,historically common,12,3.409090909090909,7
+underlying,historically common,30,8.522727272727273,7
+unified,historically common,18,5.113636363636363,8
+unique,historically common,16,4.545454545454546,7
+unitary,historically common,44,12.5,8
+unitary dynamics,explicit + historical,8,2.272727272727273,3
+unitary evolution,explicit + historical,10,2.840909090909091,5
+unknown,historically common,10,2.840909090909091,5
+upper bound,explicit,5,1.4204545454545454,3
+useful,historically common,11,3.125,6
+vacuum,historically common,9,2.5568181818181817,5
+valid,historically common,12,3.409090909090909,7
+validate,historically common,9,2.5568181818181817,5
+validity,historically common,8,2.272727272727273,5
+value,historically common,13,3.6931818181818183,6
+values,historically common,19,5.3977272727272725,7
+vanishing,historically common,8,2.272727272727273,4
+variable,historically common,8,2.272727272727273,5
+variance,historically common,10,2.840909090909091,5
+versatile,historically common,8,2.272727272727273,4
+von neumann,explicit,7,1.9886363636363635,4
+wave,historically common,22,6.25,7
+way,historically common,14,3.977272727272727,7
+weak coupling,explicit + historical,10,2.840909090909091,6
+wide range,explicit,3,0.8522727272727273,2
+wigner,historically common,14,3.977272727272727,6
+wigner function,historically common,9,2.5568181818181817,5
+zeno,historically common,10,2.840909090909091,5
+zero,historically common,20,5.681818181818182,8
+zero temperature,explicit,3,0.8522727272727273,2
